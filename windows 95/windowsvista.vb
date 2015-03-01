@@ -124,8 +124,6 @@
 
     Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles startbutton.Click
         startmenu.Show()
-        usernamestart.Text = mainname
-        templetevista.Show()
     End Sub
 
     Private Sub PropertiesToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PropertiesToolStripMenuItem1.Click
@@ -165,7 +163,7 @@
         taskbartime.Text = Format(Now, "hh:mm") & " " & ampm
     End Sub
 
-    Private Sub NotepadToolStripMenuItem_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NotepadToolStripMenuItem.Click
+    Private Sub NotepadToolStripMenuItem_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Dim opennotepad As New notepadxp
         opennotepad.Show()
         startmenu.Hide()
@@ -177,19 +175,25 @@
         startmenu.Hide()
     End Sub
 
-    Private Sub TimeDistorter03ToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TimeDistorter03ToolStripMenuItem.Click
+    Private Sub TimeDistorter03ToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Dim timedistorter03 As New timedistorter032002xp
         timedistorter03.Show()
         startmenu.Hide()
     End Sub
 
     Private Sub taskbartime_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles taskbartime.Click
-        Dim showmess As New Windows_Vista_messagebox
-        showmess.errormessage.Text = "your save code is: vistatest"
-        showmess.Show()
+        MsgBox("your savecode is: vistatest")
     End Sub
 
     Private Sub desktopicons_SelectedIndexChanged(sender As Object, e As EventArgs) Handles desktopicons.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Panel2_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles Panel2.Paint
+
+    End Sub
+
+    Private Sub startmenuitems_ItemClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.ToolStripItemClickedEventArgs) Handles startmenuitems.ItemClicked
 
     End Sub
 End Class
