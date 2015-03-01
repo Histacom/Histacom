@@ -63,6 +63,10 @@ Histacom
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Histacom.My.Resources.Resources.closereg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Histacom.My.Resources.Resources.documents_pic_start">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -243,11 +247,19 @@ Histacom
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Histacom.My.Resources.Resources.maximise">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Histacom.My.Resources.Resources.Maximize">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Histacom.My.Resources.Resources.mini_applications_window">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Histacom.My.Resources.Resources.minimise">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -420,6 +432,10 @@ Histacom
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Histacom.My.Resources.Resources.Time_Distortion_Blue">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Histacom.My.Resources.Resources.title">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

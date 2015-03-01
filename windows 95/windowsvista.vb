@@ -184,8 +184,12 @@
     End Sub
 
     Private Sub taskbartime_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles taskbartime.Click
-        Dim showmess As New Windows_Xp_messagebox
-        showmess.errormessage.Text = "your save code is: bsdn98e5"
+        Dim showmess As New Windows_Vista_messagebox
+        showmess.errormessage.Text = "your save code is: vistatest"
         showmess.Show()
+    End Sub
+
+    Private Sub desktopicons_SelectedIndexChanged(sender As Object, e As EventArgs) Handles desktopicons.SelectedIndexChanged
+
     End Sub
 End Class

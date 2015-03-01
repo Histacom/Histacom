@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -413,6 +413,12 @@
     <Compile Include="WebChat 1999.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="webchat 2001.Designer.vb">
+      <DependentUpon>webchat 2001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="webchat 2001.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="webchat 2000.Designer.vb">
       <DependentUpon>webchat 2000.vb</DependentUpon>
     </Compile>
@@ -648,6 +654,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WebChat 1999.resx">
       <DependentUpon>WebChat 1999.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="webchat 2001.resx">
+      <DependentUpon>webchat 2001.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="webchat 2000.resx">
       <DependentUpon>webchat 2000.vb</DependentUpon>
@@ -1675,6 +1684,10 @@
   <ItemGroup>
     <Content Include="histacom icon.ico" />
     <Content Include="histacom logo.ico" />
+    <None Include="Resources\title.png" />
+    <None Include="Resources\maximise.png" />
+    <None Include="Resources\minimise.png" />
+    <None Include="Resources\closereg.png" />
     <None Include="Resources\vistatop.png" />
     <None Include="Resources\windowsvistaorb.png" />
     <None Include="Resources\vistataskbar.png" />

@@ -170,8 +170,8 @@ Partial Class windowsvista
         Me.turnoffcomputerbutton = New System.Windows.Forms.PictureBox()
         Me.logoffbutton = New System.Windows.Forms.PictureBox()
         Me.taskbar = New System.Windows.Forms.Panel()
-        Me.startbutton = New System.Windows.Forms.PictureBox()
         Me.taskbartime = New System.Windows.Forms.Label()
+        Me.startbutton = New System.Windows.Forms.PictureBox()
         Me.desktopicons = New System.Windows.Forms.ListView()
         Me.rightclickbackproperties.SuspendLayout()
         Me.program.SuspendLayout()
@@ -385,7 +385,7 @@ Partial Class windowsvista
         'top
         '
         Me.top.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.top.BackColor = System.Drawing.Color.Transparent
         Me.top.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxptopbarmiddle
         Me.top.Controls.Add(Me.maximizebutton)
@@ -461,7 +461,7 @@ Partial Class windowsvista
         'bottom
         '
         Me.bottom.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.bottom.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpbottom
         Me.bottom.Cursor = System.Windows.Forms.Cursors.SizeNS
         Me.bottom.Location = New System.Drawing.Point(4, 193)
@@ -472,7 +472,7 @@ Partial Class windowsvista
         'right
         '
         Me.right.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.right.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxprightside
         Me.right.Cursor = System.Windows.Forms.Cursors.SizeWE
         Me.right.Location = New System.Drawing.Point(246, 30)
@@ -483,7 +483,7 @@ Partial Class windowsvista
         'left
         '
         Me.left.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.left.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpleftside
         Me.left.Location = New System.Drawing.Point(0, 0)
         Me.left.Name = "left"
@@ -818,56 +818,56 @@ Partial Class windowsvista
         '
         Me.CharactorMapToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.windowsxpstartmenucharatormap
         Me.CharactorMapToolStripMenuItem.Name = "CharactorMapToolStripMenuItem"
-        Me.CharactorMapToolStripMenuItem.Size = New System.Drawing.Size(250, 22)
+        Me.CharactorMapToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
         Me.CharactorMapToolStripMenuItem.Text = "Charactor Map"
         '
         'DiskCleanupToolStripMenuItem
         '
         Me.DiskCleanupToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.windowsxpstartmenudisccleanup
         Me.DiskCleanupToolStripMenuItem.Name = "DiskCleanupToolStripMenuItem"
-        Me.DiskCleanupToolStripMenuItem.Size = New System.Drawing.Size(250, 22)
+        Me.DiskCleanupToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
         Me.DiskCleanupToolStripMenuItem.Text = "Disk Cleanup"
         '
         'DiskDefragmenterToolStripMenuItem
         '
         Me.DiskDefragmenterToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.windowsxpstartmenudiscdefragmentor
         Me.DiskDefragmenterToolStripMenuItem.Name = "DiskDefragmenterToolStripMenuItem"
-        Me.DiskDefragmenterToolStripMenuItem.Size = New System.Drawing.Size(250, 22)
+        Me.DiskDefragmenterToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
         Me.DiskDefragmenterToolStripMenuItem.Text = "Disk Defragmenter"
         '
         'FilesAndSettingsTransferWizardToolStripMenuItem1
         '
         Me.FilesAndSettingsTransferWizardToolStripMenuItem1.Image = Global.Histacom.My.Resources.Resources.windowsxpstartmenufilesandsettingstransferwizard
         Me.FilesAndSettingsTransferWizardToolStripMenuItem1.Name = "FilesAndSettingsTransferWizardToolStripMenuItem1"
-        Me.FilesAndSettingsTransferWizardToolStripMenuItem1.Size = New System.Drawing.Size(250, 22)
+        Me.FilesAndSettingsTransferWizardToolStripMenuItem1.Size = New System.Drawing.Size(249, 22)
         Me.FilesAndSettingsTransferWizardToolStripMenuItem1.Text = "Files and Settings Transfer Wizard"
         '
         'ScheduledTasksToolStripMenuItem
         '
         Me.ScheduledTasksToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.windowsxpstartmenuschedualedtasks
         Me.ScheduledTasksToolStripMenuItem.Name = "ScheduledTasksToolStripMenuItem"
-        Me.ScheduledTasksToolStripMenuItem.Size = New System.Drawing.Size(250, 22)
+        Me.ScheduledTasksToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
         Me.ScheduledTasksToolStripMenuItem.Text = "Scheduled Tasks"
         '
         'SecurityCenterToolStripMenuItem
         '
         Me.SecurityCenterToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.windowsxpstartmenusecuritycentre
         Me.SecurityCenterToolStripMenuItem.Name = "SecurityCenterToolStripMenuItem"
-        Me.SecurityCenterToolStripMenuItem.Size = New System.Drawing.Size(250, 22)
+        Me.SecurityCenterToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
         Me.SecurityCenterToolStripMenuItem.Text = "Security Center"
         '
         'SystemInformationToolStripMenuItem
         '
         Me.SystemInformationToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.windowsxpstartmenusysteminformation
         Me.SystemInformationToolStripMenuItem.Name = "SystemInformationToolStripMenuItem"
-        Me.SystemInformationToolStripMenuItem.Size = New System.Drawing.Size(250, 22)
+        Me.SystemInformationToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
         Me.SystemInformationToolStripMenuItem.Text = "System Information"
         '
         'SystemRestoreToolStripMenuItem
         '
         Me.SystemRestoreToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.windowsxpstartmenusystemrestore
         Me.SystemRestoreToolStripMenuItem.Name = "SystemRestoreToolStripMenuItem"
-        Me.SystemRestoreToolStripMenuItem.Size = New System.Drawing.Size(250, 22)
+        Me.SystemRestoreToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
         Me.SystemRestoreToolStripMenuItem.Text = "System Restore"
         '
         'AddressBookToolStripMenuItem
@@ -1405,7 +1405,7 @@ Partial Class windowsvista
         'turnoffcomputerbutton
         '
         Me.turnoffcomputerbutton.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.turnoffcomputerbutton.Image = Global.Histacom.My.Resources.Resources.windowsxpstartmenuturnoffcomputerbutton
         Me.turnoffcomputerbutton.Location = New System.Drawing.Point(252, 8)
         Me.turnoffcomputerbutton.Name = "turnoffcomputerbutton"
@@ -1416,7 +1416,7 @@ Partial Class windowsvista
         'logoffbutton
         '
         Me.logoffbutton.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.logoffbutton.Image = Global.Histacom.My.Resources.Resources.windowsxpstartmenulogoffbutton
         Me.logoffbutton.Location = New System.Drawing.Point(180, 8)
         Me.logoffbutton.Name = "logoffbutton"
@@ -1436,15 +1436,6 @@ Partial Class windowsvista
         Me.taskbar.Size = New System.Drawing.Size(1133, 34)
         Me.taskbar.TabIndex = 9
         '
-        'startbutton
-        '
-        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.windowsvistaorb
-        Me.startbutton.Location = New System.Drawing.Point(6, 0)
-        Me.startbutton.Name = "startbutton"
-        Me.startbutton.Size = New System.Drawing.Size(47, 34)
-        Me.startbutton.TabIndex = 3
-        Me.startbutton.TabStop = False
-        '
         'taskbartime
         '
         Me.taskbartime.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -1457,6 +1448,15 @@ Partial Class windowsvista
         Me.taskbartime.Size = New System.Drawing.Size(31, 15)
         Me.taskbartime.TabIndex = 2
         Me.taskbartime.Text = "time"
+        '
+        'startbutton
+        '
+        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.windowsvistaorb
+        Me.startbutton.Location = New System.Drawing.Point(6, 0)
+        Me.startbutton.Name = "startbutton"
+        Me.startbutton.Size = New System.Drawing.Size(47, 34)
+        Me.startbutton.TabIndex = 3
+        Me.startbutton.TabStop = False
         '
         'desktopicons
         '
