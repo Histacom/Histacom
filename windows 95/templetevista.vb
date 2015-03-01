@@ -91,7 +91,7 @@
             Me.Location = New Point(mexlocation, meylocation)
             Me.Size = New Size(mewidth, meheight)
             moveable = True
-            maximizebutton.Image = My.Resources.windowsxpmaximizebutton
+            maximizebutton.Image = My.Resources.minimise
             maximize = False
             toprightcorner.Show()
             topleftcorner.Show()

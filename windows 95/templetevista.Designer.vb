@@ -98,10 +98,10 @@ Partial Class templetevista
         '
         Me.maximizebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.maximizebutton.BackColor = System.Drawing.Color.White
-        Me.maximizebutton.Image = Global.Histacom.My.Resources.Resources.windowsxpmaximizebutton
-        Me.maximizebutton.Location = New System.Drawing.Point(505, 5)
+        Me.maximizebutton.Image = Global.Histacom.My.Resources.Resources.minimise
+        Me.maximizebutton.Location = New System.Drawing.Point(488, 1)
         Me.maximizebutton.Name = "maximizebutton"
-        Me.maximizebutton.Size = New System.Drawing.Size(21, 21)
+        Me.maximizebutton.Size = New System.Drawing.Size(24, 18)
         Me.maximizebutton.TabIndex = 6
         Me.maximizebutton.TabStop = False
         '
@@ -109,10 +109,10 @@ Partial Class templetevista
         '
         Me.minimizebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.minimizebutton.BackColor = System.Drawing.Color.White
-        Me.minimizebutton.Image = Global.Histacom.My.Resources.Resources.windowsxpminimizebutton
-        Me.minimizebutton.Location = New System.Drawing.Point(482, 5)
+        Me.minimizebutton.Image = Global.Histacom.My.Resources.Resources.maximise
+        Me.minimizebutton.Location = New System.Drawing.Point(463, 1)
         Me.minimizebutton.Name = "minimizebutton"
-        Me.minimizebutton.Size = New System.Drawing.Size(21, 21)
+        Me.minimizebutton.Size = New System.Drawing.Size(27, 18)
         Me.minimizebutton.TabIndex = 5
         Me.minimizebutton.TabStop = False
         '
@@ -132,10 +132,10 @@ Partial Class templetevista
         '
         Me.closebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.closebutton.BackColor = System.Drawing.Color.White
-        Me.closebutton.Image = Global.Histacom.My.Resources.Resources.windowsxpclosebutton
-        Me.closebutton.Location = New System.Drawing.Point(528, 5)
+        Me.closebutton.Image = Global.Histacom.My.Resources.Resources.closereg
+        Me.closebutton.Location = New System.Drawing.Point(509, 1)
         Me.closebutton.Name = "closebutton"
-        Me.closebutton.Size = New System.Drawing.Size(21, 21)
+        Me.closebutton.Size = New System.Drawing.Size(44, 18)
         Me.closebutton.TabIndex = 4
         Me.closebutton.TabStop = False
         '
