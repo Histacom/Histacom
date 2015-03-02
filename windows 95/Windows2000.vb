@@ -258,7 +258,15 @@
     End Sub
 
     Private Sub ToolStripMenuItem2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripMenuItem2.Click
-        Title_Screen.Close()
+        startmenu.Hide()
+        desktopicons.Hide()
+        taskbar.Hide()
+        startbutton.Hide()
+
+        Dim bStr(My.Resources.Windows_ME_Shutdown.Length) As Byte
+        My.Resources.Windows_ME_Shutdown.Read(bStr, 0, My.Resources.Windows_ME_Shutdown.Length)
+        My.Computer.Audio.Play(bStr, AudioPlayMode.WaitToComplete)
+        Me.Close()
     End Sub
 
 
