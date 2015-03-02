@@ -36,6 +36,8 @@
         commandpromptstartup.Start()
         System.Windows.Forms.Application.VisualStyleState = VisualStyles.VisualStyleState.ClientAndNonClientAreasEnabled
         System.Windows.Forms.Application.EnableVisualStyles()
+        desktopicons.AutoArrange = False
+        desktopicons.AllowDrop = True
     End Sub
 
     Private Sub NotePadToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
@@ -423,5 +425,20 @@
         Dim showmess As New Windows_Xp_messagebox
         showmess.errormessage.Text = "your save code is: bsdn98e5"
         showmess.Show()
+    End Sub
+    Private Sub desktopicons_ItemDrag(ByVal sender As Object, ByVal e As System.Windows.Forms.ItemDragEventArgs) Handles desktopicons.ItemDrag
+        Dim lvi As ListViewItem = CType(e.Item, ListViewItem)
+        desktopicons.DoDragDrop(New DataObject("System.Windows.Forms.ListViewItem", lvi), DragDropEffects.Move)
+    End Sub
+    Private Sub desktopicons_DragEnter(ByVal sender As Object, ByVal e As System.Windows.Forms.DragEventArgs) Handles desktopicons.DragEnter
+        If e.Data.GetDataPresent("System.Windows.Forms.ListViewItem") Then
+            e.Effect = DragDropEffects.Move
+        End If
+    End Sub
+    Private Sub desktopicons_DragOver(ByVal sender As Object, ByVal e As System.Windows.Forms.DragEventArgs) Handles desktopicons.DragOver
+        Dim lvi As ListViewItem = CType(e.Data.GetData("System.Windows.Forms.ListViewItem"), ListViewItem)
+        Dim Offset As Size = Size.Subtract(Cursor.Size, New Size(Cursor.HotSpot.X, Cursor.HotSpot.Y))
+        lvi.Position = Point.Subtract(desktopicons.PointToClient(New Point(e.X, e.Y)), Offset)
+        e.Effect = DragDropEffects.Move
     End Sub
 End Class
