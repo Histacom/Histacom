@@ -329,3 +329,7 @@ C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.TrustI
 C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.exe.manifest
 C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.application
 C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.webchat_2001.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\bin\Debug\Histacom.exe.config
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.exe
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.xml
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.pdb
