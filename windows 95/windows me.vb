@@ -72,8 +72,8 @@
 
             If Not IsNothing(objListViewItem) Then
                 If objListViewItem.Text = "Internet Explorer" Then
-                    Dim openerror As New windows2000messagebox
-                    openerror.infomessage.Text = "You have reached the End of Histcom 1.9, Please save your game now by clicking on the time in the start menu so that you can continue your game from here when the next version of histacom comes out."
+                    Dim IE As New Internet_Explorer_52001
+                    IE.Show()
                 End If
                 If objListViewItem.Text = "Guess The Number 2 Setup" Then
 
@@ -255,7 +255,19 @@
     End Sub
 
     Private Sub ToolStripMenuItem2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripMenuItem2.Click
-        Title_Screen.Close()
+        startmenu.Hide()
+        desktopicons.Hide()
+        taskbar.Hide()
+        startbutton.Hide()
+
+        Dim bStr(My.Resources.Windows_ME_Shutdown.Length) As Byte
+        My.Resources.Windows_ME_Shutdown.Read(bStr, 0, My.Resources.Windows_ME_Shutdown.Length)
+        My.Computer.Audio.Play(bStr, AudioPlayMode.WaitToComplete)
+        Me.Close()
+    End Sub
+
+    Private Sub Form_IsClosing(sender As Object, e As EventArgs) Handles MyBase.FormClosing
+        
     End Sub
 
     Private Sub WindowsExplorerToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles WindowsExplorerToolStripMenuItem.Click
