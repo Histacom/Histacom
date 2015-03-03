@@ -58,7 +58,6 @@ Partial Class notepadxp
         Me.pullside = New System.Windows.Forms.Timer(Me.components)
         Me.program = New System.Windows.Forms.Panel()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.look = New System.Windows.Forms.Timer(Me.components)
         Me.bottomleftcorner = New System.Windows.Forms.Panel()
         Me.toprightcorner = New System.Windows.Forms.Panel()
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
@@ -71,6 +70,7 @@ Partial Class notepadxp
         Me.closebutton = New System.Windows.Forms.PictureBox()
         Me.right = New System.Windows.Forms.Panel()
         Me.left = New System.Windows.Forms.Panel()
+        Me.look = New System.Windows.Forms.Timer(Me.components)
         Me.MenuStrip1.SuspendLayout()
         Me.program.SuspendLayout()
         Me.top.SuspendLayout()
@@ -302,9 +302,6 @@ Partial Class notepadxp
         Me.TextBox1.Size = New System.Drawing.Size(444, 308)
         Me.TextBox1.TabIndex = 11
         '
-        'look
-        '
-        '
         'bottomleftcorner
         '
         Me.bottomleftcorner.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
@@ -396,9 +393,9 @@ Partial Class notepadxp
         Me.programname.ForeColor = System.Drawing.Color.White
         Me.programname.Location = New System.Drawing.Point(5, 8)
         Me.programname.Name = "programname"
-        Me.programname.Size = New System.Drawing.Size(56, 13)
+        Me.programname.Size = New System.Drawing.Size(55, 13)
         Me.programname.TabIndex = 3
-        Me.programname.Text = "NotePad"
+        Me.programname.Text = "Notepad"
         '
         'closebutton
         '
@@ -428,6 +425,9 @@ Partial Class notepadxp
         Me.left.Name = "left"
         Me.left.Size = New System.Drawing.Size(4, 366)
         Me.left.TabIndex = 1
+        '
+        'look
+        '
         '
         'notepadxp
         '
