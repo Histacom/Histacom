@@ -34,12 +34,12 @@ Partial Class errorblaster95
         Me.pullbottom = New System.Windows.Forms.Timer(Me.components)
         Me.pullside = New System.Windows.Forms.Timer(Me.components)
         Me.program = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.programtopbar = New System.Windows.Forms.Panel()
         Me.maximizebutton = New System.Windows.Forms.PictureBox()
         Me.minimizebutton = New System.Windows.Forms.PictureBox()
         Me.programname = New System.Windows.Forms.Label()
         Me.closebutton = New System.Windows.Forms.PictureBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.toprightcorner = New System.Windows.Forms.Panel()
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
         Me.bottomleftcorner = New System.Windows.Forms.Panel()
@@ -138,19 +138,6 @@ Partial Class errorblaster95
         Me.program.Size = New System.Drawing.Size(552, 331)
         Me.program.TabIndex = 15
         '
-        'TextBox1
-        '
-        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.TextBox1.BackColor = System.Drawing.Color.Silver
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Location = New System.Drawing.Point(38, 65)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(479, 207)
-        Me.TextBox1.TabIndex = 16
-        Me.TextBox1.Text = resources.GetString("TextBox1.Text")
-        '
         'programtopbar
         '
         Me.programtopbar.BackColor = System.Drawing.Color.DarkBlue
@@ -204,6 +191,19 @@ Partial Class errorblaster95
         Me.closebutton.Size = New System.Drawing.Size(16, 14)
         Me.closebutton.TabIndex = 4
         Me.closebutton.TabStop = False
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.TextBox1.BackColor = System.Drawing.Color.Silver
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Location = New System.Drawing.Point(38, 65)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
+        Me.TextBox1.Size = New System.Drawing.Size(492, 207)
+        Me.TextBox1.TabIndex = 16
+        Me.TextBox1.Text = resources.GetString("TextBox1.Text")
         '
         'toprightcorner
         '
