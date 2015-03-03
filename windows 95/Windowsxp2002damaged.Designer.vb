@@ -24,8 +24,8 @@ Partial Class Windowsxp2002damaged
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Windowsxp2002damaged))
-        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Computer", 1)
-        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Recycle Bin", 0)
+        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Computer", 1)
+        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Recycle Bin", 0)
         Me.startmenu = New System.Windows.Forms.Panel()
         Me.middlestartmenu = New System.Windows.Forms.Panel()
         Me.leftstartmenu = New System.Windows.Forms.Panel()
@@ -911,7 +911,7 @@ Partial Class Windowsxp2002damaged
         Me.ToolStripMenuItem6.ImageTransparentColor = System.Drawing.Color.White
         Me.ToolStripMenuItem6.Name = "ToolStripMenuItem6"
         Me.ToolStripMenuItem6.Size = New System.Drawing.Size(183, 28)
-        Me.ToolStripMenuItem6.Text = "My Computer"
+        Me.ToolStripMenuItem6.Text = "My Destroyed"
         '
         'ToolStripMenuItem4
         '
@@ -1304,18 +1304,18 @@ Partial Class Windowsxp2002damaged
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("MS Reference Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(104, 6)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(395, 19)
+        Me.Label1.Size = New System.Drawing.Size(234, 18)
         Me.Label1.TabIndex = 9
-        Me.Label1.Text = "Welcome to the destruction of your computer"
+        Me.Label1.Text = "I  a m  a  f r i e n d l y  v i r u s"
         Me.Label1.Visible = False
         '
         'startbutton
         '
-        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.winxpstartbutton
+        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.windowsxpstartbuttonpressed1
         Me.startbutton.Location = New System.Drawing.Point(0, 0)
         Me.startbutton.Name = "startbutton"
         Me.startbutton.Size = New System.Drawing.Size(98, 30)
@@ -1357,7 +1357,7 @@ Partial Class Windowsxp2002damaged
         Me.desktopicons.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.desktopicons.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.desktopicons.ForeColor = System.Drawing.Color.White
-        Me.desktopicons.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem3, ListViewItem4})
+        Me.desktopicons.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2})
         Me.desktopicons.LargeImageList = Me.desktopiconsimages
         Me.desktopicons.Location = New System.Drawing.Point(-2, 0)
         Me.desktopicons.Name = "desktopicons"
