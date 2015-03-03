@@ -449,4 +449,16 @@
         lvi.Position = Point.Subtract(desktopicons.PointToClient(New Point(e.X, e.Y)), Offset)
         e.Effect = DragDropEffects.Move
     End Sub
+
+    Private Sub ToolStripMenuItem6_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem6.Click
+
+    End Sub
+
+    Private Sub TourWindowsXPToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TourWindowsXPToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
 End Class
