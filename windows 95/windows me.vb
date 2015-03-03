@@ -9,9 +9,9 @@
 
     Private Sub windows95_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Me.Load
         desktopicons.Show()
-        If My.Resources.windows_2000_boot_sound.CanRead Then
-            Dim bStr(My.Resources.windows_2000_boot_sound.Length) As Byte
-            My.Resources.windows_2000_boot_sound.Read(bStr, 0, My.Resources.windows_2000_boot_sound.Length)
+        If My.Resources.Windows_ME_Shutdown.CanRead Then
+            Dim bStr(My.Resources.Windows_ME_Shutdown.Length) As Byte
+            My.Resources.Windows_ME_Shutdown.Read(bStr, 0, My.Resources.Windows_ME_Shutdown.Length)
             My.Computer.Audio.Play(bStr, AudioPlayMode.Background)
         End If
         startmenu.Hide()

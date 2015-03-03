@@ -156,8 +156,16 @@
 
     End Sub
 
-    Private Sub turnoffcomputerbutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles turnoffcomputerbutton.Click
-        Title_Screen.Close()
+    Private Sub ToolStripMenuItem2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles turnoffcomputerbutton.Click
+        startmenu.Hide()
+        desktopicons.Hide()
+        taskbar.Hide()
+        startbutton.Hide()
+
+        Dim bStr(My.Resources.Windows_XP_Shutdown.Length) As Byte
+        My.Resources.Windows_XP_Shutdown.Read(bStr, 0, My.Resources.Windows_XP_Shutdown.Length)
+        My.Computer.Audio.Play(bStr, AudioPlayMode.WaitToComplete)
+        Me.Close()
     End Sub
 
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
