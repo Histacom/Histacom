@@ -525,6 +525,13 @@
             Button1.Text = "Watch TV"
             Button2.Text = ""
             Time.Text = "Time: 6:35"
+        ElseIf Status.Text = "Watching the Evening News" Then
+            Status.Text = "Running to Room"
+            story.Text = "You quickly and quietly run up the stairs to your room. When you make it to bed and lay down, you hear many noices, such as blazing fires, electrifying lightning, thunder, mundane explosions, and more. You slowly drift to sleep hearing these noices. Congratulations, You have survived the day! Thanks for playing!" & vbNewLine & vbNewLine & "Please download WebChat 2001 and tell 12padams this password: star"
+            Button1.Text = "Restart"
+            Button2.Text = "Quit"
+            Button3.Text = ""
+            Time.Text = "Time: 12:00"
         ElseIf Status.Text = "Church Disscusion" Then
             Status.Text = "Morning Weather Report"
             story.Text = "On tv a man on the morning weather report looks very confused. He looks like he is following instructions from somebody behind the camera quickly changing what he was going to say. He begins talking ‘Today started off mostly sunny but it looks like the weather is changing rapidly and some rain is to be expected by the end of the day.’ He then points to a weather chart shocked at the speedy changes. ‘Today marks the fasted change of weather ever recorded’. This is then followed by a few experts trying to examine the weather changes."
