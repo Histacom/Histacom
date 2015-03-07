@@ -53,16 +53,16 @@ Partial Class windowsvista
         Me.PropertiesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.program = New System.Windows.Forms.Panel()
-        Me.topborder = New System.Windows.Forms.Panel()
+        Me.top = New System.Windows.Forms.Panel()
         Me.maximizebutton = New System.Windows.Forms.PictureBox()
         Me.minimizebutton = New System.Windows.Forms.PictureBox()
         Me.programname = New System.Windows.Forms.Label()
         Me.closebutton = New System.Windows.Forms.PictureBox()
         Me.bottomleftcorner = New System.Windows.Forms.Panel()
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
-        Me.bottomborder = New System.Windows.Forms.Panel()
-        Me.rightborder = New System.Windows.Forms.Panel()
-        Me.leftborder = New System.Windows.Forms.Panel()
+        Me.bottom = New System.Windows.Forms.Panel()
+        Me.right = New System.Windows.Forms.Panel()
+        Me.left = New System.Windows.Forms.Panel()
         Me.topleftcorner = New System.Windows.Forms.Panel()
         Me.toprightcorner = New System.Windows.Forms.Panel()
         Me.Panel6 = New System.Windows.Forms.Panel()
@@ -106,7 +106,7 @@ Partial Class windowsvista
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.rightclickbackproperties.SuspendLayout()
         Me.program.SuspendLayout()
-        Me.topborder.SuspendLayout()
+        Me.top.SuspendLayout()
         CType(Me.maximizebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.minimizebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -295,12 +295,12 @@ Partial Class windowsvista
         'program
         '
         Me.program.BackColor = System.Drawing.Color.OldLace
-        Me.program.Controls.Add(Me.topborder)
+        Me.program.Controls.Add(Me.top)
         Me.program.Controls.Add(Me.bottomleftcorner)
         Me.program.Controls.Add(Me.bottomrightcorner)
-        Me.program.Controls.Add(Me.bottomborder)
-        Me.program.Controls.Add(Me.rightborder)
-        Me.program.Controls.Add(Me.leftborder)
+        Me.program.Controls.Add(Me.bottom)
+        Me.program.Controls.Add(Me.right)
+        Me.program.Controls.Add(Me.left)
         Me.program.Controls.Add(Me.topleftcorner)
         Me.program.Controls.Add(Me.toprightcorner)
         Me.program.Location = New System.Drawing.Point(469, 172)
@@ -311,18 +311,18 @@ Partial Class windowsvista
         '
         'top
         '
-        Me.topborder.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.top.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.topborder.BackColor = System.Drawing.Color.Transparent
-        Me.topborder.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxptopbarmiddle
-        Me.topborder.Controls.Add(Me.maximizebutton)
-        Me.topborder.Controls.Add(Me.minimizebutton)
-        Me.topborder.Controls.Add(Me.programname)
-        Me.topborder.Controls.Add(Me.closebutton)
-        Me.topborder.Location = New System.Drawing.Point(4, 0)
-        Me.topborder.Name = "top"
-        Me.topborder.Size = New System.Drawing.Size(243, 30)
-        Me.topborder.TabIndex = 0
+        Me.top.BackColor = System.Drawing.Color.Transparent
+        Me.top.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxptopbarmiddle
+        Me.top.Controls.Add(Me.maximizebutton)
+        Me.top.Controls.Add(Me.minimizebutton)
+        Me.top.Controls.Add(Me.programname)
+        Me.top.Controls.Add(Me.closebutton)
+        Me.top.Location = New System.Drawing.Point(4, 0)
+        Me.top.Name = "top"
+        Me.top.Size = New System.Drawing.Size(243, 30)
+        Me.top.TabIndex = 0
         '
         'maximizebutton
         '
@@ -387,35 +387,35 @@ Partial Class windowsvista
         '
         'bottom
         '
-        Me.bottomborder.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.bottom.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.bottomborder.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpbottom
-        Me.bottomborder.Cursor = System.Windows.Forms.Cursors.SizeNS
-        Me.bottomborder.Location = New System.Drawing.Point(4, 193)
-        Me.bottomborder.Name = "bottom"
-        Me.bottomborder.Size = New System.Drawing.Size(242, 4)
-        Me.bottomborder.TabIndex = 3
+        Me.bottom.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpbottom
+        Me.bottom.Cursor = System.Windows.Forms.Cursors.SizeNS
+        Me.bottom.Location = New System.Drawing.Point(4, 193)
+        Me.bottom.Name = "bottom"
+        Me.bottom.Size = New System.Drawing.Size(242, 4)
+        Me.bottom.TabIndex = 3
         '
         'right
         '
-        Me.rightborder.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.right.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.rightborder.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxprightside
-        Me.rightborder.Cursor = System.Windows.Forms.Cursors.SizeWE
-        Me.rightborder.Location = New System.Drawing.Point(246, 30)
-        Me.rightborder.Name = "right"
-        Me.rightborder.Size = New System.Drawing.Size(4, 163)
-        Me.rightborder.TabIndex = 2
+        Me.right.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxprightside
+        Me.right.Cursor = System.Windows.Forms.Cursors.SizeWE
+        Me.right.Location = New System.Drawing.Point(246, 30)
+        Me.right.Name = "right"
+        Me.right.Size = New System.Drawing.Size(4, 163)
+        Me.right.TabIndex = 2
         '
         'left
         '
-        Me.leftborder.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.left.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.leftborder.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpleftside
-        Me.leftborder.Location = New System.Drawing.Point(0, 0)
-        Me.leftborder.Name = "left"
-        Me.leftborder.Size = New System.Drawing.Size(4, 193)
-        Me.leftborder.TabIndex = 1
+        Me.left.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpleftside
+        Me.left.Location = New System.Drawing.Point(0, 0)
+        Me.left.Name = "left"
+        Me.left.Size = New System.Drawing.Size(4, 193)
+        Me.left.TabIndex = 1
         '
         'topleftcorner
         '
@@ -866,8 +866,8 @@ Partial Class windowsvista
         Me.Text = "windowsvista"
         Me.rightclickbackproperties.ResumeLayout(False)
         Me.program.ResumeLayout(False)
-        Me.topborder.ResumeLayout(False)
-        Me.topborder.PerformLayout()
+        Me.top.ResumeLayout(False)
+        Me.top.PerformLayout()
         CType(Me.maximizebutton, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.minimizebutton, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.closebutton, System.ComponentModel.ISupportInitialize).EndInit()
@@ -919,16 +919,16 @@ Partial Class windowsvista
     Friend WithEvents PropertiesToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Timer3 As System.Windows.Forms.Timer
     Friend WithEvents program As System.Windows.Forms.Panel
-    Friend WithEvents topborder As System.Windows.Forms.Panel
+    Friend WithEvents top As System.Windows.Forms.Panel
     Friend WithEvents maximizebutton As System.Windows.Forms.PictureBox
     Friend WithEvents minimizebutton As System.Windows.Forms.PictureBox
     Friend WithEvents programname As System.Windows.Forms.Label
     Friend WithEvents closebutton As System.Windows.Forms.PictureBox
     Friend WithEvents bottomleftcorner As System.Windows.Forms.Panel
     Friend WithEvents bottomrightcorner As System.Windows.Forms.Panel
-    Friend WithEvents bottomborder As System.Windows.Forms.Panel
-    Friend WithEvents rightborder As System.Windows.Forms.Panel
-    Friend WithEvents leftborder As System.Windows.Forms.Panel
+    Friend WithEvents bottom As System.Windows.Forms.Panel
+    Friend WithEvents right As System.Windows.Forms.Panel
+    Friend WithEvents left As System.Windows.Forms.Panel
     Friend WithEvents topleftcorner As System.Windows.Forms.Panel
     Friend WithEvents toprightcorner As System.Windows.Forms.Panel
     Friend WithEvents taskbar As System.Windows.Forms.Panel

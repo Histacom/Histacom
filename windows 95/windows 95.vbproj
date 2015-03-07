@@ -1684,15 +1684,6 @@
   <ItemGroup>
     <Content Include="histacom icon.ico" />
     <Content Include="histacom logo.ico" />
-    <None Include="Resources\Windows 2000 Startup.wav" />
-    <None Include="Resources\Windows ME Startup.wav" />
-    <None Include="Resources\Windows 2000 Shutdown.wav" />
-    <None Include="Resources\Windows Vista Shutdown.wav" />
-    <None Include="Resources\Windows XP Shutdown.wav" />
-    <None Include="Resources\Windows 98 Shutdown.wav" />
-    <None Include="Resources\Windows 95 Shutdown.wav" />
-    <None Include="Resources\Windows ME Shutdown.wav" />
-    <None Include="Resources\Windows 2000 Beta 3 Build 1946 Shutdown.wav" />
     <None Include="Resources\title.png" />
     <None Include="Resources\maximise.png" />
     <None Include="Resources\minimise.png" />
@@ -1829,28 +1820,6 @@
     <None Include="Resources\internetexplorer6refreshbutton.png" />
     <None Include="Resources\internetexplorer6stopbutton.png" />
     <None Include="Resources\internetexplorer6homebutton.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
-      <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
-      <Visible>False</Visible>
-      <ProductName>Windows Installer 4.5</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

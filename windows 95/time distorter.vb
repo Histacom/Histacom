@@ -261,10 +261,10 @@
         If count = -116 Then
             programtopbar.BackColor = Color.White
             programtopbar.Hide()
-            topborder.Hide()
-            leftborder.Hide()
-            rightborder.Hide()
-            bottomborder.Hide()
+            top.Hide()
+            left.Hide()
+            right.Hide()
+            bottom.Hide()
             toprightcorner.Hide()
             topleftcorner.Hide()
             bottomrightcorner.Hide()
@@ -872,19 +872,19 @@
         Me.Height = Cursor.Position.Y - Me.Location.Y
     End Sub
 
-    Private Sub Rightpull_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles rightborder.MouseDown
+    Private Sub Rightpull_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles right.MouseDown
         pullside.Start()
     End Sub
 
-    Private Sub rightpull_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles rightborder.MouseUp
+    Private Sub rightpull_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles right.MouseUp
         pullside.Stop()
     End Sub
 
-    Private Sub bottompull_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles bottomborder.MouseDown
+    Private Sub bottompull_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles bottom.MouseDown
         pullbottom.Start()
     End Sub
 
-    Private Sub buttompull_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles bottomborder.MouseUp
+    Private Sub buttompull_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles bottom.MouseUp
         pullbottom.Stop()
     End Sub
 
@@ -906,10 +906,10 @@
             topleftcorner.Hide()
             bottomrightcorner.Hide()
             bottomleftcorner.Hide()
-            leftborder.Hide()
-            topborder.Hide()
-            bottomborder.Hide()
-            rightborder.Hide()
+            left.Hide()
+            top.Hide()
+            bottom.Hide()
+            right.Hide()
             Dim w, h As Integer
             w = Windows95.desktopicons.Width
             h = Windows95.desktopicons.Height
@@ -923,10 +923,10 @@
             topleftcorner.Show()
             bottomrightcorner.Show()
             bottomleftcorner.Show()
-            leftborder.Show()
-            topborder.Show()
-            bottomborder.Show()
-            rightborder.Show()
+            left.Show()
+            top.Show()
+            bottom.Show()
+            right.Show()
             Me.Location = New Point(mexlocation, meylocation)
             Me.Size = New Size(mewidth, meheight)
             moveable = True

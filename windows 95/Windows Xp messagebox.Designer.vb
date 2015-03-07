@@ -25,6 +25,8 @@ Partial Class Windows_Xp_messagebox
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Windows_Xp_messagebox))
         Me.program = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.errormessage = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -47,10 +49,6 @@ Partial Class Windows_Xp_messagebox
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.program.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.top.SuspendLayout()
@@ -62,8 +60,8 @@ Partial Class Windows_Xp_messagebox
         'program
         '
         Me.program.BackColor = System.Drawing.Color.OldLace
-        Me.program.Controls.Add(Me.Button3)
-        Me.program.Controls.Add(Me.Button2)
+        Me.program.Controls.Add(Me.Label2)
+        Me.program.Controls.Add(Me.Label1)
         Me.program.Controls.Add(Me.Button1)
         Me.program.Controls.Add(Me.errormessage)
         Me.program.Controls.Add(Me.PictureBox1)
@@ -75,21 +73,39 @@ Partial Class Windows_Xp_messagebox
         Me.program.Controls.Add(Me.bottom)
         Me.program.Controls.Add(Me.right)
         Me.program.Controls.Add(Me.left)
-        Me.program.Controls.Add(Me.Label1)
-        Me.program.Controls.Add(Me.Label2)
         Me.program.Dock = System.Windows.Forms.DockStyle.Fill
         Me.program.Location = New System.Drawing.Point(0, 0)
         Me.program.Name = "program"
         Me.program.Size = New System.Drawing.Size(316, 152)
         Me.program.TabIndex = 5
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(246, 119)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.TabIndex = 11
+        Me.Label2.Text = "Label2"
+        Me.Label2.Visible = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(34, 119)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 10
+        Me.Label1.Text = "Label1"
+        Me.Label1.Visible = False
+        '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(23, 117)
+        Me.Button1.Location = New System.Drawing.Point(119, 119)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 13
-        Me.Button1.Text = "Neither do I"
+        Me.Button1.Text = "Ok"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'errormessage
@@ -103,7 +119,7 @@ Partial Class Windows_Xp_messagebox
         Me.errormessage.Size = New System.Drawing.Size(224, 70)
         Me.errormessage.TabIndex = 12
         Me.errormessage.TabStop = False
-        Me.errormessage.Text = "I have no idea how this is an error."
+        Me.errormessage.Text = "Your computer is infected"
         '
         'PictureBox1
         '
@@ -156,9 +172,9 @@ Partial Class Windows_Xp_messagebox
         Me.programname.ForeColor = System.Drawing.Color.White
         Me.programname.Location = New System.Drawing.Point(5, 8)
         Me.programname.Name = "programname"
-        Me.programname.Size = New System.Drawing.Size(19, 13)
+        Me.programname.Size = New System.Drawing.Size(77, 13)
         Me.programname.TabIndex = 3
-        Me.programname.Text = "Hi"
+        Me.programname.Text = "Critical Error"
         '
         'closebutton
         '
@@ -264,44 +280,6 @@ Partial Class Windows_Xp_messagebox
         '
         Me.Timer1.Interval = 200
         '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(123, 117)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 14
-        Me.Button2.Text = "OK"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Enabled = False
-        Me.Button3.ForeColor = System.Drawing.Color.Gray
-        Me.Button3.Location = New System.Drawing.Point(228, 119)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 15
-        Me.Button3.Text = "And?"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(23, 123)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 16
-        Me.Label1.Text = "Label1"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(225, 123)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 13)
-        Me.Label2.TabIndex = 17
-        Me.Label2.Text = "Label2"
-        '
         'Windows_Xp_messagebox
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -347,8 +325,6 @@ Partial Class Windows_Xp_messagebox
     Friend WithEvents Timer3 As System.Windows.Forms.Timer
     Friend WithEvents Timer2 As System.Windows.Forms.Timer
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 End Class

@@ -25,6 +25,10 @@ Partial Class formnotepad
         Me.components = New System.ComponentModel.Container()
         Me.notepadtextbox = New System.Windows.Forms.TextBox()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.FileToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SearchToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FormatToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -67,10 +71,6 @@ Partial Class formnotepad
         Me.pullside = New System.Windows.Forms.Timer(Me.components)
         Me.pullbottom = New System.Windows.Forms.Timer(Me.components)
         Me.pullbs = New System.Windows.Forms.Timer(Me.components)
-        Me.FileToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EditToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SearchToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FormatToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.program.SuspendLayout()
         Me.programtopbar.SuspendLayout()
@@ -99,6 +99,30 @@ Partial Class formnotepad
         Me.MenuStrip1.Size = New System.Drawing.Size(532, 24)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'FileToolStripMenuItem1
+        '
+        Me.FileToolStripMenuItem1.Name = "FileToolStripMenuItem1"
+        Me.FileToolStripMenuItem1.Size = New System.Drawing.Size(37, 20)
+        Me.FileToolStripMenuItem1.Text = "File"
+        '
+        'EditToolStripMenuItem1
+        '
+        Me.EditToolStripMenuItem1.Name = "EditToolStripMenuItem1"
+        Me.EditToolStripMenuItem1.Size = New System.Drawing.Size(39, 20)
+        Me.EditToolStripMenuItem1.Text = "Edit"
+        '
+        'SearchToolStripMenuItem1
+        '
+        Me.SearchToolStripMenuItem1.Name = "SearchToolStripMenuItem1"
+        Me.SearchToolStripMenuItem1.Size = New System.Drawing.Size(54, 20)
+        Me.SearchToolStripMenuItem1.Text = "Search"
+        '
+        'FormatToolStripMenuItem
+        '
+        Me.FormatToolStripMenuItem.Name = "FormatToolStripMenuItem"
+        Me.FormatToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
+        Me.FormatToolStripMenuItem.Text = "Help"
         '
         'FileToolStripMenuItem
         '
@@ -305,7 +329,7 @@ Partial Class formnotepad
         '
         Me.maximizebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.maximizebutton.Image = Global.Histacom.My.Resources.Resources.Maximize
-        Me.maximizebutton.Location = New System.Drawing.Point(498, 2)
+        Me.maximizebutton.Location = New System.Drawing.Point(499, 2)
         Me.maximizebutton.Name = "maximizebutton"
         Me.maximizebutton.Size = New System.Drawing.Size(16, 14)
         Me.maximizebutton.TabIndex = 6
@@ -315,7 +339,7 @@ Partial Class formnotepad
         '
         Me.minimizebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.minimizebutton.Image = Global.Histacom.My.Resources.Resources.minimize
-        Me.minimizebutton.Location = New System.Drawing.Point(482, 2)
+        Me.minimizebutton.Location = New System.Drawing.Point(483, 2)
         Me.minimizebutton.Name = "minimizebutton"
         Me.minimizebutton.Size = New System.Drawing.Size(16, 14)
         Me.minimizebutton.TabIndex = 5
@@ -328,9 +352,9 @@ Partial Class formnotepad
         Me.programname.ForeColor = System.Drawing.Color.White
         Me.programname.Location = New System.Drawing.Point(3, 2)
         Me.programname.Name = "programname"
-        Me.programname.Size = New System.Drawing.Size(56, 13)
+        Me.programname.Size = New System.Drawing.Size(55, 13)
         Me.programname.TabIndex = 3
-        Me.programname.Text = "NotePad"
+        Me.programname.Text = "Notepad"
         '
         'closebutton
         '
@@ -427,30 +451,6 @@ Partial Class formnotepad
         'pullbs
         '
         Me.pullbs.Interval = 1
-        '
-        'FileToolStripMenuItem1
-        '
-        Me.FileToolStripMenuItem1.Name = "FileToolStripMenuItem1"
-        Me.FileToolStripMenuItem1.Size = New System.Drawing.Size(37, 20)
-        Me.FileToolStripMenuItem1.Text = "File"
-        '
-        'EditToolStripMenuItem1
-        '
-        Me.EditToolStripMenuItem1.Name = "EditToolStripMenuItem1"
-        Me.EditToolStripMenuItem1.Size = New System.Drawing.Size(39, 20)
-        Me.EditToolStripMenuItem1.Text = "Edit"
-        '
-        'SearchToolStripMenuItem1
-        '
-        Me.SearchToolStripMenuItem1.Name = "SearchToolStripMenuItem1"
-        Me.SearchToolStripMenuItem1.Size = New System.Drawing.Size(54, 20)
-        Me.SearchToolStripMenuItem1.Text = "Search"
-        '
-        'FormatToolStripMenuItem
-        '
-        Me.FormatToolStripMenuItem.Name = "FormatToolStripMenuItem"
-        Me.FormatToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
-        Me.FormatToolStripMenuItem.Text = "Help"
         '
         'formnotepad
         '
