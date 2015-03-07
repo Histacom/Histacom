@@ -3,14 +3,11 @@
     Dim waiting2 As Boolean = False
     Dim con As Integer
     Dim ran As New Random
-    Dim abletoclose As String = "yes"
+    Dim abletoclose As Boolean = True
     Dim username As String
     Private Sub closebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles closebutton.Click
-        If abletoclose = "yes" Then
+        If abletoclose Then
             Me.Close()
-        End If
-        If abletoclose = "no" Then
-
         End If
     End Sub
 
@@ -18,7 +15,7 @@
         look.Start()
         Button5.Hide()
         Label5.Hide()
-        abletoclose = "yes"
+        abletoclose = True
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
@@ -26,21 +23,21 @@
         login.Hide()
         Chat.Start()
         ListBox1.Items.Add(username)
-        history.Text = history.Text + (username & " Has Logged On" & Environment.NewLine)
+        history.Text += (username & " Has Logged On" & Environment.NewLine)
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         If waiting = True Then
             mainname = typechat.Text
             waiting = False
-            history.Text = history.Text + (username & ": " & typechat.Text & Environment.NewLine)
+            history.Text += (username & ": " & typechat.Text & Environment.NewLine)
             typechat.Text = ""
             history.Focus()
             history.SelectionStart = 999999
             history.ScrollToCaret()
             typechat.Focus()
         Else
-            history.Text = history.Text + (username & ": " & typechat.Text & Environment.NewLine)
+            history.Text += (username & ": " & typechat.Text & Environment.NewLine)
             typechat.Text = ""
             typechat.Focus()
             history.SelectionStart = 999999
@@ -50,362 +47,226 @@
     End Sub
 
     Private Sub Chat_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Chat.Tick
-
-        If con = 67 Then
-            If waitfor02download = True Then
-                Chat.Stop()
-            Else
-                Chat.Start()
-                history.Text = history.Text + ("12padams: Ok I got a message that you just started the timer " & mainname & Environment.NewLine)
-                con = con + 1
-            End If
-        End If
-        If con = 66 Then
-            history.Text = history.Text + ("The Hidden Hacker: I Hope this works..." & Environment.NewLine)
-            Chat.Interval = 3000
-            con = con + 1
-            count.Start()
-            waitfor02download = True
-            Chat.Stop()
-        End If
-        If con = 65 Then
-            history.Text = history.Text + ("12padams: Ok " & mainname & " download it now and we will wait for you" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 64 Then
-            Label5.Show()
-            Button5.Show()
-            con = con + 1
-        End If
-        If con = 63 Then
-            history.Text = history.Text + ("12padams: We will start right now. Ill send 0.2 of time distorter and " & mainname & " can download it" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 62 Then
-            history.Text = history.Text + ("The Hidden Hacker: Ok then when do we start?" & Environment.NewLine)
-            Chat.Interval = 6000
-            con = con + 1
-        End If
-        If con = 61 Then
-            history.Text = history.Text + ("12padams: Nothings going to go wrong I think i Got this" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 60 Then
-            history.Text = history.Text + ("The Hidden Hacker: But what If something goes wrong and " & mainname & " doesn't get to the year 2000 properly?" & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 59 Then
-            history.Text = history.Text + ("12padams: Ok I want you to look out for " & mainname & " so that in 1 year you can tell me when he comes back" & Environment.NewLine)
-            Chat.Interval = 7000
-            con = con + 1
-        End If
-        If con = 58 Then
-            history.Text = history.Text + ("The Hidden Hacker: Ok but what do you want me to do?" & Environment.NewLine)
-            Chat.Interval = 6000
-            con = con + 1
-        End If
-        If con = 57 Then
-            history.Text = history.Text + ("12padams: But It has to be done... you need to help me, guys... please" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 56 Then
-            history.Text = history.Text + ("The Hidden Hacker: 12padams thats too risky" & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 55 Then
-            history.Text = history.Text + ("12padams: This could serriously impact my time travel software." & Environment.NewLine)
-            Chat.Interval = 3000
-            con = con + 1
-        End If
-        If con = 54 Then
-            history.Text = history.Text + ("12padams: Computer dates may stuff up and display 1900 instead of 2000" & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 53 Then
-            history.Text = history.Text + ("12padams: Well basically I wrote an article on the year 2000 bug AKA y2k" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 52 Then
-            history.Text = history.Text + ("12padams: haha sorry I forgot about that" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 51 Then
-            history.Text = history.Text + ("The Hidden Hacker: no since I am blocked from using your website" & Environment.NewLine)
-            Chat.Interval = 3000
-            con = con + 1
-        End If
-        If con = 50 Then
-            history.Text = history.Text + ("12padams: no... Its not accually. Didn't you read the article on my website?" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 49 Then
-            history.Text = history.Text + ("The Hidden Hacker: Why does he need to try it out??? its gunna work just like 0.1 did" & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 48 Then
-            history.Text = history.Text + ("12padams: " & mainname & "... I will need you to try this out again" & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 47 Then
-            history.Text = history.Text + ("12padams: well not much different... it works the same except it works in all time periods and it takes you to 2000" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 46 Then
-            history.Text = history.Text + ("12padams: 0.2 is much different however" & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 45 Then
-            history.Text = history.Text + ("12padams: Well anyway... 0.1 is now useless since it only works if the year is 1998 and it will only take you to 1999" & Environment.NewLine)
-            Chat.Interval = 7000
-            con = con + 1
-        End If
-        If con = 44 Then
-            history.Text = history.Text + ("12padams: oh woops yea oh cause you would" & Environment.NewLine)
-            Chat.Interval = 8000
-            con = con + 1
-        End If
-        If con = 43 Then
-            history.Text = history.Text + ("The Hidden Hacker: Of cause I remember that..." & Environment.NewLine)
-            Chat.Interval = 3000
-            con = con + 1
-        End If
-        If con = 42 Then
-            history.Text = history.Text + ("12padams: Remember time distorter 0.1?" & Environment.NewLine)
-            Chat.Interval = 3000
-            con = con + 1
-        End If
-        If con = 41 Then
-            history.Text = history.Text + ("12padams: Oh right I forgot to tell you both" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 40 Then
-            history.Text = history.Text + ("The Hidden Hacker: Wait A sec... you mean we are going to time travel again?" & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 39 Then
-            history.Text = history.Text + ("12padams: Ok I know... you can track the time travels so you can see when " & mainname & " gets to a new time period you say whats going on..." & Environment.NewLine)
-            Chat.Interval = 6000
-            con = con + 1
-        End If
-        If con = 38 Then
-            history.Text = history.Text + ("12padams: I am not really sure accually... um let me think" & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 37 Then
-            history.Text = history.Text + ("The Hidden Hacker: Um what do you mean by guider?" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 36 Then
-            history.Text = history.Text + ("12padams: And The Hidden Hacker... you can be the um... Guider" & Environment.NewLine)
-            Chat.Interval = 3000
-            con = con + 1
-        End If
-        If con = 35 Then
-            history.Text = history.Text + ("12padams: " & mainname & " you can be the tester for my time travel software" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 34 Then
-            history.Text = history.Text + ("12padams: Well I am the coder who will be working on the time travel software" & Environment.NewLine)
-            Chat.Interval = 7000
-            con = con + 1
-        End If
-        If con = 33 Then
-            history.Text = history.Text + ("The Hidden Hacker: Wait what do you mean by 'a team'" & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 32 Then
-            history.Text = history.Text + ("12padams: Look Since you both know about this whole time travel thing... I want us to be a team " & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 31 Then
-            history.Text = history.Text + ("12padams: Well anyway I have something very important I now have to say to you both " & Environment.NewLine)
-            Chat.Interval = 6000
-            con = con + 1
-        End If
-        If con = 30 Then
-            history.Text = history.Text + ("The Hidden Hacker: Lol its good you now have a name " & mainname & Environment.NewLine)
-            Chat.Interval = 6000
-            con = con + 1
-        End If
-        If con = 29 Then
-            history.Text = history.Text + ("12padams: Ok from now on we will call you " & mainname & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-
-        If con = 28 Then
-            If mainname = "" Then
-                Chat.Interval = 3000
-            Else
-                Chat.Interval = 3000
-                con = con + 1
-            End If
-        End If
-        If con = 27 Then
-            history.Text = history.Text + ("12padams: Um whats your name 'windows 98 user' just type it in the chat now. I recommend less then 10 letters" & Environment.NewLine)
-            Chat.Interval = 6000
-            waiting = True
-            con = con + 1
-        End If
-        If con = 26 Then
-            history.Text = history.Text + ("12padams: Ok just to let you know... the only thing thats getting me 'angrey' right now is not knowing what this windows 98 users name is " & Environment.NewLine)
-            Chat.Interval = 9000
-            con = con + 1
-        End If
-        If con = 25 Then
-            history.Text = history.Text + ("The Hidden Hacker: Well thats a relief... um whatever your name is... " & Environment.NewLine)
-            Chat.Interval = 7000
-            con = con + 1
-        End If
-        If con = 24 Then
-            history.Text = history.Text + ("12padams: So I just wanna say thanks :) both of you... " & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 23 Then
-            history.Text = history.Text + ("12padams: Liston... If you had not hacked my emails and taken my software and tried it out I would never have tested my software. " & Environment.NewLine)
-            Chat.Interval = 9000
-            con = con + 1
-        End If
-        If con = 22 Then
-            history.Text = history.Text + ("12padams: Yea I'm not angrey at any of you..." & Environment.NewLine)
-            Chat.Interval = 6000
-            con = con + 1
-        End If
-        If con = 21 Then
-            history.Text = history.Text + ("The Hidden Hacker: What???" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 20 Then
-            history.Text = history.Text + ("12padams: Oh for goodness sake what's wrong with you 2... I am not angrey" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 19 Then
-            history.Text = history.Text + ("The Hidden Hacker: Crap the close button is not working!!!" & Environment.NewLine)
-            Chat.Interval = 6000
-            con = con + 1
-        End If
-        If con = 18 Then
-            history.Text = history.Text + ("12padams: Come on guys..." & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 17 Then
-            history.Text = history.Text + ("The Hidden Hacker: Log off... um whatever your name is wh owns that windows 98 computer!!!!" & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 16 Then
-            history.Text = history.Text + ("The Hidden Hacker: Oh CRAP!!!" & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 15 Then
-            history.Text = history.Text + ("12padams: Yea and you have not done a good job of hidding" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 14 Then
-            history.Text = history.Text + ("12padams Has Logged On" & Environment.NewLine)
-            Chat.Interval = 2000
-            con = con + 1
-            abletoclose = "no"
-        End If
-        If con = 13 Then
-            history.Text = history.Text + ("The Hidden Hacker: since then I have been hiding so 12padams could not get me" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 12 Then
-            history.Text = history.Text + ("The Hidden Hacker: after you left 1998 12padams tried to attack and well..." & Environment.NewLine)
-            Chat.Interval = 7000
-            con = con + 1
-        End If
-        If con = 11 Then
-            history.Text = history.Text + ("The Hidden Hacker: Ok well heres what happened while you were gone." & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 10 Then
-            history.Text = history.Text + ("The Hidden Hacker: Finally your here." & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 9 Then
-            history.Text = history.Text + ("The Hidden Hacker: For 1 whole year I have been waiting to see if that time travel software worked" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 8 Then
-            history.Text = history.Text + ("[The Known Checker] has changed his display name to [The Hidden Hacker]" & Environment.NewLine)
-            ListBox1.Items.Remove("The Known Checker")
-            ListBox1.Items.Add("The Hidden Hacker")
-            Chat.Interval = 6000
-            con = con + 1
-        End If
-        If con = 7 Then
-            history.Text = history.Text + ("The Known Checker: Wait sorry i am using a fake name... Just wait a sec" & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 6 Then
-            history.Text = history.Text + ("The Known Checker: Yes!!! Its YOU!!!!!" & Environment.NewLine)
-            Chat.Interval = 3000
-            con = con + 1
-        End If
-        If con = 5 Then
-            history.Text = history.Text + ("Scan Complete!" & Environment.NewLine)
-            Chat.Interval = 4000
-            con = con + 1
-        End If
-        If con = 4 Then
-            history.Text = history.Text + ("The Known Checker is: Scanning IP..." & Environment.NewLine)
-            Chat.Interval = 3000
-            con = con + 1
-        End If
-        If con = 3 Then
-            history.Text = history.Text + ("The Known Checker: Wait I'll quickly do an ip scan..." & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 2 Then
-            history.Text = history.Text + ("The Known Checker: Hi um I know this is going to sound weird but do you know about some software called time distorter?" & Environment.NewLine)
-            Chat.Interval = 8000
-            con = con + 1
-        End If
-        If con = 1 Then
-            history.Text = history.Text + ("The Known Checker: OMG I think I found you!!!" & Environment.NewLine)
-            Chat.Interval = 5000
-            con = con + 1
-        End If
-        If con = 0 Then
-            ListBox1.Items.Add("The Known Checker")
-            Chat.Interval = 5000
-            con = con + 1
-        End If
+    	Select Case con
+	        Case 67
+	            If waitfor02download Then
+	                Chat.Stop()
+	            Else
+	                Chat.Start()
+	                history.Text += ("12padams: Ok I got a message that you just started the timer " & mainname & Environment.NewLine)
+	            End If
+	        Case 66
+	            history.Text += ("The Hidden Hacker: I Hope this works..." & Environment.NewLine)
+	            Chat.Interval = 3000
+	            count.Start()
+	            waitfor02download = True
+	            Chat.Stop()
+	        Case 65
+	            history.Text += ("12padams: Ok " & mainname & " download it now and we will wait for you" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 64
+	            Label5.Show()
+	            Button5.Show()
+	        Case 63
+	            history.Text += ("12padams: We will start right now. Ill send 0.2 of time distorter and " & mainname & " can download it" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 62
+	            history.Text += ("The Hidden Hacker: Ok then when do we start?" & Environment.NewLine)
+	            Chat.Interval = 6000
+	        Case 61
+	            history.Text += ("12padams: Nothings going to go wrong I think i Got this" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 60
+	            history.Text += ("The Hidden Hacker: But what If something goes wrong and " & mainname & " doesn't get to the year 2000 properly?" & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 59
+	            history.Text += ("12padams: Ok I want you to look out for " & mainname & " so that in 1 year you can tell me when he comes back" & Environment.NewLine)
+	            Chat.Interval = 7000
+	        Case 58
+	            history.Text += ("The Hidden Hacker: Ok but what do you want me to do?" & Environment.NewLine)
+	            Chat.Interval = 6000
+	        Case 57
+	            history.Text += ("12padams: But It has to be done... you need to help me, guys... please" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 56
+	            history.Text += ("The Hidden Hacker: 12padams thats too risky" & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 55
+	            history.Text += ("12padams: This could serriously impact my time travel software." & Environment.NewLine)
+	            Chat.Interval = 3000
+	        Case 54
+	            history.Text += ("12padams: Computer dates may stuff up and display 1900 instead of 2000" & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 53
+	            history.Text += ("12padams: Well basically I wrote an article on the year 2000 bug AKA y2k" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 52
+	            history.Text += ("12padams: haha sorry I forgot about that" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 51
+	            history.Text += ("The Hidden Hacker: no since I am blocked from using your website" & Environment.NewLine)
+	            Chat.Interval = 3000
+	        Case 50
+	            history.Text += ("12padams: no... Its not accually. Didn't you read the article on my website?" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 49
+	            history.Text += ("The Hidden Hacker: Why does he need to try it out??? its gunna work just like 0.1 did" & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 48
+	            history.Text += ("12padams: " & mainname & "... I will need you to try this out again" & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 47
+	            history.Text += ("12padams: well not much different... it works the same except it works in all time periods and it takes you to 2000" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 46
+	            history.Text += ("12padams: 0.2 is much different however" & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 45
+	            history.Text += ("12padams: Well anyway... 0.1 is now useless since it only works if the year is 1998 and it will only take you to 1999" & Environment.NewLine)
+	            Chat.Interval = 7000
+	        Case 44
+	            history.Text += ("12padams: oh woops yea oh cause you would" & Environment.NewLine)
+	            Chat.Interval = 8000
+	        Case 43
+	            history.Text += ("The Hidden Hacker: Of cause I remember that..." & Environment.NewLine)
+	            Chat.Interval = 3000
+	        Case 42
+	            history.Text += ("12padams: Remember time distorter 0.1?" & Environment.NewLine)
+	            Chat.Interval = 3000
+	        Case 41
+	            history.Text += ("12padams: Oh right I forgot to tell you both" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 40
+	            history.Text += ("The Hidden Hacker: Wait A sec... you mean we are going to time travel again?" & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 39
+	            history.Text += ("12padams: Ok I know... you can track the time travels so you can see when " & mainname & " gets to a new time period you say whats going on..." & Environment.NewLine)
+	            Chat.Interval = 6000
+	        Case 38
+	            history.Text += ("12padams: I am not really sure accually... um let me think" & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 37
+	            history.Text += ("The Hidden Hacker: Um what do you mean by guider?" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 36
+	            history.Text += ("12padams: And The Hidden Hacker... you can be the um... Guider" & Environment.NewLine)
+	            Chat.Interval = 3000
+	        Case 35
+	            history.Text += ("12padams: " & mainname & " you can be the tester for my time travel software" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 34
+	            history.Text += ("12padams: Well I am the coder who will be working on the time travel software" & Environment.NewLine)
+	            Chat.Interval = 7000
+	        Case 33
+	            history.Text += ("The Hidden Hacker: Wait what do you mean by 'a team'" & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 32
+	            history.Text += ("12padams: Look Since you both know about this whole time travel thing... I want us to be a team " & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 31
+	            history.Text += ("12padams: Well anyway I have something very important I now have to say to you both " & Environment.NewLine)
+	            Chat.Interval = 6000
+	        Case 30
+	            history.Text += ("The Hidden Hacker: Lol its good you now have a name " & mainname & Environment.NewLine)
+	            Chat.Interval = 6000
+	        Case 29
+	            history.Text += ("12padams: Ok from now on we will call you " & mainname & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 28
+				if mainname == "" Then
+					con -= 1
+				End If
+	            Chat.Interval = 3000
+	        Case 27
+	            history.Text += ("12padams: Um whats your name 'windows 98 user' just type it in the chat now. I recommend less then 10 letters" & Environment.NewLine)
+	            Chat.Interval = 6000
+	            waiting = True
+	        Case 26
+	            history.Text += ("12padams: Ok just to let you know... the only thing thats getting me 'angrey' right now is not knowing what this windows 98 users name is " & Environment.NewLine)
+	            Chat.Interval = 9000
+	        Case 25
+	            history.Text += ("The Hidden Hacker: Well thats a relief... um whatever your name is... " & Environment.NewLine)
+	            Chat.Interval = 7000
+	        Case 24
+	            history.Text += ("12padams: So I just wanna say thanks :) both of you... " & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 23
+	            history.Text += ("12padams: Liston... If you had not hacked my emails and taken my software and tried it out I would never have tested my software. " & Environment.NewLine)
+	            Chat.Interval = 9000
+	        Case 22
+	            history.Text += ("12padams: Yea I'm not angrey at any of you..." & Environment.NewLine)
+	            Chat.Interval = 6000
+	        Case 21
+	            history.Text += ("The Hidden Hacker: What???" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 20
+	            history.Text += ("12padams: Oh for goodness sake what's wrong with you 2... I am not angrey" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 19
+	            history.Text += ("The Hidden Hacker: Crap the close button is not working!!!" & Environment.NewLine)
+	            Chat.Interval = 6000
+	        Case 18
+	            history.Text += ("12padams: Come on guys..." & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 17
+	            history.Text += ("The Hidden Hacker: Log off... um whatever your name is wh owns that windows 98 computer!!!!" & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 16
+	            history.Text += ("The Hidden Hacker: Oh CRAP!!!" & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 15
+	            history.Text += ("12padams: Yea and you have not done a good job of hidding" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 14
+	            history.Text += ("12padams Has Logged On" & Environment.NewLine)
+	            Chat.Interval = 2000
+	            abletoclose = False
+	        Case 13
+	            history.Text += ("The Hidden Hacker: since then I have been hiding so 12padams could not get me" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 12
+	            history.Text += ("The Hidden Hacker: after you left 1998 12padams tried to attack and well..." & Environment.NewLine)
+	            Chat.Interval = 7000
+	        Case 11
+	            history.Text += ("The Hidden Hacker: Ok well heres what happened while you were gone." & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 10
+	            history.Text += ("The Hidden Hacker: Finally your here." & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 9
+	            history.Text += ("The Hidden Hacker: For 1 whole year I have been waiting to see if that time travel software worked" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 8
+	            history.Text += ("[The Known Checker] has changed his display name to [The Hidden Hacker]" & Environment.NewLine)
+	            ListBox1.Items.Remove("The Known Checker")
+	            ListBox1.Items.Add("The Hidden Hacker")
+	            Chat.Interval = 6000
+	        Case 7
+	            history.Text += ("The Known Checker: Wait sorry i am using a fake name... Just wait a sec" & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 6
+	            history.Text += ("The Known Checker: Yes!!! Its YOU!!!!!" & Environment.NewLine)
+	            Chat.Interval = 3000
+	        Case 5
+	            history.Text += ("Scan Complete!" & Environment.NewLine)
+	            Chat.Interval = 4000
+	        Case 4
+	            history.Text += ("The Known Checker is: Scanning IP..." & Environment.NewLine)
+	            Chat.Interval = 3000
+	        Case 3
+	            history.Text += ("The Known Checker: Wait I'll quickly do an ip scan..." & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 2
+	            history.Text += ("The Known Checker: Hi um I know this is going to sound weird but do you know about some software called time distorter?" & Environment.NewLine)
+	            Chat.Interval = 8000
+	        Case 1
+	            history.Text += ("The Known Checker: OMG I think I found you!!!" & Environment.NewLine)
+	            Chat.Interval = 5000
+	        Case 0
+	            ListBox1.Items.Add("The Known Checker")
+	            Chat.Interval = 5000
+		End Select
+        con += 1
         history.Focus()
         history.SelectionStart = 999999
         history.ScrollToCaret()
@@ -423,7 +284,7 @@
     Dim maximize As Boolean
 
     Private Sub programtopbar_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles programtopbar.MouseDown
-        If moveable = True Then
+        If moveable Then
             If e.Button = MouseButtons.Left Then
                 programtopbar.Capture = False
                 Const WM_NCLBUTTONDOWN As Integer = &HA1S
@@ -433,7 +294,6 @@
                         New IntPtr(HTCAPTION), IntPtr.Zero)
                 Me.DefWndProc(msg)
             End If
-        Else
         End If
     End Sub
 
@@ -475,7 +335,7 @@
     End Sub
 
     Private Sub maximizebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles maximizebutton.Click
-        If maximize = False Then
+        If Not maximize Then
             meylocation = Windows95.desktopicons.Height - Me.Height
             mexlocation = Windows95.desktopicons.Width - Me.Width
             mewidth = Me.Width
@@ -524,175 +384,132 @@
     End Sub
 
     Private Sub waitingdownload_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles waitingdownload.Tick
-        If waitfor02download = False Then
+        If Not waitfor02download Then
             Chat.Start()
             waitingdownload.Stop()
         End If
-
     End Sub
 
     Private Sub count_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles count.Tick
-        If count2000 = -8 Then
-            Me.BackColor = Color.Black
-            history.BackColor = Color.Black
-            history.ForeColor = Color.White
-            Me.Close()
-            count.Stop()
-        End If
-        If count2000 = -7 Then
-            Me.BackColor = Color.Black
-            history.BackColor = Color.White
-            history.ForeColor = Color.Black
-        End If
-        If count2000 = -6 Then
-            Me.BackColor = Color.Black
-            history.BackColor = Color.Black
-            history.ForeColor = Color.White
-        End If
-        If count2000 = -5 Then
-            Me.BackColor = Color.Black
-            history.BackColor = Color.White
-            history.ForeColor = Color.Black
-        End If
-        If count2000 = -4 Then
-            Me.BackColor = Color.Black
-            history.BackColor = Color.Black
-            history.ForeColor = Color.White
-        End If
-        If count2000 = -3 Then
-            Me.BackColor = Color.Black
-            history.BackColor = Color.White
-            history.ForeColor = Color.Black
-        End If
-        If count2000 = -2 Then
-            Me.BackColor = Color.Black
-            history.BackColor = Color.Black
-            history.ForeColor = Color.White
-        End If
-        If count2000 = -1 Then
-            Me.BackColor = Color.Black
-            history.BackColor = Color.White
-            history.ForeColor = Color.Black
-            count.Interval = 100
-            Me.Close()
-        End If
-        If count2000 = 4 Then
-            count.Interval = 100
-            history.Text = history.Text + ("12padams: Oh " & mainname & " just remember to watch the year incase something goes wrong... have a good trip :)" & Environment.NewLine)
-        End If
-        If count2000 = 8 Then
-            history.Text = history.Text + ("The Hidden Hacker: Ok cool thanks for that" & Environment.NewLine)
-        End If
-        If count2000 = 13 Then
-            history.Text = history.Text + ("12padams: well when " & mainname & " gets back ill let you go as well on the next one" & Environment.NewLine)
-        End If
-        If count2000 = 17 Then
-            history.Text = history.Text + ("The Hidden Hacker: not really... I just wish I got to time travel myself" & Environment.NewLine)
-        End If
-        If count2000 = 22 Then
-            history.Text = history.Text + ("12padams: Is there anything you want to say to " & mainname & " now just before " & mainname & " is gone?" & Environment.NewLine)
-        End If
-        If count2000 = 27 Then
-            history.Text = history.Text + ("12padams: yea me too but it needs to be done..." & Environment.NewLine)
-        End If
-        If count2000 = 33 Then
-            history.Text = history.Text + ("The Hidden Hacker: Yea... I just wish It didn't take so long :(" & Environment.NewLine)
-        End If
-        If count2000 = 37 Then
-            history.Text = history.Text + ("12padams: Ok well here we go again... another test which will show interesting and powerful results" & Environment.NewLine)
-        End If
-        If count2000 = 42 Then
-            history.Text = history.Text + ("The Hidden Hacker: Don't worry I will tell you strait away I promise" & Environment.NewLine)
-        End If
-        If count2000 = 48 Then
-            history.Text = history.Text + ("12padams: Ok get just remeber as soon as " & mainname & " gets the the year 2000 you need to tell me strait away" & Environment.NewLine)
-        End If
-        If count2000 = 53 Then
-            history.Text = history.Text + ("The Hidden Hacker: Well I guess I trust you then" & Environment.NewLine)
-        End If
-        If count2000 = 57 Then
-            history.Text = history.Text + ("12padams: don't worry nothings gunna happen" & Environment.NewLine)
-        End If
-        If count2000 = 62 Then
-            history.Text = history.Text + ("The Hidden Hacker: Well I hope nothing goes wrong..." & Environment.NewLine)
-        End If
-        If count2000 = 68 Then
-            history.Text = history.Text + ("12padams: No it can't thats why i have coded it so if it does show 1900 it will jump forward in time back the the year 2000" & Environment.NewLine)
-        End If
-        If count2000 = 72 Then
-            history.Text = history.Text + ("The Hidden Hacker: wait are you saying that this software can accually take someone back that far?" & Environment.NewLine)
-        End If
-        If count2000 = 78 Then
-            history.Text = history.Text + ("12padams: Well apon the numbers switching to 2000 it may instead switch to 1900" & Environment.NewLine)
-        End If
-        If count2000 = 82 Then
-            history.Text = history.Text + ("The Hidden Hacker: Ok but can you tell me what will happen?" & Environment.NewLine)
-        End If
-        If count2000 = 87 Then
-            history.Text = history.Text + ("12padams: Well I am just worried about when he goes past the year 2000 during travel..." & Environment.NewLine)
-        End If
-        If count2000 = 91 Then
-            history.Text = history.Text + ("The Hidden Hacker: I know that but what could happen?" & Environment.NewLine)
-        End If
-        If count2000 = 96 Then
-            history.Text = history.Text + ("12padams: Well There may be the slight chance of YK2 interference" & Environment.NewLine)
-        End If
-        If count2000 = 100 Then
-            history.Text = history.Text + ("The Hidden Hacker: I need to know what could go wrong." & Environment.NewLine)
-        End If
-        If count2000 = 104 Then
-        history.Text = history.Text + ("12padams: What do you need to know?" & Environment.NewLine)
-        End If
-        If count2000 = 108 Then
-            history.Text = history.Text + ("The Hidden Hacker: I just have a few questions..." & Environment.NewLine)
-        End If
-        If count2000 = 111 Then
-            history.Text = history.Text + ("The Hidden Hacker: Don't Worry... I will" & Environment.NewLine)
-        End If
-        If count2000 = 115 Then
-            history.Text = history.Text + ("12padams: You just have to make sure you tell me ok..." & Environment.NewLine)
-        End If
-        If count2000 = 120 Then
-            history.Text = history.Text + ("12padams: I want you to tell me as soon as he ges the the year 2000 then we will start another chat." & Environment.NewLine)
-        End If
-        If count2000 = 124 Then
-            history.Text = history.Text + ("12padams: wow good job... ok heres what we will do" & Environment.NewLine)
-        End If
-        If count2000 = 130 Then
-            history.Text = history.Text + ("The Hidden Hacker: Hey I got tracking software which will alert me as soon as the time travel is over... I developed it after a year of waiting." & Environment.NewLine)
-        End If
-        If count2000 = 135 Then
-            history.Text = history.Text + ("12padams: The most important thing now is preparing for when " & mainname & " gets to the year 2000" & Environment.NewLine)
-        End If
-        If count2000 = 140 Then
-            history.Text = history.Text + ("12padams: Now we have to stop chatting about who gets to do what now " & Environment.NewLine)
-        End If
-        If count2000 = 144 Then
-            history.Text = history.Text + ("The Hidden Hacker: Hmm I would prefere to be me then..." & Environment.NewLine)
-        End If
-        If count2000 = 149 Then
-            history.Text = history.Text + ("12padams: Well accually " & mainname & " will need to go back to 1998 after experiencing all the future tech so..." & Environment.NewLine)
-        End If
-        If count2000 = 155 Then
-            history.Text = history.Text + ("The Hidden Hacker: Ok... " & mainname & " you should feel happy that you don't have to wait a whole year for results " & Environment.NewLine)
-        End If
-        If count2000 = 160 Then
-            history.Text = history.Text + ("12padams: Hey hidden hacker... if your doing tests like this they take time... just be patient " & Environment.NewLine)
-        End If
-        If count2000 = 166 Then
-            history.Text = history.Text + ("The Hidden Hacker: Oh great not another whole year :( " & Environment.NewLine)
-        End If
-        If count2000 = 170 Then
-            history.Text = history.Text + ("12padams: your wrong... 3 minutes for " & mainname & " and 1 year for us..." & Environment.NewLine)
-        End If
-        If count2000 = 175 Then
-            history.Text = history.Text + ("The Hidden Hacker: Hmm 3 minutes and we get to see the results to this test " & Environment.NewLine)
-        End If
-        If count2000 < 175 Then
-            history.Focus()
-            history.SelectionStart = 999999
-            history.ScrollToCaret()
-            typechat.Focus()
-        End If
+    	Select Case count2000
+	        Case -8
+	            Me.BackColor = Color.Black
+	            history.BackColor = Color.Black
+	            history.ForeColor = Color.White
+	            Me.Close()
+	            count.Stop()
+	        Case -7
+	            Me.BackColor = Color.Black
+	            history.BackColor = Color.White
+	            history.ForeColor = Color.Black
+	        Case -6
+	            Me.BackColor = Color.Black
+	            history.BackColor = Color.Black
+	            history.ForeColor = Color.White
+	        Case -5
+	            Me.BackColor = Color.Black
+	            history.BackColor = Color.White
+	            history.ForeColor = Color.Black
+	        Case -4
+	            Me.BackColor = Color.Black
+	            history.BackColor = Color.Black
+	            history.ForeColor = Color.White
+	        Case -3
+	            Me.BackColor = Color.Black
+	            history.BackColor = Color.White
+	            history.ForeColor = Color.Black
+	        Case -2
+	            Me.BackColor = Color.Black
+	            history.BackColor = Color.Black
+	            history.ForeColor = Color.White
+	        Case -1
+	            Me.BackColor = Color.Black
+	            history.BackColor = Color.White
+	            history.ForeColor = Color.Black
+	            count.Interval = 100
+	            Me.Close()
+	        Case 4
+	            count.Interval = 100
+	            history.Text += ("12padams: Oh " & mainname & " just remember to watch the year incase something goes wrong... have a good trip :)" & Environment.NewLine)
+	        Case 8
+	            history.Text += ("The Hidden Hacker: Ok cool thanks for that" & Environment.NewLine)
+	        Case 13
+	            history.Text += ("12padams: well when " & mainname & " gets back ill let you go as well on the next one" & Environment.NewLine)
+	        Case 17
+	            history.Text += ("The Hidden Hacker: not really... I just wish I got to time travel myself" & Environment.NewLine)
+	        Case 22
+	            history.Text += ("12padams: Is there anything you want to say to " & mainname & " now just before " & mainname & " is gone?" & Environment.NewLine)
+	        Case 27
+	            history.Text += ("12padams: yea me too but it needs to be done..." & Environment.NewLine)
+	        Case 33
+	            history.Text += ("The Hidden Hacker: Yea... I just wish It didn't take so long :(" & Environment.NewLine)
+	        Case 37
+	            history.Text += ("12padams: Ok well here we go again... another test which will show interesting and powerful results" & Environment.NewLine)
+	        Case 42
+	            history.Text += ("The Hidden Hacker: Don't worry I will tell you strait away I promise" & Environment.NewLine)
+	        Case 48
+	            history.Text += ("12padams: Ok get just remeber as soon as " & mainname & " gets the the year 2000 you need to tell me strait away" & Environment.NewLine)
+	        Case 53
+	            history.Text += ("The Hidden Hacker: Well I guess I trust you then" & Environment.NewLine)
+	        Case 57
+	            history.Text += ("12padams: don't worry nothings gunna happen" & Environment.NewLine)
+	        Case 62
+	            history.Text += ("The Hidden Hacker: Well I hope nothing goes wrong..." & Environment.NewLine)
+	        Case 86
+	            history.Text += ("12padams: No it can't thats why i have coded it so if it does show 1900 it will jump forward in time back the the year 2000" & Environment.NewLine)
+	        Case 72
+	            history.Text += ("The Hidden Hacker: wait are you saying that this software can accually take someone back that far?" & Environment.NewLine)
+	        Case 78
+	            history.Text += ("12padams: Well apon the numbers switching to 2000 it may instead switch to 1900" & Environment.NewLine)
+	        Case 82
+	            history.Text += ("The Hidden Hacker: Ok but can you tell me what will happen?" & Environment.NewLine)
+	        Case 87
+	            history.Text += ("12padams: Well I am just worried about when he goes past the year 2000 during travel..." & Environment.NewLine)
+	        Case 91
+	            history.Text += ("The Hidden Hacker: I know that but what could happen?" & Environment.NewLine)
+	        Case 96
+	            history.Text += ("12padams: Well There may be the slight chance of YK2 interference" & Environment.NewLine)
+	        Case 100
+	            history.Text += ("The Hidden Hacker: I need to know what could go wrong." & Environment.NewLine)
+	        Case 104
+	        	history.Text += ("12padams: What do you need to know?" & Environment.NewLine)
+	        Case 108
+	            history.Text += ("The Hidden Hacker: I just have a few questions..." & Environment.NewLine)
+	        Case 111
+	            history.Text += ("The Hidden Hacker: Don't Worry... I will" & Environment.NewLine)
+	        Case 115
+	            history.Text += ("12padams: You just have to make sure you tell me ok..." & Environment.NewLine)
+	        Case 120
+	            history.Text += ("12padams: I want you to tell me as soon as he ges the the year 2000 then we will start another chat." & Environment.NewLine)
+	        Case 124
+	            history.Text += ("12padams: wow good job... ok heres what we will do" & Environment.NewLine)
+	        Case 130
+	            history.Text += ("The Hidden Hacker: Hey I got tracking software which will alert me as soon as the time travel is over... I developed it after a year of waiting." & Environment.NewLine)
+	        Case 135
+	            history.Text += ("12padams: The most important thing now is preparing for when " & mainname & " gets to the year 2000" & Environment.NewLine)
+	        Case 140
+	            history.Text += ("12padams: Now we have to stop chatting about who gets to do what now " & Environment.NewLine)
+	        Case 144
+	            history.Text += ("The Hidden Hacker: Hmm I would prefere to be me then..." & Environment.NewLine)
+	        Case 149
+	            history.Text += ("12padams: Well accually " & mainname & " will need to go back to 1998 after experiencing all the future tech so..." & Environment.NewLine)
+	        Case 155
+	            history.Text += ("The Hidden Hacker: Ok... " & mainname & " you should feel happy that you don't have to wait a whole year for results " & Environment.NewLine)
+	        Case 160
+	            history.Text += ("12padams: Hey hidden hacker... if your doing tests like this they take time... just be patient " & Environment.NewLine)
+	        Case 166
+	            history.Text += ("The Hidden Hacker: Oh great not another whole year :( " & Environment.NewLine)
+	        Case 170
+	            history.Text += ("12padams: your wrong... 3 minutes for " & mainname & " and 1 year for us..." & Environment.NewLine)
+	        Case 175
+	            history.Text += ("The Hidden Hacker: Hmm 3 minutes and we get to see the results to this test " & Environment.NewLine)
+		    Case Else 'Probably a better way to do this
+		        If count2000 < 175 Then
+		            history.Focus()
+		            history.SelectionStart = 999999
+		            history.ScrollToCaret()
+		            typechat.Focus()
+		        End If
+		End Select
     End Sub
 End Class
