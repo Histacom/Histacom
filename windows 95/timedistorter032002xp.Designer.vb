@@ -31,7 +31,7 @@ Partial Class timedistorter032002xp
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.top = New System.Windows.Forms.Panel()
+        Me.topborder = New System.Windows.Forms.Panel()
         Me.maximizebutton = New System.Windows.Forms.PictureBox()
         Me.minimizebutton = New System.Windows.Forms.PictureBox()
         Me.programname = New System.Windows.Forms.Label()
@@ -40,9 +40,9 @@ Partial Class timedistorter032002xp
         Me.toprightcorner = New System.Windows.Forms.Panel()
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
         Me.topleftcorner = New System.Windows.Forms.Panel()
-        Me.bottom = New System.Windows.Forms.Panel()
-        Me.right = New System.Windows.Forms.Panel()
-        Me.left = New System.Windows.Forms.Panel()
+        Me.bottomborder = New System.Windows.Forms.Panel()
+        Me.rightborder = New System.Windows.Forms.Panel()
+        Me.leftborder = New System.Windows.Forms.Panel()
         Me.look = New System.Windows.Forms.Timer(Me.components)
         Me.pullbs = New System.Windows.Forms.Timer(Me.components)
         Me.pullbottom = New System.Windows.Forms.Timer(Me.components)
@@ -51,7 +51,7 @@ Partial Class timedistorter032002xp
         Me.countdowntimer = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.program.SuspendLayout()
-        Me.top.SuspendLayout()
+        Me.topborder.SuspendLayout()
         CType(Me.maximizebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.minimizebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -78,14 +78,14 @@ Partial Class timedistorter032002xp
         Me.program.Controls.Add(Me.Button1)
         Me.program.Controls.Add(Me.Label1)
         Me.program.Controls.Add(Me.PictureBox1)
-        Me.program.Controls.Add(Me.top)
+        Me.program.Controls.Add(Me.topborder)
         Me.program.Controls.Add(Me.bottomleftcorner)
         Me.program.Controls.Add(Me.toprightcorner)
         Me.program.Controls.Add(Me.bottomrightcorner)
         Me.program.Controls.Add(Me.topleftcorner)
-        Me.program.Controls.Add(Me.bottom)
-        Me.program.Controls.Add(Me.right)
-        Me.program.Controls.Add(Me.left)
+        Me.program.Controls.Add(Me.bottomborder)
+        Me.program.Controls.Add(Me.rightborder)
+        Me.program.Controls.Add(Me.leftborder)
         Me.program.Dock = System.Windows.Forms.DockStyle.Fill
         Me.program.Location = New System.Drawing.Point(0, 0)
         Me.program.Name = "program"
@@ -154,17 +154,17 @@ Partial Class timedistorter032002xp
         '
         'top
         '
-        Me.top.BackColor = System.Drawing.Color.Transparent
-        Me.top.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxptopbarmiddle
-        Me.top.Controls.Add(Me.maximizebutton)
-        Me.top.Controls.Add(Me.minimizebutton)
-        Me.top.Controls.Add(Me.programname)
-        Me.top.Controls.Add(Me.closebutton)
-        Me.top.Dock = System.Windows.Forms.DockStyle.Top
-        Me.top.Location = New System.Drawing.Point(4, 0)
-        Me.top.Name = "top"
-        Me.top.Size = New System.Drawing.Size(407, 30)
-        Me.top.TabIndex = 0
+        Me.topborder.BackColor = System.Drawing.Color.Transparent
+        Me.topborder.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxptopbarmiddle
+        Me.topborder.Controls.Add(Me.maximizebutton)
+        Me.topborder.Controls.Add(Me.minimizebutton)
+        Me.topborder.Controls.Add(Me.programname)
+        Me.topborder.Controls.Add(Me.closebutton)
+        Me.topborder.Dock = System.Windows.Forms.DockStyle.Top
+        Me.topborder.Location = New System.Drawing.Point(4, 0)
+        Me.topborder.Name = "top"
+        Me.topborder.Size = New System.Drawing.Size(407, 30)
+        Me.topborder.TabIndex = 0
         '
         'maximizebutton
         '
@@ -249,32 +249,32 @@ Partial Class timedistorter032002xp
         '
         'bottom
         '
-        Me.bottom.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpbottom
-        Me.bottom.Cursor = System.Windows.Forms.Cursors.SizeNS
-        Me.bottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.bottom.Location = New System.Drawing.Point(4, 217)
-        Me.bottom.Name = "bottom"
-        Me.bottom.Size = New System.Drawing.Size(407, 4)
-        Me.bottom.TabIndex = 3
+        Me.bottomborder.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpbottom
+        Me.bottomborder.Cursor = System.Windows.Forms.Cursors.SizeNS
+        Me.bottomborder.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.bottomborder.Location = New System.Drawing.Point(4, 217)
+        Me.bottomborder.Name = "bottom"
+        Me.bottomborder.Size = New System.Drawing.Size(407, 4)
+        Me.bottomborder.TabIndex = 3
         '
         'right
         '
-        Me.right.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxprightside
-        Me.right.Cursor = System.Windows.Forms.Cursors.SizeWE
-        Me.right.Dock = System.Windows.Forms.DockStyle.Right
-        Me.right.Location = New System.Drawing.Point(411, 0)
-        Me.right.Name = "right"
-        Me.right.Size = New System.Drawing.Size(4, 221)
-        Me.right.TabIndex = 2
+        Me.rightborder.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxprightside
+        Me.rightborder.Cursor = System.Windows.Forms.Cursors.SizeWE
+        Me.rightborder.Dock = System.Windows.Forms.DockStyle.Right
+        Me.rightborder.Location = New System.Drawing.Point(411, 0)
+        Me.rightborder.Name = "right"
+        Me.rightborder.Size = New System.Drawing.Size(4, 221)
+        Me.rightborder.TabIndex = 2
         '
         'left
         '
-        Me.left.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpleftside
-        Me.left.Dock = System.Windows.Forms.DockStyle.Left
-        Me.left.Location = New System.Drawing.Point(0, 0)
-        Me.left.Name = "left"
-        Me.left.Size = New System.Drawing.Size(4, 221)
-        Me.left.TabIndex = 1
+        Me.leftborder.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpleftside
+        Me.leftborder.Dock = System.Windows.Forms.DockStyle.Left
+        Me.leftborder.Location = New System.Drawing.Point(0, 0)
+        Me.leftborder.Name = "left"
+        Me.leftborder.Size = New System.Drawing.Size(4, 221)
+        Me.leftborder.TabIndex = 1
         '
         'look
         '
@@ -319,8 +319,8 @@ Partial Class timedistorter032002xp
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.program.ResumeLayout(False)
         Me.program.PerformLayout()
-        Me.top.ResumeLayout(False)
-        Me.top.PerformLayout()
+        Me.topborder.ResumeLayout(False)
+        Me.topborder.PerformLayout()
         CType(Me.maximizebutton, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.minimizebutton, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.closebutton, System.ComponentModel.ISupportInitialize).EndInit()
@@ -334,7 +334,7 @@ Partial Class timedistorter032002xp
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents top As System.Windows.Forms.Panel
+    Friend WithEvents topborder As System.Windows.Forms.Panel
     Friend WithEvents maximizebutton As System.Windows.Forms.PictureBox
     Friend WithEvents minimizebutton As System.Windows.Forms.PictureBox
     Friend WithEvents programname As System.Windows.Forms.Label
@@ -343,9 +343,9 @@ Partial Class timedistorter032002xp
     Friend WithEvents toprightcorner As System.Windows.Forms.Panel
     Friend WithEvents bottomrightcorner As System.Windows.Forms.Panel
     Friend WithEvents topleftcorner As System.Windows.Forms.Panel
-    Friend WithEvents bottom As System.Windows.Forms.Panel
-    Friend WithEvents right As System.Windows.Forms.Panel
-    Friend WithEvents left As System.Windows.Forms.Panel
+    Friend WithEvents bottomborder As System.Windows.Forms.Panel
+    Friend WithEvents rightborder As System.Windows.Forms.Panel
+    Friend WithEvents leftborder As System.Windows.Forms.Panel
     Friend WithEvents look As System.Windows.Forms.Timer
     Friend WithEvents pullbs As System.Windows.Forms.Timer
     Friend WithEvents pullbottom As System.Windows.Forms.Timer

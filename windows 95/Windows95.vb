@@ -24,6 +24,20 @@
         System.Windows.Forms.Application.VisualStyleState = VisualStyles.VisualStyleState.NoneEnabled
     End Sub
 
+    Private Sub ToolStripMenuItem2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ShutdownToolStripMenuItem1.Click
+        startmenu.Hide()
+        desktopicons.Hide()
+        taskbar.Hide()
+        startbutton.Hide()
+        Me.BackgroundImage = My.Resources.windows_95_background
+
+        Dim bStr(My.Resources.Windows_95_Shutdown.Length) As Byte
+        My.Resources.Windows_95_Shutdown.Read(bStr, 0, My.Resources.Windows_95_Shutdown.Length)
+        My.Computer.Audio.Play(bStr, AudioPlayMode.WaitToComplete)
+        Me.Close()
+    End Sub
+
+
     Private Sub NotePadToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NotePadToolStripMenuItem.Click
         Dim opennotepad As New formnotepad
         opennotepad.Show()

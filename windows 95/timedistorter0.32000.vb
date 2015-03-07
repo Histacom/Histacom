@@ -39,19 +39,19 @@
         Me.Height = Cursor.Position.Y - Me.Location.Y
     End Sub
 
-    Private Sub Rightpull_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles right.MouseDown
+    Private Sub Rightpull_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles rightborder.MouseDown
         pullside.Start()
     End Sub
 
-    Private Sub rightpull_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles right.MouseUp
+    Private Sub rightpull_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles rightborder.MouseUp
         pullside.Stop()
     End Sub
 
-    Private Sub bottompull_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles bottom.MouseDown
+    Private Sub bottompull_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles bottomborder.MouseDown
         pullbottom.Start()
     End Sub
 
-    Private Sub buttompull_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles bottom.MouseUp
+    Private Sub buttompull_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles bottomborder.MouseUp
         pullbottom.Stop()
     End Sub
 
@@ -71,9 +71,9 @@
             meheight = Me.Height
             bottomrightcorner.Hide()
             bottomleftcorner.Hide()
-            left.Hide()
-            bottom.Hide()
-            right.Hide()
+            leftborder.Hide()
+            bottomborder.Hide()
+            rightborder.Hide()
             Dim w, h As Integer
             w = Windows2000.desktopicons.Width
             h = Windows2000.desktopicons.Height
@@ -87,9 +87,9 @@
         Else
             bottomrightcorner.Show()
             bottomleftcorner.Show()
-            left.Show()
-            bottom.Show()
-            right.Show()
+            leftborder.Show()
+            bottomborder.Show()
+            rightborder.Show()
             Me.Location = New Point(mexlocation, meylocation)
             Me.Size = New Size(mewidth, meheight)
             moveable = True
@@ -101,8 +101,8 @@
     End Sub
 
     Private Sub look_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles look.Tick
-        Me.top.BackColor = Windowsxp2002damaged.top.BackColor
-        Me.top.BackgroundImage = Windowsxp2002damaged.top.BackgroundImage
+        Me.topborder.BackColor = Windowsxp2002damaged.top.BackColor
+        Me.topborder.BackgroundImage = Windowsxp2002damaged.top.BackgroundImage
         Me.programname.ForeColor = Windowsxp2002damaged.programname.ForeColor
     End Sub
 

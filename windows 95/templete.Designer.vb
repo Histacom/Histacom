@@ -33,10 +33,10 @@ Partial Class templete95and98
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
         Me.bottomleftcorner = New System.Windows.Forms.Panel()
         Me.topleftcorner = New System.Windows.Forms.Panel()
-        Me.left = New System.Windows.Forms.Panel()
-        Me.bottom = New System.Windows.Forms.Panel()
-        Me.right = New System.Windows.Forms.Panel()
-        Me.top = New System.Windows.Forms.Panel()
+        Me.leftborder = New System.Windows.Forms.Panel()
+        Me.bottomborder = New System.Windows.Forms.Panel()
+        Me.rightborder = New System.Windows.Forms.Panel()
+        Me.topborder = New System.Windows.Forms.Panel()
         Me.pullbs = New System.Windows.Forms.Timer(Me.components)
         Me.pullbottom = New System.Windows.Forms.Timer(Me.components)
         Me.pullside = New System.Windows.Forms.Timer(Me.components)
@@ -56,10 +56,10 @@ Partial Class templete95and98
         Me.program.Controls.Add(Me.bottomrightcorner)
         Me.program.Controls.Add(Me.bottomleftcorner)
         Me.program.Controls.Add(Me.topleftcorner)
-        Me.program.Controls.Add(Me.left)
-        Me.program.Controls.Add(Me.bottom)
-        Me.program.Controls.Add(Me.right)
-        Me.program.Controls.Add(Me.top)
+        Me.program.Controls.Add(Me.leftborder)
+        Me.program.Controls.Add(Me.bottomborder)
+        Me.program.Controls.Add(Me.rightborder)
+        Me.program.Controls.Add(Me.topborder)
         Me.program.Location = New System.Drawing.Point(0, 0)
         Me.program.Name = "program"
         Me.program.Size = New System.Drawing.Size(359, 310)
@@ -157,41 +157,41 @@ Partial Class templete95and98
         '
         'left
         '
-        Me.left.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95leftside
-        Me.left.Dock = System.Windows.Forms.DockStyle.Left
-        Me.left.Location = New System.Drawing.Point(0, 4)
-        Me.left.Name = "left"
-        Me.left.Size = New System.Drawing.Size(4, 302)
-        Me.left.TabIndex = 3
+        Me.leftborder.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95leftside
+        Me.leftborder.Dock = System.Windows.Forms.DockStyle.Left
+        Me.leftborder.Location = New System.Drawing.Point(0, 4)
+        Me.leftborder.Name = "left"
+        Me.leftborder.Size = New System.Drawing.Size(4, 302)
+        Me.leftborder.TabIndex = 3
         '
         'bottom
         '
-        Me.bottom.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95bottom
-        Me.bottom.Cursor = System.Windows.Forms.Cursors.SizeNS
-        Me.bottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.bottom.Location = New System.Drawing.Point(0, 306)
-        Me.bottom.Name = "bottom"
-        Me.bottom.Size = New System.Drawing.Size(355, 4)
-        Me.bottom.TabIndex = 5
+        Me.bottomborder.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95bottom
+        Me.bottomborder.Cursor = System.Windows.Forms.Cursors.SizeNS
+        Me.bottomborder.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.bottomborder.Location = New System.Drawing.Point(0, 306)
+        Me.bottomborder.Name = "bottom"
+        Me.bottomborder.Size = New System.Drawing.Size(355, 4)
+        Me.bottomborder.TabIndex = 5
         '
         'right
         '
-        Me.right.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95rightside
-        Me.right.Cursor = System.Windows.Forms.Cursors.SizeWE
-        Me.right.Dock = System.Windows.Forms.DockStyle.Right
-        Me.right.Location = New System.Drawing.Point(355, 4)
-        Me.right.Name = "right"
-        Me.right.Size = New System.Drawing.Size(4, 306)
-        Me.right.TabIndex = 7
+        Me.rightborder.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95rightside
+        Me.rightborder.Cursor = System.Windows.Forms.Cursors.SizeWE
+        Me.rightborder.Dock = System.Windows.Forms.DockStyle.Right
+        Me.rightborder.Location = New System.Drawing.Point(355, 4)
+        Me.rightborder.Name = "right"
+        Me.rightborder.Size = New System.Drawing.Size(4, 306)
+        Me.rightborder.TabIndex = 7
         '
         'top
         '
-        Me.top.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95top
-        Me.top.Dock = System.Windows.Forms.DockStyle.Top
-        Me.top.Location = New System.Drawing.Point(0, 0)
-        Me.top.Name = "top"
-        Me.top.Size = New System.Drawing.Size(359, 4)
-        Me.top.TabIndex = 8
+        Me.topborder.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95top
+        Me.topborder.Dock = System.Windows.Forms.DockStyle.Top
+        Me.topborder.Location = New System.Drawing.Point(0, 0)
+        Me.topborder.Name = "top"
+        Me.topborder.Size = New System.Drawing.Size(359, 4)
+        Me.topborder.TabIndex = 8
         '
         'pullbs
         '
@@ -235,12 +235,12 @@ Partial Class templete95and98
     Friend WithEvents closebutton As System.Windows.Forms.PictureBox
     Friend WithEvents topleftcorner As System.Windows.Forms.Panel
     Friend WithEvents bottomleftcorner As System.Windows.Forms.Panel
-    Friend WithEvents left As System.Windows.Forms.Panel
+    Friend WithEvents leftborder As System.Windows.Forms.Panel
     Friend WithEvents bottomrightcorner As System.Windows.Forms.Panel
-    Friend WithEvents bottom As System.Windows.Forms.Panel
+    Friend WithEvents bottomborder As System.Windows.Forms.Panel
     Friend WithEvents toprightcorner As System.Windows.Forms.Panel
-    Friend WithEvents right As System.Windows.Forms.Panel
-    Friend WithEvents top As System.Windows.Forms.Panel
+    Friend WithEvents rightborder As System.Windows.Forms.Panel
+    Friend WithEvents topborder As System.Windows.Forms.Panel
     Friend WithEvents pullbs As System.Windows.Forms.Timer
     Friend WithEvents pullbottom As System.Windows.Forms.Timer
     Friend WithEvents pullside As System.Windows.Forms.Timer
