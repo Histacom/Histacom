@@ -5,7 +5,7 @@
     Dim maximize As Boolean
 
     Private Sub programtopbar_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles top.MouseDown
-        If moveable = True Then
+        If moveable Then
             If e.Button = MouseButtons.Left Then
                 top.Capture = False
                 Const WM_NCLBUTTONDOWN As Integer = &HA1S
@@ -15,7 +15,6 @@
                         New IntPtr(HTCAPTION), IntPtr.Zero)
                 Me.DefWndProc(msg)
             End If
-        Else
         End If
     End Sub
 
@@ -62,7 +61,7 @@
     End Sub
 
     Private Sub maximizebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles maximizebutton.Click
-        If maximize = False Then
+        If Not maximize Then
             meylocation = Windowsxp2002damaged.desktopicons.Height - Me.Height
             mexlocation = Windowsxp2002damaged.desktopicons.Width - Me.Width
             mewidth = Me.Width

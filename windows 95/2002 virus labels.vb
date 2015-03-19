@@ -1,7 +1,7 @@
 ﻿Public Class _2002_virus_labels
     Dim white As Boolean = True
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
-        If white = True Then
+        If white Then
             original.ForeColor = Color.Black
             white = False
         Else
