@@ -51,16 +51,6 @@ Partial Class formcalculator
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.MenuStrip2 = New System.Windows.Forms.MenuStrip()
-        Me.EditToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CopyCtrlCToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PasteCtrlVToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HelpToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ScientificToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.StandardToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HelpToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HelpTopicsToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AboutCalculatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.look = New System.Windows.Forms.Timer(Me.components)
         Me.pullbs = New System.Windows.Forms.Timer(Me.components)
         Me.pullbottom = New System.Windows.Forms.Timer(Me.components)
@@ -79,18 +69,28 @@ Partial Class formcalculator
         Me.bottom = New System.Windows.Forms.Panel()
         Me.right = New System.Windows.Forms.Panel()
         Me.top = New System.Windows.Forms.Panel()
-        Me.MenuStrip2.SuspendLayout()
+        Me.EditToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CopyCtrlCToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PasteCtrlVToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ScientificToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.StandardToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpTopicsToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutCalculatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuStrip2 = New System.Windows.Forms.MenuStrip()
         Me.program.SuspendLayout()
         Me.programtopbar.SuspendLayout()
         CType(Me.maximizebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.minimizebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip2.SuspendLayout()
         Me.SuspendLayout()
         '
         'TextBox1
         '
         Me.TextBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(18, 53)
         Me.TextBox1.Multiline = True
@@ -424,79 +424,8 @@ Partial Class formcalculator
         Me.Button1.Text = "MR"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'MenuStrip2
+        'look
         '
-        Me.MenuStrip2.BackColor = System.Drawing.Color.Silver
-        Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EditToolStripMenuItem1, Me.HelpToolStripMenuItem2, Me.HelpToolStripMenuItem3})
-        Me.MenuStrip2.Location = New System.Drawing.Point(4, 22)
-        Me.MenuStrip2.Name = "MenuStrip2"
-        Me.MenuStrip2.Size = New System.Drawing.Size(300, 24)
-        Me.MenuStrip2.TabIndex = 28
-        Me.MenuStrip2.Text = "MenuStrip2"
-        '
-        'EditToolStripMenuItem1
-        '
-        Me.EditToolStripMenuItem1.BackColor = System.Drawing.Color.Silver
-        Me.EditToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CopyCtrlCToolStripMenuItem1, Me.PasteCtrlVToolStripMenuItem1})
-        Me.EditToolStripMenuItem1.Name = "EditToolStripMenuItem1"
-        Me.EditToolStripMenuItem1.Size = New System.Drawing.Size(39, 20)
-        Me.EditToolStripMenuItem1.Text = "Edit"
-        '
-        'CopyCtrlCToolStripMenuItem1
-        '
-        Me.CopyCtrlCToolStripMenuItem1.BackColor = System.Drawing.Color.Silver
-        Me.CopyCtrlCToolStripMenuItem1.Name = "CopyCtrlCToolStripMenuItem1"
-        Me.CopyCtrlCToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
-        Me.CopyCtrlCToolStripMenuItem1.Text = "Copy       Ctrl+C"
-        '
-        'PasteCtrlVToolStripMenuItem1
-        '
-        Me.PasteCtrlVToolStripMenuItem1.BackColor = System.Drawing.Color.Silver
-        Me.PasteCtrlVToolStripMenuItem1.Name = "PasteCtrlVToolStripMenuItem1"
-        Me.PasteCtrlVToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
-        Me.PasteCtrlVToolStripMenuItem1.Text = "Paste       Ctrl+V"
-        '
-        'HelpToolStripMenuItem2
-        '
-        Me.HelpToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ScientificToolStripMenuItem, Me.StandardToolStripMenuItem})
-        Me.HelpToolStripMenuItem2.Name = "HelpToolStripMenuItem2"
-        Me.HelpToolStripMenuItem2.Size = New System.Drawing.Size(44, 20)
-        Me.HelpToolStripMenuItem2.Text = "Veiw"
-        '
-        'ScientificToolStripMenuItem
-        '
-        Me.ScientificToolStripMenuItem.BackColor = System.Drawing.Color.Silver
-        Me.ScientificToolStripMenuItem.Name = "ScientificToolStripMenuItem"
-        Me.ScientificToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
-        Me.ScientificToolStripMenuItem.Text = "Scientific"
-        '
-        'StandardToolStripMenuItem
-        '
-        Me.StandardToolStripMenuItem.BackColor = System.Drawing.Color.Silver
-        Me.StandardToolStripMenuItem.Name = "StandardToolStripMenuItem"
-        Me.StandardToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
-        Me.StandardToolStripMenuItem.Text = "Standard"
-        '
-        'HelpToolStripMenuItem3
-        '
-        Me.HelpToolStripMenuItem3.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HelpTopicsToolStripMenuItem1, Me.AboutCalculatorToolStripMenuItem})
-        Me.HelpToolStripMenuItem3.Name = "HelpToolStripMenuItem3"
-        Me.HelpToolStripMenuItem3.Size = New System.Drawing.Size(44, 20)
-        Me.HelpToolStripMenuItem3.Text = "Help"
-        '
-        'HelpTopicsToolStripMenuItem1
-        '
-        Me.HelpTopicsToolStripMenuItem1.BackColor = System.Drawing.Color.Silver
-        Me.HelpTopicsToolStripMenuItem1.Name = "HelpTopicsToolStripMenuItem1"
-        Me.HelpTopicsToolStripMenuItem1.Size = New System.Drawing.Size(164, 22)
-        Me.HelpTopicsToolStripMenuItem1.Text = "Help Topics"
-        '
-        'AboutCalculatorToolStripMenuItem
-        '
-        Me.AboutCalculatorToolStripMenuItem.BackColor = System.Drawing.Color.Silver
-        Me.AboutCalculatorToolStripMenuItem.Name = "AboutCalculatorToolStripMenuItem"
-        Me.AboutCalculatorToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
-        Me.AboutCalculatorToolStripMenuItem.Text = "About Calculator"
         '
         'pullbs
         '
@@ -685,6 +614,80 @@ Partial Class formcalculator
         Me.top.Size = New System.Drawing.Size(308, 4)
         Me.top.TabIndex = 8
         '
+        'EditToolStripMenuItem1
+        '
+        Me.EditToolStripMenuItem1.BackColor = System.Drawing.Color.Silver
+        Me.EditToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CopyCtrlCToolStripMenuItem1, Me.PasteCtrlVToolStripMenuItem1})
+        Me.EditToolStripMenuItem1.Name = "EditToolStripMenuItem1"
+        Me.EditToolStripMenuItem1.Size = New System.Drawing.Size(39, 20)
+        Me.EditToolStripMenuItem1.Text = "Edit"
+        '
+        'CopyCtrlCToolStripMenuItem1
+        '
+        Me.CopyCtrlCToolStripMenuItem1.BackColor = System.Drawing.Color.Silver
+        Me.CopyCtrlCToolStripMenuItem1.Name = "CopyCtrlCToolStripMenuItem1"
+        Me.CopyCtrlCToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
+        Me.CopyCtrlCToolStripMenuItem1.Text = "Copy       Ctrl+C"
+        '
+        'PasteCtrlVToolStripMenuItem1
+        '
+        Me.PasteCtrlVToolStripMenuItem1.BackColor = System.Drawing.Color.Silver
+        Me.PasteCtrlVToolStripMenuItem1.Name = "PasteCtrlVToolStripMenuItem1"
+        Me.PasteCtrlVToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
+        Me.PasteCtrlVToolStripMenuItem1.Text = "Paste       Ctrl+V"
+        '
+        'HelpToolStripMenuItem2
+        '
+        Me.HelpToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ScientificToolStripMenuItem, Me.StandardToolStripMenuItem})
+        Me.HelpToolStripMenuItem2.Name = "HelpToolStripMenuItem2"
+        Me.HelpToolStripMenuItem2.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem2.Text = "Veiw"
+        '
+        'ScientificToolStripMenuItem
+        '
+        Me.ScientificToolStripMenuItem.BackColor = System.Drawing.Color.Silver
+        Me.ScientificToolStripMenuItem.Name = "ScientificToolStripMenuItem"
+        Me.ScientificToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.ScientificToolStripMenuItem.Text = "Scientific"
+        '
+        'StandardToolStripMenuItem
+        '
+        Me.StandardToolStripMenuItem.BackColor = System.Drawing.Color.Silver
+        Me.StandardToolStripMenuItem.Name = "StandardToolStripMenuItem"
+        Me.StandardToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.StandardToolStripMenuItem.Text = "Standard"
+        '
+        'HelpToolStripMenuItem3
+        '
+        Me.HelpToolStripMenuItem3.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HelpTopicsToolStripMenuItem1, Me.AboutCalculatorToolStripMenuItem})
+        Me.HelpToolStripMenuItem3.Name = "HelpToolStripMenuItem3"
+        Me.HelpToolStripMenuItem3.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem3.Text = "Help"
+        '
+        'HelpTopicsToolStripMenuItem1
+        '
+        Me.HelpTopicsToolStripMenuItem1.BackColor = System.Drawing.Color.Silver
+        Me.HelpTopicsToolStripMenuItem1.Name = "HelpTopicsToolStripMenuItem1"
+        Me.HelpTopicsToolStripMenuItem1.Size = New System.Drawing.Size(164, 22)
+        Me.HelpTopicsToolStripMenuItem1.Text = "Help Topics"
+        '
+        'AboutCalculatorToolStripMenuItem
+        '
+        Me.AboutCalculatorToolStripMenuItem.BackColor = System.Drawing.Color.Silver
+        Me.AboutCalculatorToolStripMenuItem.Name = "AboutCalculatorToolStripMenuItem"
+        Me.AboutCalculatorToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
+        Me.AboutCalculatorToolStripMenuItem.Text = "About Calculator"
+        '
+        'MenuStrip2
+        '
+        Me.MenuStrip2.BackColor = System.Drawing.Color.Silver
+        Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EditToolStripMenuItem1, Me.HelpToolStripMenuItem2, Me.HelpToolStripMenuItem3})
+        Me.MenuStrip2.Location = New System.Drawing.Point(4, 22)
+        Me.MenuStrip2.Name = "MenuStrip2"
+        Me.MenuStrip2.Size = New System.Drawing.Size(300, 24)
+        Me.MenuStrip2.TabIndex = 28
+        Me.MenuStrip2.Text = "MenuStrip2"
+        '
         'formcalculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -695,8 +698,6 @@ Partial Class formcalculator
         Me.Name = "formcalculator"
         Me.Text = "formcalculator"
         Me.TopMost = True
-        Me.MenuStrip2.ResumeLayout(False)
-        Me.MenuStrip2.PerformLayout()
         Me.program.ResumeLayout(False)
         Me.program.PerformLayout()
         Me.programtopbar.ResumeLayout(False)
@@ -704,6 +705,8 @@ Partial Class formcalculator
         CType(Me.maximizebutton, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.minimizebutton, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.closebutton, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuStrip2.ResumeLayout(False)
+        Me.MenuStrip2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -735,16 +738,6 @@ Partial Class formcalculator
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents MenuStrip2 As System.Windows.Forms.MenuStrip
-    Friend WithEvents EditToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents CopyCtrlCToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents PasteCtrlVToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents HelpToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ScientificToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents StandardToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents HelpToolStripMenuItem3 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents HelpTopicsToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents AboutCalculatorToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents look As System.Windows.Forms.Timer
     Friend WithEvents pullbs As System.Windows.Forms.Timer
     Friend WithEvents pullbottom As System.Windows.Forms.Timer
@@ -763,4 +756,14 @@ Partial Class formcalculator
     Friend WithEvents bottom As System.Windows.Forms.Panel
     Friend WithEvents right As System.Windows.Forms.Panel
     Friend WithEvents top As System.Windows.Forms.Panel
+    Friend WithEvents MenuStrip2 As MenuStrip
+    Friend WithEvents EditToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents CopyCtrlCToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents PasteCtrlVToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents HelpToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents ScientificToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents StandardToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents HelpToolStripMenuItem3 As ToolStripMenuItem
+    Friend WithEvents HelpTopicsToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents AboutCalculatorToolStripMenuItem As ToolStripMenuItem
 End Class

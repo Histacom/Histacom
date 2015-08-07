@@ -10,7 +10,7 @@
     Dim randnumb As New Random
 
     Private Sub Guess_The_Number_app_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        thenumber = randnumb.Next(1, 101)
+        thenumber = randnumb.Next(1, 100)
         look.Start()
     End Sub
 
@@ -198,6 +198,10 @@
             maximizebutton.Image = My.Resources.Maximize
             maximize = False
         End If
+    End Sub
+
+    Private Sub program_Paint(sender As Object, e As PaintEventArgs) Handles program.Paint
+
     End Sub
 
     Private Sub look_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles look.Tick

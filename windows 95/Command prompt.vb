@@ -103,6 +103,10 @@
         End If
     End Sub
 
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+
+    End Sub
+
     Private Sub look_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles look.Tick
         Me.programtopbar.BackColor = Windows95.exampleprogramtopbar.BackColor
         Me.programtopbar.BackgroundImage = Windows95.exampleprogramtopbar.BackgroundImage

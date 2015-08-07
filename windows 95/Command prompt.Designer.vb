@@ -61,6 +61,9 @@ Partial Class Command_prompt
         Me.TextBox1.Size = New System.Drawing.Size(405, 189)
         Me.TextBox1.TabIndex = 6
         '
+        'look
+        '
+        '
         'pullbs
         '
         Me.pullbs.Interval = 1

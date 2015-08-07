@@ -75,13 +75,14 @@ Partial Class Webchat1998
         'Label7
         '
         Me.Label7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(22, 33)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(389, 13)
+        Me.Label7.Size = New System.Drawing.Size(454, 13)
         Me.Label7.TabIndex = 18
-        Me.Label7.Text = "To Speak Just type a message in the bottom textbox then press the speak button"
+        Me.Label7.Text = "To speak, just type a message in the bottom textbox then press the speak button o" &
+    "r press enter"
         '
         'Label6
         '
@@ -174,9 +175,9 @@ Partial Class Webchat1998
         Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(151, 86)
         Me.TextBox2.TabIndex = 6
-        Me.TextBox2.Text = "A screen name is a tempary name which will be displayed in place of your real nam" & _
-            "e. To keep your identity safe please do not enter your real name in this chatroo" & _
-            "m" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.TextBox2.Text = "A screen name is a temporary name which will be displayed in place of your real n" &
+    "ame. To keep your identity safe please do not enter your real name in this chatr" &
+    "oom" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'TextBox1
         '
@@ -226,14 +227,14 @@ Partial Class Webchat1998
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(328, 161)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(154, 13)
+        Me.Label2.Size = New System.Drawing.Size(150, 13)
         Me.Label2.TabIndex = 0
-        Me.Label2.Text = "Please Type in a Screen Name"
+        Me.Label2.Text = "Please Type in a screen name"
         '
         'typechat
         '
         Me.typechat.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.typechat.Location = New System.Drawing.Point(20, 435)
         Me.typechat.Name = "typechat"
         Me.typechat.Size = New System.Drawing.Size(395, 20)
@@ -242,8 +243,8 @@ Partial Class Webchat1998
         'history
         '
         Me.history.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.history.Location = New System.Drawing.Point(22, 52)
         Me.history.Multiline = True
         Me.history.Name = "history"
@@ -265,7 +266,7 @@ Partial Class Webchat1998
         'ListBox1
         '
         Me.ListBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Location = New System.Drawing.Point(504, 52)
         Me.ListBox1.Name = "ListBox1"

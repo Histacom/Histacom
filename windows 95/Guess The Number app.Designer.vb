@@ -101,7 +101,7 @@ Partial Class Guess_The_Number_app
         'txtGuessedNumber
         '
         Me.txtGuessedNumber.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtGuessedNumber.Location = New System.Drawing.Point(136, 65)
         Me.txtGuessedNumber.Name = "txtGuessedNumber"
         Me.txtGuessedNumber.Size = New System.Drawing.Size(43, 20)
@@ -132,6 +132,9 @@ Partial Class Guess_The_Number_app
         'selector
         '
         Me.selector.Interval = 1000
+        '
+        'look
+        '
         '
         'pullbs
         '

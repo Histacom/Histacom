@@ -309,30 +309,11 @@ Partial Class Skindows_95
         Me.captionbarimagestop = New System.Windows.Forms.Panel()
         Me.themeslabel = New System.Windows.Forms.Label()
         Me.captionbarimages = New System.Windows.Forms.Panel()
-        Me.Panel23 = New System.Windows.Forms.Panel()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Panel22 = New System.Windows.Forms.Panel()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Panel21 = New System.Windows.Forms.Panel()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.Panel20 = New System.Windows.Forms.Panel()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Panel19 = New System.Windows.Forms.Panel()
-        Me.Label29 = New System.Windows.Forms.Label()
-        Me.Panel18 = New System.Windows.Forms.Panel()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.Panel17 = New System.Windows.Forms.Panel()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.Panel16 = New System.Windows.Forms.Panel()
-        Me.Label26 = New System.Windows.Forms.Label()
         Me.Panel15 = New System.Windows.Forms.Panel()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.exampletopbar = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.captionbarcolorstop = New System.Windows.Forms.Panel()
@@ -341,7 +322,6 @@ Partial Class Skindows_95
         Me.Label68 = New System.Windows.Forms.Label()
         Me.Panel59 = New System.Windows.Forms.Panel()
         Me.taskbar = New System.Windows.Forms.Panel()
-        Me.startbutton = New System.Windows.Forms.PictureBox()
         Me.taskbartime = New System.Windows.Forms.Label()
         Me.Label67 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -352,22 +332,6 @@ Partial Class Skindows_95
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel25 = New System.Windows.Forms.Panel()
         Me.Panel26 = New System.Windows.Forms.Panel()
-        Me.Panel27 = New System.Windows.Forms.Panel()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.Panel28 = New System.Windows.Forms.Panel()
-        Me.Label37 = New System.Windows.Forms.Label()
-        Me.Panel29 = New System.Windows.Forms.Panel()
-        Me.Label38 = New System.Windows.Forms.Label()
-        Me.Panel30 = New System.Windows.Forms.Panel()
-        Me.Label39 = New System.Windows.Forms.Label()
-        Me.Panel31 = New System.Windows.Forms.Panel()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.Panel32 = New System.Windows.Forms.Panel()
-        Me.Label41 = New System.Windows.Forms.Label()
-        Me.Panel33 = New System.Windows.Forms.Panel()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Panel34 = New System.Windows.Forms.Panel()
-        Me.Label43 = New System.Windows.Forms.Label()
         Me.Panel35 = New System.Windows.Forms.Panel()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.Panel36 = New System.Windows.Forms.Panel()
@@ -410,10 +374,7 @@ Partial Class Skindows_95
         Me.Panel55 = New System.Windows.Forms.Panel()
         Me.Label63 = New System.Windows.Forms.Label()
         Me.Panel56 = New System.Windows.Forms.Panel()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.Label64 = New System.Windows.Forms.Label()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Panel57 = New System.Windows.Forms.Panel()
         Me.Label65 = New System.Windows.Forms.Label()
         Me.Panel58 = New System.Windows.Forms.Panel()
@@ -425,10 +386,31 @@ Partial Class Skindows_95
         Me.pullside = New System.Windows.Forms.Timer(Me.components)
         Me.program = New System.Windows.Forms.Panel()
         Me.programtopbar = New System.Windows.Forms.Panel()
+        Me.programname = New System.Windows.Forms.Label()
         Me.maximizebutton = New System.Windows.Forms.PictureBox()
         Me.minimizebutton = New System.Windows.Forms.PictureBox()
-        Me.programname = New System.Windows.Forms.Label()
         Me.closebutton = New System.Windows.Forms.PictureBox()
+        Me.Panel23 = New System.Windows.Forms.Panel()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Panel22 = New System.Windows.Forms.Panel()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Panel21 = New System.Windows.Forms.Panel()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Panel20 = New System.Windows.Forms.Panel()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Panel19 = New System.Windows.Forms.Panel()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Panel18 = New System.Windows.Forms.Panel()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Panel17 = New System.Windows.Forms.Panel()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.startbutton = New System.Windows.Forms.PictureBox()
         Me.toprightcorner = New System.Windows.Forms.Panel()
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
         Me.bottomleftcorner = New System.Windows.Forms.Panel()
@@ -437,6 +419,25 @@ Partial Class Skindows_95
         Me.bottom = New System.Windows.Forms.Panel()
         Me.right = New System.Windows.Forms.Panel()
         Me.top = New System.Windows.Forms.Panel()
+        Me.Panel27 = New System.Windows.Forms.Panel()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Panel28 = New System.Windows.Forms.Panel()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Panel29 = New System.Windows.Forms.Panel()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Panel30 = New System.Windows.Forms.Panel()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.Panel31 = New System.Windows.Forms.Panel()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Panel32 = New System.Windows.Forms.Panel()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Panel33 = New System.Windows.Forms.Panel()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Panel34 = New System.Windows.Forms.Panel()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.Panel118.SuspendLayout()
@@ -582,36 +583,16 @@ Partial Class Skindows_95
         Me.Panel142.SuspendLayout()
         Me.captionbarimagestop.SuspendLayout()
         Me.captionbarimages.SuspendLayout()
-        Me.Panel23.SuspendLayout()
-        Me.Panel22.SuspendLayout()
-        Me.Panel21.SuspendLayout()
-        Me.Panel20.SuspendLayout()
-        Me.Panel19.SuspendLayout()
-        Me.Panel18.SuspendLayout()
-        Me.Panel17.SuspendLayout()
-        Me.Panel16.SuspendLayout()
         Me.Panel15.SuspendLayout()
         Me.exampletopbar.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         Me.captionbarcolorstop.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.Panel59.SuspendLayout()
         Me.taskbar.SuspendLayout()
-        CType(Me.startbutton, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel24.SuspendLayout()
         Me.Panel25.SuspendLayout()
         Me.Panel26.SuspendLayout()
-        Me.Panel27.SuspendLayout()
-        Me.Panel28.SuspendLayout()
-        Me.Panel29.SuspendLayout()
-        Me.Panel30.SuspendLayout()
-        Me.Panel31.SuspendLayout()
-        Me.Panel32.SuspendLayout()
-        Me.Panel33.SuspendLayout()
-        Me.Panel34.SuspendLayout()
         Me.Panel35.SuspendLayout()
         Me.Panel36.SuspendLayout()
         Me.Panel37.SuspendLayout()
@@ -634,9 +615,6 @@ Partial Class Skindows_95
         Me.Panel54.SuspendLayout()
         Me.Panel55.SuspendLayout()
         Me.Panel56.SuspendLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel57.SuspendLayout()
         Me.Panel58.SuspendLayout()
         Me.program.SuspendLayout()
@@ -644,13 +622,37 @@ Partial Class Skindows_95
         CType(Me.maximizebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.minimizebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel23.SuspendLayout()
+        Me.Panel22.SuspendLayout()
+        Me.Panel21.SuspendLayout()
+        Me.Panel20.SuspendLayout()
+        Me.Panel19.SuspendLayout()
+        Me.Panel18.SuspendLayout()
+        Me.Panel17.SuspendLayout()
+        Me.Panel16.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.startbutton, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel27.SuspendLayout()
+        Me.Panel28.SuspendLayout()
+        Me.Panel29.SuspendLayout()
+        Me.Panel30.SuspendLayout()
+        Me.Panel31.SuspendLayout()
+        Me.Panel32.SuspendLayout()
+        Me.Panel33.SuspendLayout()
+        Me.Panel34.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabControl1
         '
         Me.TabControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Location = New System.Drawing.Point(13, 51)
@@ -679,8 +681,8 @@ Partial Class Skindows_95
         'Panel118
         '
         Me.Panel118.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel118.AutoScroll = True
         Me.Panel118.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.Panel118.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -832,13 +834,13 @@ Partial Class Skindows_95
         'Panel68
         '
         Me.Panel68.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel68.BackColor = System.Drawing.Color.LightCoral
         Me.Panel68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel68.Controls.Add(Me.Label80)
         Me.Panel68.Location = New System.Drawing.Point(2, 642)
         Me.Panel68.Name = "Panel68"
-        Me.Panel68.Size = New System.Drawing.Size(157, 34)
+        Me.Panel68.Size = New System.Drawing.Size(123, 34)
         Me.Panel68.TabIndex = 32
         '
         'Label80
@@ -855,13 +857,13 @@ Partial Class Skindows_95
         'Panel67
         '
         Me.Panel67.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel67.BackColor = System.Drawing.Color.Snow
         Me.Panel67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel67.Controls.Add(Me.Label79)
         Me.Panel67.Location = New System.Drawing.Point(3, 602)
         Me.Panel67.Name = "Panel67"
-        Me.Panel67.Size = New System.Drawing.Size(157, 34)
+        Me.Panel67.Size = New System.Drawing.Size(123, 34)
         Me.Panel67.TabIndex = 31
         '
         'Label79
@@ -878,13 +880,13 @@ Partial Class Skindows_95
         'Panel63
         '
         Me.Panel63.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel63.BackColor = System.Drawing.Color.IndianRed
         Me.Panel63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel63.Controls.Add(Me.Label75)
         Me.Panel63.Location = New System.Drawing.Point(3, 563)
         Me.Panel63.Name = "Panel63"
-        Me.Panel63.Size = New System.Drawing.Size(157, 34)
+        Me.Panel63.Size = New System.Drawing.Size(123, 34)
         Me.Panel63.TabIndex = 30
         '
         'Label75
@@ -901,13 +903,13 @@ Partial Class Skindows_95
         'Panel61
         '
         Me.Panel61.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel61.BackColor = System.Drawing.Color.DarkRed
         Me.Panel61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel61.Controls.Add(Me.Label73)
         Me.Panel61.Location = New System.Drawing.Point(3, 403)
         Me.Panel61.Name = "Panel61"
-        Me.Panel61.Size = New System.Drawing.Size(157, 34)
+        Me.Panel61.Size = New System.Drawing.Size(123, 34)
         Me.Panel61.TabIndex = 26
         '
         'Label73
@@ -924,13 +926,13 @@ Partial Class Skindows_95
         'Panel64
         '
         Me.Panel64.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel64.BackColor = System.Drawing.Color.Brown
         Me.Panel64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel64.Controls.Add(Me.Label76)
         Me.Panel64.Location = New System.Drawing.Point(3, 483)
         Me.Panel64.Name = "Panel64"
-        Me.Panel64.Size = New System.Drawing.Size(157, 34)
+        Me.Panel64.Size = New System.Drawing.Size(123, 34)
         Me.Panel64.TabIndex = 28
         '
         'Label76
@@ -947,13 +949,13 @@ Partial Class Skindows_95
         'Panel60
         '
         Me.Panel60.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel60.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Panel60.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel60.Controls.Add(Me.Label71)
         Me.Panel60.Location = New System.Drawing.Point(3, 323)
         Me.Panel60.Name = "Panel60"
-        Me.Panel60.Size = New System.Drawing.Size(157, 34)
+        Me.Panel60.Size = New System.Drawing.Size(123, 34)
         Me.Panel60.TabIndex = 24
         '
         'Label71
@@ -970,13 +972,13 @@ Partial Class Skindows_95
         'Panel65
         '
         Me.Panel65.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel65.BackColor = System.Drawing.Color.Firebrick
         Me.Panel65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel65.Controls.Add(Me.Label77)
         Me.Panel65.Location = New System.Drawing.Point(3, 523)
         Me.Panel65.Name = "Panel65"
-        Me.Panel65.Size = New System.Drawing.Size(157, 34)
+        Me.Panel65.Size = New System.Drawing.Size(123, 34)
         Me.Panel65.TabIndex = 29
         '
         'Label77
@@ -993,13 +995,13 @@ Partial Class Skindows_95
         'Panel62
         '
         Me.Panel62.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel62.BackColor = System.Drawing.Color.Maroon
         Me.Panel62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel62.Controls.Add(Me.Label74)
         Me.Panel62.Location = New System.Drawing.Point(3, 363)
         Me.Panel62.Name = "Panel62"
-        Me.Panel62.Size = New System.Drawing.Size(157, 34)
+        Me.Panel62.Size = New System.Drawing.Size(123, 34)
         Me.Panel62.TabIndex = 25
         '
         'Label74
@@ -1016,13 +1018,13 @@ Partial Class Skindows_95
         'Panel66
         '
         Me.Panel66.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel66.BackColor = System.Drawing.Color.Red
         Me.Panel66.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel66.Controls.Add(Me.Label78)
         Me.Panel66.Location = New System.Drawing.Point(3, 443)
         Me.Panel66.Name = "Panel66"
-        Me.Panel66.Size = New System.Drawing.Size(157, 34)
+        Me.Panel66.Size = New System.Drawing.Size(123, 34)
         Me.Panel66.TabIndex = 27
         '
         'Label78
@@ -1039,13 +1041,13 @@ Partial Class Skindows_95
         'Panel148
         '
         Me.Panel148.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel148.BackColor = System.Drawing.Color.Gainsboro
         Me.Panel148.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel148.Controls.Add(Me.Label155)
         Me.Panel148.Location = New System.Drawing.Point(3, 283)
         Me.Panel148.Name = "Panel148"
-        Me.Panel148.Size = New System.Drawing.Size(157, 34)
+        Me.Panel148.Size = New System.Drawing.Size(123, 34)
         Me.Panel148.TabIndex = 23
         '
         'Label155
@@ -1062,13 +1064,13 @@ Partial Class Skindows_95
         'Panel146
         '
         Me.Panel146.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel146.BackColor = System.Drawing.Color.Gray
         Me.Panel146.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel146.Controls.Add(Me.Label153)
         Me.Panel146.Location = New System.Drawing.Point(2, 123)
         Me.Panel146.Name = "Panel146"
-        Me.Panel146.Size = New System.Drawing.Size(151, 34)
+        Me.Panel146.Size = New System.Drawing.Size(117, 34)
         Me.Panel146.TabIndex = 19
         '
         'Label153
@@ -1085,13 +1087,13 @@ Partial Class Skindows_95
         'Panel149
         '
         Me.Panel149.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel149.BackColor = System.Drawing.Color.Silver
         Me.Panel149.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel149.Controls.Add(Me.Label156)
         Me.Panel149.Location = New System.Drawing.Point(3, 203)
         Me.Panel149.Name = "Panel149"
-        Me.Panel149.Size = New System.Drawing.Size(151, 34)
+        Me.Panel149.Size = New System.Drawing.Size(117, 34)
         Me.Panel149.TabIndex = 21
         '
         'Label156
@@ -1108,13 +1110,13 @@ Partial Class Skindows_95
         'Panel145
         '
         Me.Panel145.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel145.BackColor = System.Drawing.Color.White
         Me.Panel145.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel145.Controls.Add(Me.Label152)
         Me.Panel145.Location = New System.Drawing.Point(2, 43)
         Me.Panel145.Name = "Panel145"
-        Me.Panel145.Size = New System.Drawing.Size(151, 34)
+        Me.Panel145.Size = New System.Drawing.Size(117, 34)
         Me.Panel145.TabIndex = 17
         '
         'Label152
@@ -1131,13 +1133,13 @@ Partial Class Skindows_95
         'Panel150
         '
         Me.Panel150.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel150.BackColor = System.Drawing.Color.LightGray
         Me.Panel150.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel150.Controls.Add(Me.Label157)
         Me.Panel150.Location = New System.Drawing.Point(3, 243)
         Me.Panel150.Name = "Panel150"
-        Me.Panel150.Size = New System.Drawing.Size(151, 34)
+        Me.Panel150.Size = New System.Drawing.Size(117, 34)
         Me.Panel150.TabIndex = 22
         '
         'Label157
@@ -1154,13 +1156,13 @@ Partial Class Skindows_95
         'Panel147
         '
         Me.Panel147.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel147.BackColor = System.Drawing.Color.DimGray
         Me.Panel147.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel147.Controls.Add(Me.Label154)
         Me.Panel147.Location = New System.Drawing.Point(2, 83)
         Me.Panel147.Name = "Panel147"
-        Me.Panel147.Size = New System.Drawing.Size(151, 34)
+        Me.Panel147.Size = New System.Drawing.Size(117, 34)
         Me.Panel147.TabIndex = 18
         '
         'Label154
@@ -1177,13 +1179,13 @@ Partial Class Skindows_95
         'Panel152
         '
         Me.Panel152.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel152.BackColor = System.Drawing.Color.DarkGray
         Me.Panel152.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel152.Controls.Add(Me.Label158)
         Me.Panel152.Location = New System.Drawing.Point(3, 163)
         Me.Panel152.Name = "Panel152"
-        Me.Panel152.Size = New System.Drawing.Size(151, 34)
+        Me.Panel152.Size = New System.Drawing.Size(117, 34)
         Me.Panel152.TabIndex = 20
         '
         'Label158
@@ -1200,14 +1202,14 @@ Partial Class Skindows_95
         'Panel144
         '
         Me.Panel144.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel144.BackColor = System.Drawing.Color.Black
         Me.Panel144.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel144.Controls.Add(Me.Label151)
         Me.Panel144.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Panel144.Location = New System.Drawing.Point(2, 3)
         Me.Panel144.Name = "Panel144"
-        Me.Panel144.Size = New System.Drawing.Size(151, 34)
+        Me.Panel144.Size = New System.Drawing.Size(117, 34)
         Me.Panel144.TabIndex = 16
         '
         'Label151
@@ -1224,13 +1226,13 @@ Partial Class Skindows_95
         'Panel151
         '
         Me.Panel151.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel151.BackColor = System.Drawing.Color.RosyBrown
         Me.Panel151.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel151.Controls.Add(Me.Label82)
         Me.Panel151.Location = New System.Drawing.Point(3, 683)
         Me.Panel151.Name = "Panel151"
-        Me.Panel151.Size = New System.Drawing.Size(157, 34)
+        Me.Panel151.Size = New System.Drawing.Size(123, 34)
         Me.Panel151.TabIndex = 15
         '
         'Label82
@@ -1247,13 +1249,13 @@ Partial Class Skindows_95
         'Panel75
         '
         Me.Panel75.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel75.BackColor = System.Drawing.Color.MistyRose
         Me.Panel75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel75.Controls.Add(Me.Label72)
         Me.Panel75.Location = New System.Drawing.Point(3, 723)
         Me.Panel75.Name = "Panel75"
-        Me.Panel75.Size = New System.Drawing.Size(157, 34)
+        Me.Panel75.Size = New System.Drawing.Size(123, 34)
         Me.Panel75.TabIndex = 14
         '
         'Label72
@@ -1270,13 +1272,13 @@ Partial Class Skindows_95
         'Panel255
         '
         Me.Panel255.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel255.BackColor = System.Drawing.Color.LightPink
         Me.Panel255.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel255.Controls.Add(Me.Label261)
         Me.Panel255.Location = New System.Drawing.Point(3, 5546)
         Me.Panel255.Name = "Panel255"
-        Me.Panel255.Size = New System.Drawing.Size(157, 34)
+        Me.Panel255.Size = New System.Drawing.Size(123, 34)
         Me.Panel255.TabIndex = 89
         '
         'Label261
@@ -1293,13 +1295,13 @@ Partial Class Skindows_95
         'Panel253
         '
         Me.Panel253.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel253.BackColor = System.Drawing.Color.LavenderBlush
         Me.Panel253.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel253.Controls.Add(Me.Label259)
         Me.Panel253.Location = New System.Drawing.Point(3, 5386)
         Me.Panel253.Name = "Panel253"
-        Me.Panel253.Size = New System.Drawing.Size(157, 34)
+        Me.Panel253.Size = New System.Drawing.Size(123, 34)
         Me.Panel253.TabIndex = 85
         '
         'Label259
@@ -1316,13 +1318,13 @@ Partial Class Skindows_95
         'Panel256
         '
         Me.Panel256.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel256.BackColor = System.Drawing.Color.Crimson
         Me.Panel256.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel256.Controls.Add(Me.Label262)
         Me.Panel256.Location = New System.Drawing.Point(3, 5467)
         Me.Panel256.Name = "Panel256"
-        Me.Panel256.Size = New System.Drawing.Size(157, 34)
+        Me.Panel256.Size = New System.Drawing.Size(123, 34)
         Me.Panel256.TabIndex = 87
         '
         'Label262
@@ -1339,13 +1341,13 @@ Partial Class Skindows_95
         'Panel252
         '
         Me.Panel252.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel252.BackColor = System.Drawing.Color.DeepPink
         Me.Panel252.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel252.Controls.Add(Me.Label258)
         Me.Panel252.Location = New System.Drawing.Point(3, 5307)
         Me.Panel252.Name = "Panel252"
-        Me.Panel252.Size = New System.Drawing.Size(157, 34)
+        Me.Panel252.Size = New System.Drawing.Size(123, 34)
         Me.Panel252.TabIndex = 83
         '
         'Label258
@@ -1362,13 +1364,13 @@ Partial Class Skindows_95
         'Panel257
         '
         Me.Panel257.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel257.BackColor = System.Drawing.Color.Pink
         Me.Panel257.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel257.Controls.Add(Me.Label263)
         Me.Panel257.Location = New System.Drawing.Point(3, 5506)
         Me.Panel257.Name = "Panel257"
-        Me.Panel257.Size = New System.Drawing.Size(157, 34)
+        Me.Panel257.Size = New System.Drawing.Size(123, 34)
         Me.Panel257.TabIndex = 88
         '
         'Label263
@@ -1385,13 +1387,13 @@ Partial Class Skindows_95
         'Panel254
         '
         Me.Panel254.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel254.BackColor = System.Drawing.Color.HotPink
         Me.Panel254.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel254.Controls.Add(Me.Label260)
         Me.Panel254.Location = New System.Drawing.Point(3, 5346)
         Me.Panel254.Name = "Panel254"
-        Me.Panel254.Size = New System.Drawing.Size(157, 34)
+        Me.Panel254.Size = New System.Drawing.Size(123, 34)
         Me.Panel254.TabIndex = 84
         '
         'Label260
@@ -1408,13 +1410,13 @@ Partial Class Skindows_95
         'Panel258
         '
         Me.Panel258.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel258.BackColor = System.Drawing.Color.PaleVioletRed
         Me.Panel258.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel258.Controls.Add(Me.Label264)
         Me.Panel258.Location = New System.Drawing.Point(3, 5427)
         Me.Panel258.Name = "Panel258"
-        Me.Panel258.Size = New System.Drawing.Size(157, 34)
+        Me.Panel258.Size = New System.Drawing.Size(123, 34)
         Me.Panel258.TabIndex = 86
         '
         'Label264
@@ -1431,13 +1433,13 @@ Partial Class Skindows_95
         'Panel248
         '
         Me.Panel248.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel248.BackColor = System.Drawing.Color.MediumVioletRed
         Me.Panel248.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel248.Controls.Add(Me.Label254)
         Me.Panel248.Location = New System.Drawing.Point(3, 5267)
         Me.Panel248.Name = "Panel248"
-        Me.Panel248.Size = New System.Drawing.Size(157, 34)
+        Me.Panel248.Size = New System.Drawing.Size(123, 34)
         Me.Panel248.TabIndex = 82
         '
         'Label254
@@ -1454,13 +1456,13 @@ Partial Class Skindows_95
         'Panel246
         '
         Me.Panel246.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel246.BackColor = System.Drawing.Color.DarkMagenta
         Me.Panel246.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel246.Controls.Add(Me.Label252)
         Me.Panel246.Location = New System.Drawing.Point(3, 5107)
         Me.Panel246.Name = "Panel246"
-        Me.Panel246.Size = New System.Drawing.Size(157, 34)
+        Me.Panel246.Size = New System.Drawing.Size(123, 34)
         Me.Panel246.TabIndex = 78
         '
         'Label252
@@ -1477,13 +1479,13 @@ Partial Class Skindows_95
         'Panel249
         '
         Me.Panel249.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel249.BackColor = System.Drawing.Color.Magenta
         Me.Panel249.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel249.Controls.Add(Me.Label255)
         Me.Panel249.Location = New System.Drawing.Point(3, 5187)
         Me.Panel249.Name = "Panel249"
-        Me.Panel249.Size = New System.Drawing.Size(157, 34)
+        Me.Panel249.Size = New System.Drawing.Size(123, 34)
         Me.Panel249.TabIndex = 80
         '
         'Label255
@@ -1500,13 +1502,13 @@ Partial Class Skindows_95
         'Panel245
         '
         Me.Panel245.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel245.BackColor = System.Drawing.Color.Violet
         Me.Panel245.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel245.Controls.Add(Me.Label251)
         Me.Panel245.Location = New System.Drawing.Point(3, 5027)
         Me.Panel245.Name = "Panel245"
-        Me.Panel245.Size = New System.Drawing.Size(157, 34)
+        Me.Panel245.Size = New System.Drawing.Size(123, 34)
         Me.Panel245.TabIndex = 76
         '
         'Label251
@@ -1523,13 +1525,13 @@ Partial Class Skindows_95
         'Panel250
         '
         Me.Panel250.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel250.BackColor = System.Drawing.Color.Orchid
         Me.Panel250.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel250.Controls.Add(Me.Label256)
         Me.Panel250.Location = New System.Drawing.Point(3, 5227)
         Me.Panel250.Name = "Panel250"
-        Me.Panel250.Size = New System.Drawing.Size(157, 34)
+        Me.Panel250.Size = New System.Drawing.Size(123, 34)
         Me.Panel250.TabIndex = 81
         '
         'Label256
@@ -1546,13 +1548,13 @@ Partial Class Skindows_95
         'Panel247
         '
         Me.Panel247.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel247.BackColor = System.Drawing.Color.Purple
         Me.Panel247.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel247.Controls.Add(Me.Label253)
         Me.Panel247.Location = New System.Drawing.Point(3, 5067)
         Me.Panel247.Name = "Panel247"
-        Me.Panel247.Size = New System.Drawing.Size(157, 34)
+        Me.Panel247.Size = New System.Drawing.Size(123, 34)
         Me.Panel247.TabIndex = 77
         '
         'Label253
@@ -1569,13 +1571,13 @@ Partial Class Skindows_95
         'Panel251
         '
         Me.Panel251.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel251.BackColor = System.Drawing.Color.Fuchsia
         Me.Panel251.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel251.Controls.Add(Me.Label257)
         Me.Panel251.Location = New System.Drawing.Point(3, 5147)
         Me.Panel251.Name = "Panel251"
-        Me.Panel251.Size = New System.Drawing.Size(157, 34)
+        Me.Panel251.Size = New System.Drawing.Size(123, 34)
         Me.Panel251.TabIndex = 79
         '
         'Label257
@@ -1592,13 +1594,13 @@ Partial Class Skindows_95
         'Panel241
         '
         Me.Panel241.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel241.BackColor = System.Drawing.Color.Plum
         Me.Panel241.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel241.Controls.Add(Me.Label247)
         Me.Panel241.Location = New System.Drawing.Point(3, 4987)
         Me.Panel241.Name = "Panel241"
-        Me.Panel241.Size = New System.Drawing.Size(157, 34)
+        Me.Panel241.Size = New System.Drawing.Size(123, 34)
         Me.Panel241.TabIndex = 75
         '
         'Label247
@@ -1615,13 +1617,13 @@ Partial Class Skindows_95
         'Panel237
         '
         Me.Panel237.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel237.BackColor = System.Drawing.Color.DarkOrchid
         Me.Panel237.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel237.Controls.Add(Me.Label243)
         Me.Panel237.Location = New System.Drawing.Point(3, 4828)
         Me.Panel237.Name = "Panel237"
-        Me.Panel237.Size = New System.Drawing.Size(157, 34)
+        Me.Panel237.Size = New System.Drawing.Size(123, 34)
         Me.Panel237.TabIndex = 75
         '
         'Label243
@@ -1638,13 +1640,13 @@ Partial Class Skindows_95
         'Panel242
         '
         Me.Panel242.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel242.BackColor = System.Drawing.Color.MediumOrchid
         Me.Panel242.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel242.Controls.Add(Me.Label248)
         Me.Panel242.Location = New System.Drawing.Point(3, 4908)
         Me.Panel242.Name = "Panel242"
-        Me.Panel242.Size = New System.Drawing.Size(157, 34)
+        Me.Panel242.Size = New System.Drawing.Size(123, 34)
         Me.Panel242.TabIndex = 73
         '
         'Label248
@@ -1661,13 +1663,13 @@ Partial Class Skindows_95
         'Panel233
         '
         Me.Panel233.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel233.BackColor = System.Drawing.Color.MediumSlateBlue
         Me.Panel233.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel233.Controls.Add(Me.Label239)
         Me.Panel233.Location = New System.Drawing.Point(3, 4670)
         Me.Panel233.Name = "Panel233"
-        Me.Panel233.Size = New System.Drawing.Size(157, 34)
+        Me.Panel233.Size = New System.Drawing.Size(123, 34)
         Me.Panel233.TabIndex = 75
         '
         'Label239
@@ -1684,13 +1686,13 @@ Partial Class Skindows_95
         'Panel243
         '
         Me.Panel243.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel243.BackColor = System.Drawing.Color.Thistle
         Me.Panel243.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel243.Controls.Add(Me.Label249)
         Me.Panel243.Location = New System.Drawing.Point(3, 4947)
         Me.Panel243.Name = "Panel243"
-        Me.Panel243.Size = New System.Drawing.Size(157, 34)
+        Me.Panel243.Size = New System.Drawing.Size(123, 34)
         Me.Panel243.TabIndex = 74
         '
         'Label249
@@ -1707,13 +1709,13 @@ Partial Class Skindows_95
         'Panel238
         '
         Me.Panel238.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel238.BackColor = System.Drawing.Color.BlueViolet
         Me.Panel238.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel238.Controls.Add(Me.Label244)
         Me.Panel238.Location = New System.Drawing.Point(3, 4749)
         Me.Panel238.Name = "Panel238"
-        Me.Panel238.Size = New System.Drawing.Size(157, 34)
+        Me.Panel238.Size = New System.Drawing.Size(123, 34)
         Me.Panel238.TabIndex = 73
         '
         'Label244
@@ -1730,13 +1732,13 @@ Partial Class Skindows_95
         'Panel244
         '
         Me.Panel244.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel244.BackColor = System.Drawing.Color.DarkViolet
         Me.Panel244.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel244.Controls.Add(Me.Label250)
         Me.Panel244.Location = New System.Drawing.Point(3, 4868)
         Me.Panel244.Name = "Panel244"
-        Me.Panel244.Size = New System.Drawing.Size(157, 34)
+        Me.Panel244.Size = New System.Drawing.Size(123, 34)
         Me.Panel244.TabIndex = 72
         '
         'Label250
@@ -1753,13 +1755,13 @@ Partial Class Skindows_95
         'Panel229
         '
         Me.Panel229.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel229.BackColor = System.Drawing.Color.Blue
         Me.Panel229.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel229.Controls.Add(Me.Label235)
         Me.Panel229.Location = New System.Drawing.Point(2, 4510)
         Me.Panel229.Name = "Panel229"
-        Me.Panel229.Size = New System.Drawing.Size(157, 34)
+        Me.Panel229.Size = New System.Drawing.Size(123, 34)
         Me.Panel229.TabIndex = 71
         '
         'Label235
@@ -1776,13 +1778,13 @@ Partial Class Skindows_95
         'Panel239
         '
         Me.Panel239.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel239.BackColor = System.Drawing.Color.Indigo
         Me.Panel239.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel239.Controls.Add(Me.Label245)
         Me.Panel239.Location = New System.Drawing.Point(3, 4788)
         Me.Panel239.Name = "Panel239"
-        Me.Panel239.Size = New System.Drawing.Size(157, 34)
+        Me.Panel239.Size = New System.Drawing.Size(123, 34)
         Me.Panel239.TabIndex = 74
         '
         'Label245
@@ -1799,13 +1801,13 @@ Partial Class Skindows_95
         'Panel234
         '
         Me.Panel234.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel234.BackColor = System.Drawing.Color.SlateBlue
         Me.Panel234.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel234.Controls.Add(Me.Label240)
         Me.Panel234.Location = New System.Drawing.Point(3, 4591)
         Me.Panel234.Name = "Panel234"
-        Me.Panel234.Size = New System.Drawing.Size(157, 34)
+        Me.Panel234.Size = New System.Drawing.Size(123, 34)
         Me.Panel234.TabIndex = 73
         '
         'Label240
@@ -1822,13 +1824,13 @@ Partial Class Skindows_95
         'Panel240
         '
         Me.Panel240.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel240.BackColor = System.Drawing.Color.MediumPurple
         Me.Panel240.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel240.Controls.Add(Me.Label246)
         Me.Panel240.Location = New System.Drawing.Point(3, 4709)
         Me.Panel240.Name = "Panel240"
-        Me.Panel240.Size = New System.Drawing.Size(157, 34)
+        Me.Panel240.Size = New System.Drawing.Size(123, 34)
         Me.Panel240.TabIndex = 72
         '
         'Label246
@@ -1845,13 +1847,13 @@ Partial Class Skindows_95
         'Panel227
         '
         Me.Panel227.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel227.BackColor = System.Drawing.Color.Lavender
         Me.Panel227.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel227.Controls.Add(Me.Label233)
         Me.Panel227.Location = New System.Drawing.Point(2, 4351)
         Me.Panel227.Name = "Panel227"
-        Me.Panel227.Size = New System.Drawing.Size(157, 34)
+        Me.Panel227.Size = New System.Drawing.Size(123, 34)
         Me.Panel227.TabIndex = 67
         '
         'Label233
@@ -1868,13 +1870,13 @@ Partial Class Skindows_95
         'Panel235
         '
         Me.Panel235.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel235.BackColor = System.Drawing.Color.DarkSlateBlue
         Me.Panel235.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel235.Controls.Add(Me.Label241)
         Me.Panel235.Location = New System.Drawing.Point(3, 4630)
         Me.Panel235.Name = "Panel235"
-        Me.Panel235.Size = New System.Drawing.Size(157, 34)
+        Me.Panel235.Size = New System.Drawing.Size(123, 34)
         Me.Panel235.TabIndex = 74
         '
         'Label241
@@ -1891,13 +1893,13 @@ Partial Class Skindows_95
         'Panel230
         '
         Me.Panel230.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel230.BackColor = System.Drawing.Color.DarkBlue
         Me.Panel230.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel230.Controls.Add(Me.Label236)
         Me.Panel230.Location = New System.Drawing.Point(2, 4431)
         Me.Panel230.Name = "Panel230"
-        Me.Panel230.Size = New System.Drawing.Size(157, 34)
+        Me.Panel230.Size = New System.Drawing.Size(123, 34)
         Me.Panel230.TabIndex = 69
         '
         'Label236
@@ -1914,13 +1916,13 @@ Partial Class Skindows_95
         'Panel236
         '
         Me.Panel236.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel236.BackColor = System.Drawing.Color.GhostWhite
         Me.Panel236.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel236.Controls.Add(Me.Label242)
         Me.Panel236.Location = New System.Drawing.Point(3, 4551)
         Me.Panel236.Name = "Panel236"
-        Me.Panel236.Size = New System.Drawing.Size(157, 34)
+        Me.Panel236.Size = New System.Drawing.Size(123, 34)
         Me.Panel236.TabIndex = 72
         '
         'Label242
@@ -1937,13 +1939,13 @@ Partial Class Skindows_95
         'Panel226
         '
         Me.Panel226.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel226.BackColor = System.Drawing.Color.RoyalBlue
         Me.Panel226.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel226.Controls.Add(Me.Label232)
         Me.Panel226.Location = New System.Drawing.Point(3, 4272)
         Me.Panel226.Name = "Panel226"
-        Me.Panel226.Size = New System.Drawing.Size(157, 34)
+        Me.Panel226.Size = New System.Drawing.Size(123, 34)
         Me.Panel226.TabIndex = 65
         '
         'Label232
@@ -1960,13 +1962,13 @@ Partial Class Skindows_95
         'Panel231
         '
         Me.Panel231.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel231.BackColor = System.Drawing.Color.MediumBlue
         Me.Panel231.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel231.Controls.Add(Me.Label237)
         Me.Panel231.Location = New System.Drawing.Point(2, 4470)
         Me.Panel231.Name = "Panel231"
-        Me.Panel231.Size = New System.Drawing.Size(157, 34)
+        Me.Panel231.Size = New System.Drawing.Size(123, 34)
         Me.Panel231.TabIndex = 70
         '
         'Label237
@@ -1983,13 +1985,13 @@ Partial Class Skindows_95
         'Panel228
         '
         Me.Panel228.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel228.BackColor = System.Drawing.Color.MidnightBlue
         Me.Panel228.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel228.Controls.Add(Me.Label234)
         Me.Panel228.Location = New System.Drawing.Point(3, 4311)
         Me.Panel228.Name = "Panel228"
-        Me.Panel228.Size = New System.Drawing.Size(157, 34)
+        Me.Panel228.Size = New System.Drawing.Size(123, 34)
         Me.Panel228.TabIndex = 66
         '
         'Label234
@@ -2006,13 +2008,13 @@ Partial Class Skindows_95
         'Panel232
         '
         Me.Panel232.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel232.BackColor = System.Drawing.Color.Navy
         Me.Panel232.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel232.Controls.Add(Me.Label238)
         Me.Panel232.Location = New System.Drawing.Point(2, 4391)
         Me.Panel232.Name = "Panel232"
-        Me.Panel232.Size = New System.Drawing.Size(157, 34)
+        Me.Panel232.Size = New System.Drawing.Size(123, 34)
         Me.Panel232.TabIndex = 68
         '
         'Label238
@@ -2029,13 +2031,13 @@ Partial Class Skindows_95
         'Panel222
         '
         Me.Panel222.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel222.BackColor = System.Drawing.Color.CornflowerBlue
         Me.Panel222.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel222.Controls.Add(Me.Label228)
         Me.Panel222.Location = New System.Drawing.Point(4, 4232)
         Me.Panel222.Name = "Panel222"
-        Me.Panel222.Size = New System.Drawing.Size(157, 34)
+        Me.Panel222.Size = New System.Drawing.Size(123, 34)
         Me.Panel222.TabIndex = 64
         '
         'Label228
@@ -2052,13 +2054,13 @@ Partial Class Skindows_95
         'Panel218
         '
         Me.Panel218.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel218.BackColor = System.Drawing.Color.DodgerBlue
         Me.Panel218.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel218.Controls.Add(Me.Label224)
         Me.Panel218.Location = New System.Drawing.Point(4, 4073)
         Me.Panel218.Name = "Panel218"
-        Me.Panel218.Size = New System.Drawing.Size(157, 34)
+        Me.Panel218.Size = New System.Drawing.Size(123, 34)
         Me.Panel218.TabIndex = 64
         '
         'Label224
@@ -2075,13 +2077,13 @@ Partial Class Skindows_95
         'Panel223
         '
         Me.Panel223.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel223.BackColor = System.Drawing.Color.LightSlateGray
         Me.Panel223.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel223.Controls.Add(Me.Label229)
         Me.Panel223.Location = New System.Drawing.Point(3, 4153)
         Me.Panel223.Name = "Panel223"
-        Me.Panel223.Size = New System.Drawing.Size(157, 34)
+        Me.Panel223.Size = New System.Drawing.Size(123, 34)
         Me.Panel223.TabIndex = 62
         '
         'Label229
@@ -2098,13 +2100,13 @@ Partial Class Skindows_95
         'Panel214
         '
         Me.Panel214.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel214.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel214.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel214.Controls.Add(Me.Label220)
         Me.Panel214.Location = New System.Drawing.Point(4, 3915)
         Me.Panel214.Name = "Panel214"
-        Me.Panel214.Size = New System.Drawing.Size(157, 34)
+        Me.Panel214.Size = New System.Drawing.Size(123, 34)
         Me.Panel214.TabIndex = 64
         '
         'Label220
@@ -2121,13 +2123,13 @@ Partial Class Skindows_95
         'Panel224
         '
         Me.Panel224.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel224.BackColor = System.Drawing.Color.LightSteelBlue
         Me.Panel224.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel224.Controls.Add(Me.Label230)
         Me.Panel224.Location = New System.Drawing.Point(4, 4192)
         Me.Panel224.Name = "Panel224"
-        Me.Panel224.Size = New System.Drawing.Size(157, 34)
+        Me.Panel224.Size = New System.Drawing.Size(123, 34)
         Me.Panel224.TabIndex = 63
         '
         'Label230
@@ -2144,13 +2146,13 @@ Partial Class Skindows_95
         'Panel219
         '
         Me.Panel219.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel219.BackColor = System.Drawing.Color.SteelBlue
         Me.Panel219.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel219.Controls.Add(Me.Label225)
         Me.Panel219.Location = New System.Drawing.Point(3, 3994)
         Me.Panel219.Name = "Panel219"
-        Me.Panel219.Size = New System.Drawing.Size(157, 34)
+        Me.Panel219.Size = New System.Drawing.Size(123, 34)
         Me.Panel219.TabIndex = 62
         '
         'Label225
@@ -2167,13 +2169,13 @@ Partial Class Skindows_95
         'Panel225
         '
         Me.Panel225.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel225.BackColor = System.Drawing.Color.SlateGray
         Me.Panel225.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel225.Controls.Add(Me.Label231)
         Me.Panel225.Location = New System.Drawing.Point(3, 4113)
         Me.Panel225.Name = "Panel225"
-        Me.Panel225.Size = New System.Drawing.Size(157, 34)
+        Me.Panel225.Size = New System.Drawing.Size(123, 34)
         Me.Panel225.TabIndex = 61
         '
         'Label231
@@ -2190,13 +2192,13 @@ Partial Class Skindows_95
         'Panel210
         '
         Me.Panel210.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel210.BackColor = System.Drawing.Color.CadetBlue
         Me.Panel210.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel210.Controls.Add(Me.Label216)
         Me.Panel210.Location = New System.Drawing.Point(3, 3757)
         Me.Panel210.Name = "Panel210"
-        Me.Panel210.Size = New System.Drawing.Size(157, 34)
+        Me.Panel210.Size = New System.Drawing.Size(123, 34)
         Me.Panel210.TabIndex = 64
         '
         'Label216
@@ -2213,13 +2215,13 @@ Partial Class Skindows_95
         'Panel220
         '
         Me.Panel220.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel220.BackColor = System.Drawing.Color.AliceBlue
         Me.Panel220.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel220.Controls.Add(Me.Label226)
         Me.Panel220.Location = New System.Drawing.Point(4, 4033)
         Me.Panel220.Name = "Panel220"
-        Me.Panel220.Size = New System.Drawing.Size(157, 34)
+        Me.Panel220.Size = New System.Drawing.Size(123, 34)
         Me.Panel220.TabIndex = 63
         '
         'Label226
@@ -2236,13 +2238,13 @@ Partial Class Skindows_95
         'Panel215
         '
         Me.Panel215.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel215.BackColor = System.Drawing.Color.LightBlue
         Me.Panel215.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel215.Controls.Add(Me.Label221)
         Me.Panel215.Location = New System.Drawing.Point(3, 3836)
         Me.Panel215.Name = "Panel215"
-        Me.Panel215.Size = New System.Drawing.Size(157, 34)
+        Me.Panel215.Size = New System.Drawing.Size(123, 34)
         Me.Panel215.TabIndex = 62
         '
         'Label221
@@ -2259,13 +2261,13 @@ Partial Class Skindows_95
         'Panel221
         '
         Me.Panel221.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel221.BackColor = System.Drawing.Color.LightSkyBlue
         Me.Panel221.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel221.Controls.Add(Me.Label227)
         Me.Panel221.Location = New System.Drawing.Point(3, 3954)
         Me.Panel221.Name = "Panel221"
-        Me.Panel221.Size = New System.Drawing.Size(157, 34)
+        Me.Panel221.Size = New System.Drawing.Size(123, 34)
         Me.Panel221.TabIndex = 61
         '
         'Label227
@@ -2282,13 +2284,13 @@ Partial Class Skindows_95
         'Panel206
         '
         Me.Panel206.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel206.BackColor = System.Drawing.Color.Aqua
         Me.Panel206.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel206.Controls.Add(Me.Label212)
         Me.Panel206.Location = New System.Drawing.Point(3, 3599)
         Me.Panel206.Name = "Panel206"
-        Me.Panel206.Size = New System.Drawing.Size(157, 34)
+        Me.Panel206.Size = New System.Drawing.Size(123, 34)
         Me.Panel206.TabIndex = 64
         '
         'Label212
@@ -2305,13 +2307,13 @@ Partial Class Skindows_95
         'Panel216
         '
         Me.Panel216.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel216.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.Panel216.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel216.Controls.Add(Me.Label222)
         Me.Panel216.Location = New System.Drawing.Point(4, 3875)
         Me.Panel216.Name = "Panel216"
-        Me.Panel216.Size = New System.Drawing.Size(157, 34)
+        Me.Panel216.Size = New System.Drawing.Size(123, 34)
         Me.Panel216.TabIndex = 63
         '
         'Label222
@@ -2328,13 +2330,13 @@ Partial Class Skindows_95
         'Panel211
         '
         Me.Panel211.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel211.BackColor = System.Drawing.Color.Azure
         Me.Panel211.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel211.Controls.Add(Me.Label217)
         Me.Panel211.Location = New System.Drawing.Point(2, 3678)
         Me.Panel211.Name = "Panel211"
-        Me.Panel211.Size = New System.Drawing.Size(157, 34)
+        Me.Panel211.Size = New System.Drawing.Size(123, 34)
         Me.Panel211.TabIndex = 62
         '
         'Label217
@@ -2351,13 +2353,13 @@ Partial Class Skindows_95
         'Panel217
         '
         Me.Panel217.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel217.BackColor = System.Drawing.Color.PowderBlue
         Me.Panel217.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel217.Controls.Add(Me.Label223)
         Me.Panel217.Location = New System.Drawing.Point(3, 3796)
         Me.Panel217.Name = "Panel217"
-        Me.Panel217.Size = New System.Drawing.Size(157, 34)
+        Me.Panel217.Size = New System.Drawing.Size(123, 34)
         Me.Panel217.TabIndex = 61
         '
         'Label223
@@ -2374,13 +2376,13 @@ Partial Class Skindows_95
         'Panel204
         '
         Me.Panel204.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel204.BackColor = System.Drawing.Color.PaleTurquoise
         Me.Panel204.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel204.Controls.Add(Me.Label210)
         Me.Panel204.Location = New System.Drawing.Point(2, 3441)
         Me.Panel204.Name = "Panel204"
-        Me.Panel204.Size = New System.Drawing.Size(157, 34)
+        Me.Panel204.Size = New System.Drawing.Size(123, 34)
         Me.Panel204.TabIndex = 60
         '
         'Label210
@@ -2397,13 +2399,13 @@ Partial Class Skindows_95
         'Panel212
         '
         Me.Panel212.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel212.BackColor = System.Drawing.Color.DarkTurquoise
         Me.Panel212.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel212.Controls.Add(Me.Label218)
         Me.Panel212.Location = New System.Drawing.Point(3, 3717)
         Me.Panel212.Name = "Panel212"
-        Me.Panel212.Size = New System.Drawing.Size(157, 34)
+        Me.Panel212.Size = New System.Drawing.Size(123, 34)
         Me.Panel212.TabIndex = 63
         '
         'Label218
@@ -2420,13 +2422,13 @@ Partial Class Skindows_95
         'Panel207
         '
         Me.Panel207.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel207.BackColor = System.Drawing.Color.DarkCyan
         Me.Panel207.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel207.Controls.Add(Me.Label213)
         Me.Panel207.Location = New System.Drawing.Point(2, 3520)
         Me.Panel207.Name = "Panel207"
-        Me.Panel207.Size = New System.Drawing.Size(157, 34)
+        Me.Panel207.Size = New System.Drawing.Size(123, 34)
         Me.Panel207.TabIndex = 62
         '
         'Label213
@@ -2443,13 +2445,13 @@ Partial Class Skindows_95
         'Panel213
         '
         Me.Panel213.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel213.BackColor = System.Drawing.Color.LightCyan
         Me.Panel213.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel213.Controls.Add(Me.Label219)
         Me.Panel213.Location = New System.Drawing.Point(2, 3638)
         Me.Panel213.Name = "Panel213"
-        Me.Panel213.Size = New System.Drawing.Size(157, 34)
+        Me.Panel213.Size = New System.Drawing.Size(123, 34)
         Me.Panel213.TabIndex = 61
         '
         'Label219
@@ -2466,13 +2468,13 @@ Partial Class Skindows_95
         'Panel203
         '
         Me.Panel203.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel203.BackColor = System.Drawing.Color.MediumTurquoise
         Me.Panel203.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel203.Controls.Add(Me.Label209)
         Me.Panel203.Location = New System.Drawing.Point(1, 3362)
         Me.Panel203.Name = "Panel203"
-        Me.Panel203.Size = New System.Drawing.Size(157, 34)
+        Me.Panel203.Size = New System.Drawing.Size(123, 34)
         Me.Panel203.TabIndex = 58
         '
         'Label209
@@ -2489,13 +2491,13 @@ Partial Class Skindows_95
         'Panel208
         '
         Me.Panel208.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel208.BackColor = System.Drawing.Color.Cyan
         Me.Panel208.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel208.Controls.Add(Me.Label214)
         Me.Panel208.Location = New System.Drawing.Point(3, 3559)
         Me.Panel208.Name = "Panel208"
-        Me.Panel208.Size = New System.Drawing.Size(157, 34)
+        Me.Panel208.Size = New System.Drawing.Size(123, 34)
         Me.Panel208.TabIndex = 63
         '
         'Label214
@@ -2512,13 +2514,13 @@ Partial Class Skindows_95
         'Panel205
         '
         Me.Panel205.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel205.BackColor = System.Drawing.Color.DarkSlateGray
         Me.Panel205.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel205.Controls.Add(Me.Label211)
         Me.Panel205.Location = New System.Drawing.Point(2, 3401)
         Me.Panel205.Name = "Panel205"
-        Me.Panel205.Size = New System.Drawing.Size(157, 34)
+        Me.Panel205.Size = New System.Drawing.Size(123, 34)
         Me.Panel205.TabIndex = 59
         '
         'Label211
@@ -2536,13 +2538,13 @@ Partial Class Skindows_95
         'Panel209
         '
         Me.Panel209.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel209.BackColor = System.Drawing.Color.Teal
         Me.Panel209.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel209.Controls.Add(Me.Label215)
         Me.Panel209.Location = New System.Drawing.Point(2, 3480)
         Me.Panel209.Name = "Panel209"
-        Me.Panel209.Size = New System.Drawing.Size(157, 34)
+        Me.Panel209.Size = New System.Drawing.Size(123, 34)
         Me.Panel209.TabIndex = 61
         '
         'Label215
@@ -2559,13 +2561,13 @@ Partial Class Skindows_95
         'Panel199
         '
         Me.Panel199.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel199.BackColor = System.Drawing.Color.LightSeaGreen
         Me.Panel199.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel199.Controls.Add(Me.Label205)
         Me.Panel199.Location = New System.Drawing.Point(1, 3322)
         Me.Panel199.Name = "Panel199"
-        Me.Panel199.Size = New System.Drawing.Size(157, 34)
+        Me.Panel199.Size = New System.Drawing.Size(123, 34)
         Me.Panel199.TabIndex = 57
         '
         'Label205
@@ -2582,13 +2584,13 @@ Partial Class Skindows_95
         'Panel195
         '
         Me.Panel195.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel195.BackColor = System.Drawing.Color.MediumSpringGreen
         Me.Panel195.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel195.Controls.Add(Me.Label201)
         Me.Panel195.Location = New System.Drawing.Point(2, 3162)
         Me.Panel195.Name = "Panel195"
-        Me.Panel195.Size = New System.Drawing.Size(157, 34)
+        Me.Panel195.Size = New System.Drawing.Size(123, 34)
         Me.Panel195.TabIndex = 57
         '
         'Label201
@@ -2605,13 +2607,13 @@ Partial Class Skindows_95
         'Panel200
         '
         Me.Panel200.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel200.BackColor = System.Drawing.Color.Aquamarine
         Me.Panel200.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel200.Controls.Add(Me.Label206)
         Me.Panel200.Location = New System.Drawing.Point(1, 3242)
         Me.Panel200.Name = "Panel200"
-        Me.Panel200.Size = New System.Drawing.Size(157, 34)
+        Me.Panel200.Size = New System.Drawing.Size(123, 34)
         Me.Panel200.TabIndex = 55
         '
         'Label206
@@ -2628,13 +2630,13 @@ Partial Class Skindows_95
         'Panel191
         '
         Me.Panel191.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel191.BackColor = System.Drawing.Color.SeaGreen
         Me.Panel191.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel191.Controls.Add(Me.Label197)
         Me.Panel191.Location = New System.Drawing.Point(2, 3003)
         Me.Panel191.Name = "Panel191"
-        Me.Panel191.Size = New System.Drawing.Size(157, 34)
+        Me.Panel191.Size = New System.Drawing.Size(123, 34)
         Me.Panel191.TabIndex = 53
         '
         'Label197
@@ -2651,13 +2653,13 @@ Partial Class Skindows_95
         'Panel201
         '
         Me.Panel201.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel201.BackColor = System.Drawing.Color.Turquoise
         Me.Panel201.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel201.Controls.Add(Me.Label207)
         Me.Panel201.Location = New System.Drawing.Point(1, 3282)
         Me.Panel201.Name = "Panel201"
-        Me.Panel201.Size = New System.Drawing.Size(157, 34)
+        Me.Panel201.Size = New System.Drawing.Size(123, 34)
         Me.Panel201.TabIndex = 56
         '
         'Label207
@@ -2674,13 +2676,13 @@ Partial Class Skindows_95
         'Panel196
         '
         Me.Panel196.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel196.BackColor = System.Drawing.Color.SpringGreen
         Me.Panel196.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel196.Controls.Add(Me.Label202)
         Me.Panel196.Location = New System.Drawing.Point(2, 3082)
         Me.Panel196.Name = "Panel196"
-        Me.Panel196.Size = New System.Drawing.Size(157, 34)
+        Me.Panel196.Size = New System.Drawing.Size(123, 34)
         Me.Panel196.TabIndex = 55
         '
         'Label202
@@ -2697,13 +2699,13 @@ Partial Class Skindows_95
         'Panel202
         '
         Me.Panel202.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel202.BackColor = System.Drawing.Color.MediumAquamarine
         Me.Panel202.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel202.Controls.Add(Me.Label208)
         Me.Panel202.Location = New System.Drawing.Point(1, 3202)
         Me.Panel202.Name = "Panel202"
-        Me.Panel202.Size = New System.Drawing.Size(157, 34)
+        Me.Panel202.Size = New System.Drawing.Size(123, 34)
         Me.Panel202.TabIndex = 54
         '
         'Label208
@@ -2720,13 +2722,13 @@ Partial Class Skindows_95
         'Panel187
         '
         Me.Panel187.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel187.BackColor = System.Drawing.Color.DarkGreen
         Me.Panel187.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel187.Controls.Add(Me.Label193)
         Me.Panel187.Location = New System.Drawing.Point(2, 2843)
         Me.Panel187.Name = "Panel187"
-        Me.Panel187.Size = New System.Drawing.Size(157, 34)
+        Me.Panel187.Size = New System.Drawing.Size(123, 34)
         Me.Panel187.TabIndex = 53
         '
         'Label193
@@ -2743,13 +2745,13 @@ Partial Class Skindows_95
         'Panel197
         '
         Me.Panel197.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel197.BackColor = System.Drawing.Color.MintCream
         Me.Panel197.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel197.Controls.Add(Me.Label203)
         Me.Panel197.Location = New System.Drawing.Point(2, 3122)
         Me.Panel197.Name = "Panel197"
-        Me.Panel197.Size = New System.Drawing.Size(157, 34)
+        Me.Panel197.Size = New System.Drawing.Size(123, 34)
         Me.Panel197.TabIndex = 56
         '
         'Label203
@@ -2766,13 +2768,13 @@ Partial Class Skindows_95
         'Panel192
         '
         Me.Panel192.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel192.BackColor = System.Drawing.Color.Lime
         Me.Panel192.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel192.Controls.Add(Me.Label198)
         Me.Panel192.Location = New System.Drawing.Point(2, 2923)
         Me.Panel192.Name = "Panel192"
-        Me.Panel192.Size = New System.Drawing.Size(157, 34)
+        Me.Panel192.Size = New System.Drawing.Size(123, 34)
         Me.Panel192.TabIndex = 51
         '
         'Label198
@@ -2789,13 +2791,13 @@ Partial Class Skindows_95
         'Panel198
         '
         Me.Panel198.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel198.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.Panel198.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel198.Controls.Add(Me.Label204)
         Me.Panel198.Location = New System.Drawing.Point(2, 3042)
         Me.Panel198.Name = "Panel198"
-        Me.Panel198.Size = New System.Drawing.Size(157, 34)
+        Me.Panel198.Size = New System.Drawing.Size(123, 34)
         Me.Panel198.TabIndex = 54
         '
         'Label204
@@ -2812,13 +2814,13 @@ Partial Class Skindows_95
         'Panel183
         '
         Me.Panel183.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel183.BackColor = System.Drawing.Color.LightGreen
         Me.Panel183.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel183.Controls.Add(Me.Label189)
         Me.Panel183.Location = New System.Drawing.Point(2, 2683)
         Me.Panel183.Name = "Panel183"
-        Me.Panel183.Size = New System.Drawing.Size(157, 34)
+        Me.Panel183.Size = New System.Drawing.Size(123, 34)
         Me.Panel183.TabIndex = 53
         '
         'Label189
@@ -2835,13 +2837,13 @@ Partial Class Skindows_95
         'Panel193
         '
         Me.Panel193.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel193.BackColor = System.Drawing.Color.Honeydew
         Me.Panel193.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel193.Controls.Add(Me.Label199)
         Me.Panel193.Location = New System.Drawing.Point(2, 2963)
         Me.Panel193.Name = "Panel193"
-        Me.Panel193.Size = New System.Drawing.Size(157, 34)
+        Me.Panel193.Size = New System.Drawing.Size(123, 34)
         Me.Panel193.TabIndex = 52
         '
         'Label199
@@ -2858,13 +2860,13 @@ Partial Class Skindows_95
         'Panel188
         '
         Me.Panel188.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel188.BackColor = System.Drawing.Color.LimeGreen
         Me.Panel188.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel188.Controls.Add(Me.Label194)
         Me.Panel188.Location = New System.Drawing.Point(2, 2763)
         Me.Panel188.Name = "Panel188"
-        Me.Panel188.Size = New System.Drawing.Size(157, 34)
+        Me.Panel188.Size = New System.Drawing.Size(123, 34)
         Me.Panel188.TabIndex = 51
         '
         'Label194
@@ -2881,13 +2883,13 @@ Partial Class Skindows_95
         'Panel194
         '
         Me.Panel194.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel194.BackColor = System.Drawing.Color.Green
         Me.Panel194.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel194.Controls.Add(Me.Label200)
         Me.Panel194.Location = New System.Drawing.Point(2, 2883)
         Me.Panel194.Name = "Panel194"
-        Me.Panel194.Size = New System.Drawing.Size(157, 34)
+        Me.Panel194.Size = New System.Drawing.Size(123, 34)
         Me.Panel194.TabIndex = 50
         '
         'Label200
@@ -2904,13 +2906,13 @@ Partial Class Skindows_95
         'Panel179
         '
         Me.Panel179.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel179.BackColor = System.Drawing.Color.GreenYellow
         Me.Panel179.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel179.Controls.Add(Me.Label185)
         Me.Panel179.Location = New System.Drawing.Point(3, 2523)
         Me.Panel179.Name = "Panel179"
-        Me.Panel179.Size = New System.Drawing.Size(157, 34)
+        Me.Panel179.Size = New System.Drawing.Size(123, 34)
         Me.Panel179.TabIndex = 53
         '
         'Label185
@@ -2927,13 +2929,13 @@ Partial Class Skindows_95
         'Panel189
         '
         Me.Panel189.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel189.BackColor = System.Drawing.Color.PaleGreen
         Me.Panel189.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel189.Controls.Add(Me.Label195)
         Me.Panel189.Location = New System.Drawing.Point(2, 2803)
         Me.Panel189.Name = "Panel189"
-        Me.Panel189.Size = New System.Drawing.Size(157, 34)
+        Me.Panel189.Size = New System.Drawing.Size(123, 34)
         Me.Panel189.TabIndex = 52
         '
         'Label195
@@ -2950,13 +2952,13 @@ Partial Class Skindows_95
         'Panel184
         '
         Me.Panel184.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel184.BackColor = System.Drawing.Color.LawnGreen
         Me.Panel184.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel184.Controls.Add(Me.Label190)
         Me.Panel184.Location = New System.Drawing.Point(2, 2603)
         Me.Panel184.Name = "Panel184"
-        Me.Panel184.Size = New System.Drawing.Size(157, 34)
+        Me.Panel184.Size = New System.Drawing.Size(123, 34)
         Me.Panel184.TabIndex = 51
         '
         'Label190
@@ -2973,13 +2975,13 @@ Partial Class Skindows_95
         'Panel190
         '
         Me.Panel190.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel190.BackColor = System.Drawing.Color.ForestGreen
         Me.Panel190.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel190.Controls.Add(Me.Label196)
         Me.Panel190.Location = New System.Drawing.Point(2, 2723)
         Me.Panel190.Name = "Panel190"
-        Me.Panel190.Size = New System.Drawing.Size(157, 34)
+        Me.Panel190.Size = New System.Drawing.Size(123, 34)
         Me.Panel190.TabIndex = 50
         '
         'Label196
@@ -2996,13 +2998,13 @@ Partial Class Skindows_95
         'Panel177
         '
         Me.Panel177.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel177.BackColor = System.Drawing.Color.Ivory
         Me.Panel177.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel177.Controls.Add(Me.Label183)
         Me.Panel177.Location = New System.Drawing.Point(3, 2362)
         Me.Panel177.Name = "Panel177"
-        Me.Panel177.Size = New System.Drawing.Size(157, 34)
+        Me.Panel177.Size = New System.Drawing.Size(123, 34)
         Me.Panel177.TabIndex = 49
         '
         'Label183
@@ -3019,13 +3021,13 @@ Partial Class Skindows_95
         'Panel185
         '
         Me.Panel185.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel185.BackColor = System.Drawing.Color.DarkSeaGreen
         Me.Panel185.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel185.Controls.Add(Me.Label191)
         Me.Panel185.Location = New System.Drawing.Point(2, 2643)
         Me.Panel185.Name = "Panel185"
-        Me.Panel185.Size = New System.Drawing.Size(157, 34)
+        Me.Panel185.Size = New System.Drawing.Size(123, 34)
         Me.Panel185.TabIndex = 52
         '
         'Label191
@@ -3042,13 +3044,13 @@ Partial Class Skindows_95
         'Panel180
         '
         Me.Panel180.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel180.BackColor = System.Drawing.Color.YellowGreen
         Me.Panel180.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel180.Controls.Add(Me.Label186)
         Me.Panel180.Location = New System.Drawing.Point(3, 2443)
         Me.Panel180.Name = "Panel180"
-        Me.Panel180.Size = New System.Drawing.Size(157, 34)
+        Me.Panel180.Size = New System.Drawing.Size(123, 34)
         Me.Panel180.TabIndex = 51
         '
         'Label186
@@ -3065,13 +3067,13 @@ Partial Class Skindows_95
         'Panel186
         '
         Me.Panel186.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel186.BackColor = System.Drawing.Color.Chartreuse
         Me.Panel186.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel186.Controls.Add(Me.Label192)
         Me.Panel186.Location = New System.Drawing.Point(2, 2563)
         Me.Panel186.Name = "Panel186"
-        Me.Panel186.Size = New System.Drawing.Size(157, 34)
+        Me.Panel186.Size = New System.Drawing.Size(123, 34)
         Me.Panel186.TabIndex = 50
         '
         'Label192
@@ -3088,13 +3090,13 @@ Partial Class Skindows_95
         'Panel176
         '
         Me.Panel176.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel176.BackColor = System.Drawing.Color.Yellow
         Me.Panel176.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel176.Controls.Add(Me.Label182)
         Me.Panel176.Location = New System.Drawing.Point(3, 2282)
         Me.Panel176.Name = "Panel176"
-        Me.Panel176.Size = New System.Drawing.Size(157, 34)
+        Me.Panel176.Size = New System.Drawing.Size(123, 34)
         Me.Panel176.TabIndex = 47
         '
         'Label182
@@ -3111,13 +3113,13 @@ Partial Class Skindows_95
         'Panel181
         '
         Me.Panel181.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel181.BackColor = System.Drawing.Color.DarkOliveGreen
         Me.Panel181.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel181.Controls.Add(Me.Label187)
         Me.Panel181.Location = New System.Drawing.Point(3, 2483)
         Me.Panel181.Name = "Panel181"
-        Me.Panel181.Size = New System.Drawing.Size(157, 34)
+        Me.Panel181.Size = New System.Drawing.Size(123, 34)
         Me.Panel181.TabIndex = 52
         '
         'Label187
@@ -3134,13 +3136,13 @@ Partial Class Skindows_95
         'Panel178
         '
         Me.Panel178.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel178.BackColor = System.Drawing.Color.LightYellow
         Me.Panel178.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel178.Controls.Add(Me.Label184)
         Me.Panel178.Location = New System.Drawing.Point(3, 2322)
         Me.Panel178.Name = "Panel178"
-        Me.Panel178.Size = New System.Drawing.Size(157, 34)
+        Me.Panel178.Size = New System.Drawing.Size(123, 34)
         Me.Panel178.TabIndex = 48
         '
         'Label184
@@ -3157,13 +3159,13 @@ Partial Class Skindows_95
         'Panel182
         '
         Me.Panel182.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel182.BackColor = System.Drawing.Color.OliveDrab
         Me.Panel182.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel182.Controls.Add(Me.Label188)
         Me.Panel182.Location = New System.Drawing.Point(3, 2403)
         Me.Panel182.Name = "Panel182"
-        Me.Panel182.Size = New System.Drawing.Size(157, 34)
+        Me.Panel182.Size = New System.Drawing.Size(123, 34)
         Me.Panel182.TabIndex = 50
         '
         'Label188
@@ -3180,13 +3182,13 @@ Partial Class Skindows_95
         'Panel172
         '
         Me.Panel172.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel172.BackColor = System.Drawing.Color.Olive
         Me.Panel172.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel172.Controls.Add(Me.Label178)
         Me.Panel172.Location = New System.Drawing.Point(3, 2242)
         Me.Panel172.Name = "Panel172"
-        Me.Panel172.Size = New System.Drawing.Size(157, 34)
+        Me.Panel172.Size = New System.Drawing.Size(123, 34)
         Me.Panel172.TabIndex = 46
         '
         'Label178
@@ -3203,13 +3205,13 @@ Partial Class Skindows_95
         'Panel170
         '
         Me.Panel170.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel170.BackColor = System.Drawing.Color.PaleGoldenrod
         Me.Panel170.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel170.Controls.Add(Me.Label150)
         Me.Panel170.Location = New System.Drawing.Point(3, 2082)
         Me.Panel170.Name = "Panel170"
-        Me.Panel170.Size = New System.Drawing.Size(157, 34)
+        Me.Panel170.Size = New System.Drawing.Size(123, 34)
         Me.Panel170.TabIndex = 42
         '
         'Label150
@@ -3226,13 +3228,13 @@ Partial Class Skindows_95
         'Panel173
         '
         Me.Panel173.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel173.BackColor = System.Drawing.Color.Beige
         Me.Panel173.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel173.Controls.Add(Me.Label179)
         Me.Panel173.Location = New System.Drawing.Point(3, 2162)
         Me.Panel173.Name = "Panel173"
-        Me.Panel173.Size = New System.Drawing.Size(157, 34)
+        Me.Panel173.Size = New System.Drawing.Size(123, 34)
         Me.Panel173.TabIndex = 44
         '
         'Label179
@@ -3249,13 +3251,13 @@ Partial Class Skindows_95
         'Panel143
         '
         Me.Panel143.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel143.BackColor = System.Drawing.Color.Khaki
         Me.Panel143.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel143.Controls.Add(Me.Label24)
         Me.Panel143.Location = New System.Drawing.Point(3, 2002)
         Me.Panel143.Name = "Panel143"
-        Me.Panel143.Size = New System.Drawing.Size(157, 34)
+        Me.Panel143.Size = New System.Drawing.Size(123, 34)
         Me.Panel143.TabIndex = 40
         '
         'Label24
@@ -3272,13 +3274,13 @@ Partial Class Skindows_95
         'Panel174
         '
         Me.Panel174.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel174.BackColor = System.Drawing.Color.LightGoldenrodYellow
         Me.Panel174.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel174.Controls.Add(Me.Label180)
         Me.Panel174.Location = New System.Drawing.Point(3, 2202)
         Me.Panel174.Name = "Panel174"
-        Me.Panel174.Size = New System.Drawing.Size(157, 34)
+        Me.Panel174.Size = New System.Drawing.Size(123, 34)
         Me.Panel174.TabIndex = 45
         '
         'Label180
@@ -3295,13 +3297,13 @@ Partial Class Skindows_95
         'Panel171
         '
         Me.Panel171.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel171.BackColor = System.Drawing.Color.LemonChiffon
         Me.Panel171.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel171.Controls.Add(Me.Label177)
         Me.Panel171.Location = New System.Drawing.Point(3, 2042)
         Me.Panel171.Name = "Panel171"
-        Me.Panel171.Size = New System.Drawing.Size(157, 34)
+        Me.Panel171.Size = New System.Drawing.Size(123, 34)
         Me.Panel171.TabIndex = 41
         '
         'Label177
@@ -3318,13 +3320,13 @@ Partial Class Skindows_95
         'Panel175
         '
         Me.Panel175.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel175.BackColor = System.Drawing.Color.DarkKhaki
         Me.Panel175.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel175.Controls.Add(Me.Label181)
         Me.Panel175.Location = New System.Drawing.Point(3, 2122)
         Me.Panel175.Name = "Panel175"
-        Me.Panel175.Size = New System.Drawing.Size(157, 34)
+        Me.Panel175.Size = New System.Drawing.Size(123, 34)
         Me.Panel175.TabIndex = 43
         '
         'Label181
@@ -3341,13 +3343,13 @@ Partial Class Skindows_95
         'Panel167
         '
         Me.Panel167.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel167.BackColor = System.Drawing.Color.Gold
         Me.Panel167.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel167.Controls.Add(Me.Label174)
         Me.Panel167.Location = New System.Drawing.Point(3, 1962)
         Me.Panel167.Name = "Panel167"
-        Me.Panel167.Size = New System.Drawing.Size(157, 34)
+        Me.Panel167.Size = New System.Drawing.Size(123, 34)
         Me.Panel167.TabIndex = 39
         '
         'Label174
@@ -3364,13 +3366,13 @@ Partial Class Skindows_95
         'Panel163
         '
         Me.Panel163.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel163.BackColor = System.Drawing.Color.DarkGoldenrod
         Me.Panel163.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel163.Controls.Add(Me.Label170)
         Me.Panel163.Location = New System.Drawing.Point(3, 1844)
         Me.Panel163.Name = "Panel163"
-        Me.Panel163.Size = New System.Drawing.Size(157, 34)
+        Me.Panel163.Size = New System.Drawing.Size(123, 34)
         Me.Panel163.TabIndex = 36
         '
         'Label170
@@ -3387,13 +3389,13 @@ Partial Class Skindows_95
         'Panel168
         '
         Me.Panel168.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel168.BackColor = System.Drawing.Color.Cornsilk
         Me.Panel168.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel168.Controls.Add(Me.Label175)
         Me.Panel168.Location = New System.Drawing.Point(3, 1922)
         Me.Panel168.Name = "Panel168"
-        Me.Panel168.Size = New System.Drawing.Size(157, 34)
+        Me.Panel168.Size = New System.Drawing.Size(123, 34)
         Me.Panel168.TabIndex = 38
         '
         'Label175
@@ -3410,13 +3412,13 @@ Partial Class Skindows_95
         'Panel119
         '
         Me.Panel119.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel119.BackColor = System.Drawing.Color.Orange
         Me.Panel119.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel119.Controls.Add(Me.Label126)
         Me.Panel119.Location = New System.Drawing.Point(3, 1685)
         Me.Panel119.Name = "Panel119"
-        Me.Panel119.Size = New System.Drawing.Size(157, 34)
+        Me.Panel119.Size = New System.Drawing.Size(123, 34)
         Me.Panel119.TabIndex = 32
         '
         'Label126
@@ -3433,13 +3435,13 @@ Partial Class Skindows_95
         'Panel169
         '
         Me.Panel169.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel169.BackColor = System.Drawing.Color.Goldenrod
         Me.Panel169.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel169.Controls.Add(Me.Label176)
         Me.Panel169.Location = New System.Drawing.Point(3, 1883)
         Me.Panel169.Name = "Panel169"
-        Me.Panel169.Size = New System.Drawing.Size(157, 34)
+        Me.Panel169.Size = New System.Drawing.Size(123, 34)
         Me.Panel169.TabIndex = 37
         '
         'Label176
@@ -3456,13 +3458,13 @@ Partial Class Skindows_95
         'Panel120
         '
         Me.Panel120.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel120.BackColor = System.Drawing.Color.PapayaWhip
         Me.Panel120.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel120.Controls.Add(Me.Label127)
         Me.Panel120.Location = New System.Drawing.Point(3, 1606)
         Me.Panel120.Name = "Panel120"
-        Me.Panel120.Size = New System.Drawing.Size(157, 34)
+        Me.Panel120.Size = New System.Drawing.Size(123, 34)
         Me.Panel120.TabIndex = 30
         '
         'Label127
@@ -3479,13 +3481,13 @@ Partial Class Skindows_95
         'Panel165
         '
         Me.Panel165.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel165.BackColor = System.Drawing.Color.FloralWhite
         Me.Panel165.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel165.Controls.Add(Me.Label172)
         Me.Panel165.Location = New System.Drawing.Point(3, 1804)
         Me.Panel165.Name = "Panel165"
-        Me.Panel165.Size = New System.Drawing.Size(157, 34)
+        Me.Panel165.Size = New System.Drawing.Size(123, 34)
         Me.Panel165.TabIndex = 35
         '
         'Label172
@@ -3502,13 +3504,13 @@ Partial Class Skindows_95
         'Panel121
         '
         Me.Panel121.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel121.BackColor = System.Drawing.Color.Moccasin
         Me.Panel121.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel121.Controls.Add(Me.Label128)
         Me.Panel121.Location = New System.Drawing.Point(3, 1645)
         Me.Panel121.Name = "Panel121"
-        Me.Panel121.Size = New System.Drawing.Size(157, 34)
+        Me.Panel121.Size = New System.Drawing.Size(123, 34)
         Me.Panel121.TabIndex = 31
         '
         'Label128
@@ -3525,13 +3527,13 @@ Partial Class Skindows_95
         'Panel164
         '
         Me.Panel164.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel164.BackColor = System.Drawing.Color.OldLace
         Me.Panel164.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel164.Controls.Add(Me.Label171)
         Me.Panel164.Location = New System.Drawing.Point(3, 1765)
         Me.Panel164.Name = "Panel164"
-        Me.Panel164.Size = New System.Drawing.Size(157, 34)
+        Me.Panel164.Size = New System.Drawing.Size(123, 34)
         Me.Panel164.TabIndex = 34
         '
         'Label171
@@ -3548,13 +3550,13 @@ Partial Class Skindows_95
         'Panel122
         '
         Me.Panel122.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel122.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.Panel122.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel122.Controls.Add(Me.Label129)
         Me.Panel122.Location = New System.Drawing.Point(3, 1566)
         Me.Panel122.Name = "Panel122"
-        Me.Panel122.Size = New System.Drawing.Size(157, 34)
+        Me.Panel122.Size = New System.Drawing.Size(123, 34)
         Me.Panel122.TabIndex = 29
         '
         'Label129
@@ -3571,13 +3573,13 @@ Partial Class Skindows_95
         'Panel166
         '
         Me.Panel166.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel166.BackColor = System.Drawing.Color.Wheat
         Me.Panel166.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel166.Controls.Add(Me.Label173)
         Me.Panel166.Location = New System.Drawing.Point(3, 1725)
         Me.Panel166.Name = "Panel166"
-        Me.Panel166.Size = New System.Drawing.Size(157, 34)
+        Me.Panel166.Size = New System.Drawing.Size(123, 34)
         Me.Panel166.TabIndex = 33
         '
         'Label173
@@ -3594,13 +3596,13 @@ Partial Class Skindows_95
         'Panel123
         '
         Me.Panel123.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel123.BackColor = System.Drawing.Color.BurlyWood
         Me.Panel123.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel123.Controls.Add(Me.Label130)
         Me.Panel123.Location = New System.Drawing.Point(2, 1403)
         Me.Panel123.Name = "Panel123"
-        Me.Panel123.Size = New System.Drawing.Size(157, 34)
+        Me.Panel123.Size = New System.Drawing.Size(123, 34)
         Me.Panel123.TabIndex = 29
         '
         'Label130
@@ -3617,13 +3619,13 @@ Partial Class Skindows_95
         'Panel124
         '
         Me.Panel124.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel124.BackColor = System.Drawing.Color.AntiqueWhite
         Me.Panel124.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel124.Controls.Add(Me.Label131)
         Me.Panel124.Location = New System.Drawing.Point(2, 1484)
         Me.Panel124.Name = "Panel124"
-        Me.Panel124.Size = New System.Drawing.Size(157, 34)
+        Me.Panel124.Size = New System.Drawing.Size(123, 34)
         Me.Panel124.TabIndex = 27
         '
         'Label131
@@ -3640,13 +3642,13 @@ Partial Class Skindows_95
         'Panel125
         '
         Me.Panel125.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel125.BackColor = System.Drawing.Color.Peru
         Me.Panel125.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel125.Controls.Add(Me.Label132)
         Me.Panel125.Location = New System.Drawing.Point(2, 1243)
         Me.Panel125.Name = "Panel125"
-        Me.Panel125.Size = New System.Drawing.Size(157, 34)
+        Me.Panel125.Size = New System.Drawing.Size(123, 34)
         Me.Panel125.TabIndex = 25
         '
         'Label132
@@ -3663,13 +3665,13 @@ Partial Class Skindows_95
         'Panel126
         '
         Me.Panel126.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel126.BackColor = System.Drawing.Color.NavajoWhite
         Me.Panel126.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel126.Controls.Add(Me.Label133)
         Me.Panel126.Location = New System.Drawing.Point(2, 1524)
         Me.Panel126.Name = "Panel126"
-        Me.Panel126.Size = New System.Drawing.Size(157, 34)
+        Me.Panel126.Size = New System.Drawing.Size(123, 34)
         Me.Panel126.TabIndex = 28
         '
         'Label133
@@ -3686,13 +3688,13 @@ Partial Class Skindows_95
         'Panel127
         '
         Me.Panel127.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel127.BackColor = System.Drawing.Color.Bisque
         Me.Panel127.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel127.Controls.Add(Me.Label134)
         Me.Panel127.Location = New System.Drawing.Point(2, 1323)
         Me.Panel127.Name = "Panel127"
-        Me.Panel127.Size = New System.Drawing.Size(157, 34)
+        Me.Panel127.Size = New System.Drawing.Size(123, 34)
         Me.Panel127.TabIndex = 27
         '
         'Label134
@@ -3709,13 +3711,13 @@ Partial Class Skindows_95
         'Panel128
         '
         Me.Panel128.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel128.BackColor = System.Drawing.Color.Tan
         Me.Panel128.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel128.Controls.Add(Me.Label135)
         Me.Panel128.Location = New System.Drawing.Point(2, 1444)
         Me.Panel128.Name = "Panel128"
-        Me.Panel128.Size = New System.Drawing.Size(157, 34)
+        Me.Panel128.Size = New System.Drawing.Size(123, 34)
         Me.Panel128.TabIndex = 26
         '
         'Label135
@@ -3732,13 +3734,13 @@ Partial Class Skindows_95
         'Panel129
         '
         Me.Panel129.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel129.BackColor = System.Drawing.Color.SandyBrown
         Me.Panel129.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel129.Controls.Add(Me.Label136)
         Me.Panel129.Location = New System.Drawing.Point(2, 1163)
         Me.Panel129.Name = "Panel129"
-        Me.Panel129.Size = New System.Drawing.Size(157, 34)
+        Me.Panel129.Size = New System.Drawing.Size(123, 34)
         Me.Panel129.TabIndex = 23
         '
         'Label136
@@ -3755,13 +3757,13 @@ Partial Class Skindows_95
         'Panel130
         '
         Me.Panel130.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel130.BackColor = System.Drawing.Color.DarkOrange
         Me.Panel130.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel130.Controls.Add(Me.Label137)
         Me.Panel130.Location = New System.Drawing.Point(2, 1363)
         Me.Panel130.Name = "Panel130"
-        Me.Panel130.Size = New System.Drawing.Size(157, 34)
+        Me.Panel130.Size = New System.Drawing.Size(123, 34)
         Me.Panel130.TabIndex = 28
         '
         'Label137
@@ -3778,13 +3780,13 @@ Partial Class Skindows_95
         'Panel131
         '
         Me.Panel131.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel131.BackColor = System.Drawing.Color.PeachPuff
         Me.Panel131.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel131.Controls.Add(Me.Label138)
         Me.Panel131.Location = New System.Drawing.Point(2, 1203)
         Me.Panel131.Name = "Panel131"
-        Me.Panel131.Size = New System.Drawing.Size(157, 34)
+        Me.Panel131.Size = New System.Drawing.Size(123, 34)
         Me.Panel131.TabIndex = 24
         '
         'Label138
@@ -3801,13 +3803,13 @@ Partial Class Skindows_95
         'Panel132
         '
         Me.Panel132.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel132.BackColor = System.Drawing.Color.Linen
         Me.Panel132.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel132.Controls.Add(Me.Label139)
         Me.Panel132.Location = New System.Drawing.Point(2, 1283)
         Me.Panel132.Name = "Panel132"
-        Me.Panel132.Size = New System.Drawing.Size(157, 34)
+        Me.Panel132.Size = New System.Drawing.Size(123, 34)
         Me.Panel132.TabIndex = 26
         '
         'Label139
@@ -3824,13 +3826,13 @@ Partial Class Skindows_95
         'Panel133
         '
         Me.Panel133.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel133.BackColor = System.Drawing.Color.SaddleBrown
         Me.Panel133.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel133.Controls.Add(Me.Label140)
         Me.Panel133.Location = New System.Drawing.Point(2, 1123)
         Me.Panel133.Name = "Panel133"
-        Me.Panel133.Size = New System.Drawing.Size(157, 34)
+        Me.Panel133.Size = New System.Drawing.Size(123, 34)
         Me.Panel133.TabIndex = 22
         '
         'Label140
@@ -3847,13 +3849,13 @@ Partial Class Skindows_95
         'Panel134
         '
         Me.Panel134.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel134.BackColor = System.Drawing.Color.Chocolate
         Me.Panel134.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel134.Controls.Add(Me.Label141)
         Me.Panel134.Location = New System.Drawing.Point(2, 1083)
         Me.Panel134.Name = "Panel134"
-        Me.Panel134.Size = New System.Drawing.Size(157, 34)
+        Me.Panel134.Size = New System.Drawing.Size(123, 34)
         Me.Panel134.TabIndex = 21
         '
         'Label141
@@ -3870,13 +3872,13 @@ Partial Class Skindows_95
         'Panel135
         '
         Me.Panel135.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel135.BackColor = System.Drawing.Color.Sienna
         Me.Panel135.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel135.Controls.Add(Me.Label142)
         Me.Panel135.Location = New System.Drawing.Point(3, 1003)
         Me.Panel135.Name = "Panel135"
-        Me.Panel135.Size = New System.Drawing.Size(157, 34)
+        Me.Panel135.Size = New System.Drawing.Size(123, 34)
         Me.Panel135.TabIndex = 19
         '
         'Label142
@@ -3893,13 +3895,13 @@ Partial Class Skindows_95
         'Panel136
         '
         Me.Panel136.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel136.BackColor = System.Drawing.Color.SeaShell
         Me.Panel136.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel136.Controls.Add(Me.Label143)
         Me.Panel136.Location = New System.Drawing.Point(2, 1043)
         Me.Panel136.Name = "Panel136"
-        Me.Panel136.Size = New System.Drawing.Size(157, 34)
+        Me.Panel136.Size = New System.Drawing.Size(123, 34)
         Me.Panel136.TabIndex = 20
         '
         'Label143
@@ -3916,13 +3918,13 @@ Partial Class Skindows_95
         'Panel137
         '
         Me.Panel137.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel137.BackColor = System.Drawing.Color.DarkSalmon
         Me.Panel137.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel137.Controls.Add(Me.Label144)
         Me.Panel137.Location = New System.Drawing.Point(3, 843)
         Me.Panel137.Name = "Panel137"
-        Me.Panel137.Size = New System.Drawing.Size(157, 34)
+        Me.Panel137.Size = New System.Drawing.Size(123, 34)
         Me.Panel137.TabIndex = 15
         '
         'Label144
@@ -3939,13 +3941,13 @@ Partial Class Skindows_95
         'Panel138
         '
         Me.Panel138.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel138.BackColor = System.Drawing.Color.LightSalmon
         Me.Panel138.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel138.Controls.Add(Me.Label145)
         Me.Panel138.Location = New System.Drawing.Point(3, 963)
         Me.Panel138.Name = "Panel138"
-        Me.Panel138.Size = New System.Drawing.Size(157, 34)
+        Me.Panel138.Size = New System.Drawing.Size(123, 34)
         Me.Panel138.TabIndex = 18
         '
         'Label145
@@ -3962,13 +3964,13 @@ Partial Class Skindows_95
         'Panel139
         '
         Me.Panel139.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel139.BackColor = System.Drawing.Color.Tomato
         Me.Panel139.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel139.Controls.Add(Me.Label146)
         Me.Panel139.Location = New System.Drawing.Point(3, 803)
         Me.Panel139.Name = "Panel139"
-        Me.Panel139.Size = New System.Drawing.Size(157, 34)
+        Me.Panel139.Size = New System.Drawing.Size(123, 34)
         Me.Panel139.TabIndex = 14
         '
         'Label146
@@ -3985,13 +3987,13 @@ Partial Class Skindows_95
         'Panel140
         '
         Me.Panel140.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel140.BackColor = System.Drawing.Color.OrangeRed
         Me.Panel140.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel140.Controls.Add(Me.Label147)
         Me.Panel140.Location = New System.Drawing.Point(3, 923)
         Me.Panel140.Name = "Panel140"
-        Me.Panel140.Size = New System.Drawing.Size(157, 34)
+        Me.Panel140.Size = New System.Drawing.Size(123, 34)
         Me.Panel140.TabIndex = 17
         '
         'Label147
@@ -4008,13 +4010,13 @@ Partial Class Skindows_95
         'Panel141
         '
         Me.Panel141.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel141.BackColor = System.Drawing.Color.Salmon
         Me.Panel141.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel141.Controls.Add(Me.Label148)
         Me.Panel141.Location = New System.Drawing.Point(3, 763)
         Me.Panel141.Name = "Panel141"
-        Me.Panel141.Size = New System.Drawing.Size(157, 34)
+        Me.Panel141.Size = New System.Drawing.Size(123, 34)
         Me.Panel141.TabIndex = 13
         '
         'Label148
@@ -4031,13 +4033,13 @@ Partial Class Skindows_95
         'Panel142
         '
         Me.Panel142.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel142.BackColor = System.Drawing.Color.Coral
         Me.Panel142.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel142.Controls.Add(Me.Label149)
         Me.Panel142.Location = New System.Drawing.Point(3, 883)
         Me.Panel142.Name = "Panel142"
-        Me.Panel142.Size = New System.Drawing.Size(157, 34)
+        Me.Panel142.Size = New System.Drawing.Size(123, 34)
         Me.Panel142.TabIndex = 16
         '
         'Label149
@@ -4075,7 +4077,7 @@ Partial Class Skindows_95
         'captionbarimages
         '
         Me.captionbarimages.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.captionbarimages.AutoScroll = True
         Me.captionbarimages.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.captionbarimages.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -4092,198 +4094,6 @@ Partial Class Skindows_95
         Me.captionbarimages.Name = "captionbarimages"
         Me.captionbarimages.Size = New System.Drawing.Size(192, 307)
         Me.captionbarimages.TabIndex = 1
-        '
-        'Panel23
-        '
-        Me.Panel23.BackColor = System.Drawing.Color.Black
-        Me.Panel23.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowdirt
-        Me.Panel23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel23.Controls.Add(Me.Label33)
-        Me.Panel23.Location = New System.Drawing.Point(5, 322)
-        Me.Panel23.Name = "Panel23"
-        Me.Panel23.Size = New System.Drawing.Size(162, 34)
-        Me.Panel23.TabIndex = 11
-        '
-        'Label33
-        '
-        Me.Label33.AutoSize = True
-        Me.Label33.BackColor = System.Drawing.Color.Transparent
-        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.ForeColor = System.Drawing.Color.White
-        Me.Label33.Location = New System.Drawing.Point(65, 9)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(32, 16)
-        Me.Label33.TabIndex = 2
-        Me.Label33.Text = "Dirt"
-        '
-        'Panel22
-        '
-        Me.Panel22.BackColor = System.Drawing.Color.Black
-        Me.Panel22.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsbinary
-        Me.Panel22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel22.Controls.Add(Me.Label32)
-        Me.Panel22.Location = New System.Drawing.Point(6, 283)
-        Me.Panel22.Name = "Panel22"
-        Me.Panel22.Size = New System.Drawing.Size(162, 34)
-        Me.Panel22.TabIndex = 10
-        '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.BackColor = System.Drawing.Color.Transparent
-        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.ForeColor = System.Drawing.Color.White
-        Me.Label32.Location = New System.Drawing.Point(57, 9)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(52, 16)
-        Me.Label32.TabIndex = 2
-        Me.Label32.Text = "Binary"
-        '
-        'Panel21
-        '
-        Me.Panel21.BackColor = System.Drawing.Color.Black
-        Me.Panel21.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsconcrete
-        Me.Panel21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel21.Controls.Add(Me.Label31)
-        Me.Panel21.Location = New System.Drawing.Point(6, 243)
-        Me.Panel21.Name = "Panel21"
-        Me.Panel21.Size = New System.Drawing.Size(162, 34)
-        Me.Panel21.TabIndex = 9
-        '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.BackColor = System.Drawing.Color.Transparent
-        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.ForeColor = System.Drawing.Color.Black
-        Me.Label31.Location = New System.Drawing.Point(48, 9)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(70, 16)
-        Me.Label31.TabIndex = 2
-        Me.Label31.Text = "Concrete"
-        '
-        'Panel20
-        '
-        Me.Panel20.BackColor = System.Drawing.Color.Black
-        Me.Panel20.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowswaterbar
-        Me.Panel20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel20.Controls.Add(Me.Label30)
-        Me.Panel20.Location = New System.Drawing.Point(6, 203)
-        Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(162, 34)
-        Me.Panel20.TabIndex = 8
-        '
-        'Label30
-        '
-        Me.Label30.AutoSize = True
-        Me.Label30.BackColor = System.Drawing.Color.Transparent
-        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.ForeColor = System.Drawing.Color.Black
-        Me.Label30.Location = New System.Drawing.Point(56, 9)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(49, 16)
-        Me.Label30.TabIndex = 2
-        Me.Label30.Text = "Water"
-        '
-        'Panel19
-        '
-        Me.Panel19.BackColor = System.Drawing.Color.Black
-        Me.Panel19.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowslightingbar
-        Me.Panel19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel19.Controls.Add(Me.Label29)
-        Me.Panel19.Location = New System.Drawing.Point(5, 162)
-        Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(162, 34)
-        Me.Panel19.TabIndex = 7
-        '
-        'Label29
-        '
-        Me.Label29.AutoSize = True
-        Me.Label29.BackColor = System.Drawing.Color.Transparent
-        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.ForeColor = System.Drawing.Color.Black
-        Me.Label29.Location = New System.Drawing.Point(47, 9)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(70, 16)
-        Me.Label29.TabIndex = 2
-        Me.Label29.Text = "Lightning"
-        '
-        'Panel18
-        '
-        Me.Panel18.BackColor = System.Drawing.Color.Black
-        Me.Panel18.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsgrassbar
-        Me.Panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel18.Controls.Add(Me.Label28)
-        Me.Panel18.Location = New System.Drawing.Point(5, 123)
-        Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(162, 34)
-        Me.Panel18.TabIndex = 6
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.BackColor = System.Drawing.Color.Transparent
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.ForeColor = System.Drawing.Color.Snow
-        Me.Label28.Location = New System.Drawing.Point(56, 9)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(49, 16)
-        Me.Label28.TabIndex = 2
-        Me.Label28.Text = "Grass"
-        '
-        'Panel17
-        '
-        Me.Panel17.BackColor = System.Drawing.Color.Black
-        Me.Panel17.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsfirebar2
-        Me.Panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel17.Controls.Add(Me.Label27)
-        Me.Panel17.Location = New System.Drawing.Point(5, 84)
-        Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(162, 34)
-        Me.Panel17.TabIndex = 5
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.BackColor = System.Drawing.Color.Transparent
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label27.Location = New System.Drawing.Point(62, 9)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(35, 16)
-        Me.Label27.TabIndex = 2
-        Me.Label27.Text = "Fire"
-        '
-        'Panel16
-        '
-        Me.Panel16.BackColor = System.Drawing.Color.Black
-        Me.Panel16.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsskybar2
-        Me.Panel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel16.Controls.Add(Me.Label26)
-        Me.Panel16.Location = New System.Drawing.Point(5, 45)
-        Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(162, 34)
-        Me.Panel16.TabIndex = 5
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.BackColor = System.Drawing.Color.Transparent
-        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.ForeColor = System.Drawing.Color.White
-        Me.Label26.Location = New System.Drawing.Point(62, 9)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(34, 16)
-        Me.Label26.TabIndex = 2
-        Me.Label26.Text = "Sky"
         '
         'Panel15
         '
@@ -4309,7 +4119,7 @@ Partial Class Skindows_95
         'Button1
         '
         Me.Button1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackColor = System.Drawing.Color.IndianRed
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -4323,7 +4133,7 @@ Partial Class Skindows_95
         'exampletopbar
         '
         Me.exampletopbar.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.exampletopbar.BackColor = System.Drawing.Color.DarkBlue
         Me.exampletopbar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.exampletopbar.Controls.Add(Me.PictureBox1)
@@ -4334,26 +4144,6 @@ Partial Class Skindows_95
         Me.exampletopbar.Name = "exampletopbar"
         Me.exampletopbar.Size = New System.Drawing.Size(323, 18)
         Me.exampletopbar.TabIndex = 1
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.PictureBox1.Image = Global.Histacom.My.Resources.Resources.Maximize
-        Me.PictureBox1.Location = New System.Drawing.Point(289, 2)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(16, 14)
-        Me.PictureBox1.TabIndex = 6
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.PictureBox2.Image = Global.Histacom.My.Resources.Resources.minimize
-        Me.PictureBox2.Location = New System.Drawing.Point(273, 2)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(16, 14)
-        Me.PictureBox2.TabIndex = 5
-        Me.PictureBox2.TabStop = False
         '
         'Label2
         '
@@ -4367,20 +4157,10 @@ Partial Class Skindows_95
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Skindows 95"
         '
-        'PictureBox3
-        '
-        Me.PictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources.close
-        Me.PictureBox3.Location = New System.Drawing.Point(306, 2)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(16, 14)
-        Me.PictureBox3.TabIndex = 4
-        Me.PictureBox3.TabStop = False
-        '
         'Panel2
         '
         Me.Panel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel2.BackColor = System.Drawing.Color.MediumAquamarine
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel2.Controls.Add(Me.Label3)
@@ -4403,7 +4183,7 @@ Partial Class Skindows_95
         'captionbarcolorstop
         '
         Me.captionbarcolorstop.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.captionbarcolorstop.BackColor = System.Drawing.Color.Maroon
         Me.captionbarcolorstop.Controls.Add(Me.label4)
         Me.captionbarcolorstop.Location = New System.Drawing.Point(7, 97)
@@ -4418,21 +4198,23 @@ Partial Class Skindows_95
         Me.label4.ForeColor = System.Drawing.Color.Beige
         Me.label4.Location = New System.Drawing.Point(60, 5)
         Me.label4.Name = "label4"
-        Me.label4.Size = New System.Drawing.Size(60, 20)
+        Me.label4.Size = New System.Drawing.Size(70, 20)
         Me.label4.TabIndex = 0
-        Me.label4.Text = "Colors"
+        Me.label4.Text = "Colours"
         '
         'TabPage2
         '
         Me.TabPage2.BackColor = System.Drawing.Color.Khaki
+        Me.TabPage2.Controls.Add(Me.PictureBox7)
         Me.TabPage2.Controls.Add(Me.Label68)
         Me.TabPage2.Controls.Add(Me.Panel59)
+        Me.TabPage2.ImageKey = "(none)"
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage2.Size = New System.Drawing.Size(400, 490)
         Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "TaskBar"
+        Me.TabPage2.Text = "Taskbar"
         '
         'Label68
         '
@@ -4447,7 +4229,7 @@ Partial Class Skindows_95
         'Panel59
         '
         Me.Panel59.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel59.BackColor = System.Drawing.Color.MediumAquamarine
         Me.Panel59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel59.Controls.Add(Me.taskbar)
@@ -4468,15 +4250,6 @@ Partial Class Skindows_95
         Me.taskbar.Name = "taskbar"
         Me.taskbar.Size = New System.Drawing.Size(368, 29)
         Me.taskbar.TabIndex = 1
-        '
-        'startbutton
-        '
-        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.start_button_windows_95
-        Me.startbutton.Location = New System.Drawing.Point(3, 2)
-        Me.startbutton.Name = "startbutton"
-        Me.startbutton.Size = New System.Drawing.Size(56, 24)
-        Me.startbutton.TabIndex = 3
-        Me.startbutton.TabStop = False
         '
         'taskbartime
         '
@@ -4582,198 +4355,6 @@ Partial Class Skindows_95
         Me.Panel26.Name = "Panel26"
         Me.Panel26.Size = New System.Drawing.Size(187, 205)
         Me.Panel26.TabIndex = 1
-        '
-        'Panel27
-        '
-        Me.Panel27.BackColor = System.Drawing.Color.Black
-        Me.Panel27.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowdirt
-        Me.Panel27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel27.Controls.Add(Me.Label36)
-        Me.Panel27.Location = New System.Drawing.Point(5, 322)
-        Me.Panel27.Name = "Panel27"
-        Me.Panel27.Size = New System.Drawing.Size(162, 34)
-        Me.Panel27.TabIndex = 11
-        '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.BackColor = System.Drawing.Color.Transparent
-        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.ForeColor = System.Drawing.Color.White
-        Me.Label36.Location = New System.Drawing.Point(65, 9)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(32, 16)
-        Me.Label36.TabIndex = 2
-        Me.Label36.Text = "Dirt"
-        '
-        'Panel28
-        '
-        Me.Panel28.BackColor = System.Drawing.Color.Black
-        Me.Panel28.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsbinary
-        Me.Panel28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel28.Controls.Add(Me.Label37)
-        Me.Panel28.Location = New System.Drawing.Point(6, 283)
-        Me.Panel28.Name = "Panel28"
-        Me.Panel28.Size = New System.Drawing.Size(162, 34)
-        Me.Panel28.TabIndex = 10
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.BackColor = System.Drawing.Color.Transparent
-        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.ForeColor = System.Drawing.Color.White
-        Me.Label37.Location = New System.Drawing.Point(57, 9)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(52, 16)
-        Me.Label37.TabIndex = 2
-        Me.Label37.Text = "Binary"
-        '
-        'Panel29
-        '
-        Me.Panel29.BackColor = System.Drawing.Color.Black
-        Me.Panel29.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsconcrete
-        Me.Panel29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel29.Controls.Add(Me.Label38)
-        Me.Panel29.Location = New System.Drawing.Point(6, 243)
-        Me.Panel29.Name = "Panel29"
-        Me.Panel29.Size = New System.Drawing.Size(162, 34)
-        Me.Panel29.TabIndex = 9
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.BackColor = System.Drawing.Color.Transparent
-        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.ForeColor = System.Drawing.Color.Black
-        Me.Label38.Location = New System.Drawing.Point(48, 9)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(70, 16)
-        Me.Label38.TabIndex = 2
-        Me.Label38.Text = "Concrete"
-        '
-        'Panel30
-        '
-        Me.Panel30.BackColor = System.Drawing.Color.Black
-        Me.Panel30.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowswaterbar
-        Me.Panel30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel30.Controls.Add(Me.Label39)
-        Me.Panel30.Location = New System.Drawing.Point(6, 203)
-        Me.Panel30.Name = "Panel30"
-        Me.Panel30.Size = New System.Drawing.Size(162, 34)
-        Me.Panel30.TabIndex = 8
-        '
-        'Label39
-        '
-        Me.Label39.AutoSize = True
-        Me.Label39.BackColor = System.Drawing.Color.Transparent
-        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.ForeColor = System.Drawing.Color.Black
-        Me.Label39.Location = New System.Drawing.Point(56, 9)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(49, 16)
-        Me.Label39.TabIndex = 2
-        Me.Label39.Text = "Water"
-        '
-        'Panel31
-        '
-        Me.Panel31.BackColor = System.Drawing.Color.Black
-        Me.Panel31.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowslightingbar
-        Me.Panel31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel31.Controls.Add(Me.Label40)
-        Me.Panel31.Location = New System.Drawing.Point(5, 162)
-        Me.Panel31.Name = "Panel31"
-        Me.Panel31.Size = New System.Drawing.Size(162, 34)
-        Me.Panel31.TabIndex = 7
-        '
-        'Label40
-        '
-        Me.Label40.AutoSize = True
-        Me.Label40.BackColor = System.Drawing.Color.Transparent
-        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.ForeColor = System.Drawing.Color.Black
-        Me.Label40.Location = New System.Drawing.Point(47, 9)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(70, 16)
-        Me.Label40.TabIndex = 2
-        Me.Label40.Text = "Lightning"
-        '
-        'Panel32
-        '
-        Me.Panel32.BackColor = System.Drawing.Color.Black
-        Me.Panel32.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsgrassbar
-        Me.Panel32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel32.Controls.Add(Me.Label41)
-        Me.Panel32.Location = New System.Drawing.Point(5, 123)
-        Me.Panel32.Name = "Panel32"
-        Me.Panel32.Size = New System.Drawing.Size(162, 34)
-        Me.Panel32.TabIndex = 6
-        '
-        'Label41
-        '
-        Me.Label41.AutoSize = True
-        Me.Label41.BackColor = System.Drawing.Color.Transparent
-        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.ForeColor = System.Drawing.Color.Snow
-        Me.Label41.Location = New System.Drawing.Point(56, 9)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(49, 16)
-        Me.Label41.TabIndex = 2
-        Me.Label41.Text = "Grass"
-        '
-        'Panel33
-        '
-        Me.Panel33.BackColor = System.Drawing.Color.Black
-        Me.Panel33.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsfirebar2
-        Me.Panel33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel33.Controls.Add(Me.Label42)
-        Me.Panel33.Location = New System.Drawing.Point(5, 84)
-        Me.Panel33.Name = "Panel33"
-        Me.Panel33.Size = New System.Drawing.Size(162, 34)
-        Me.Panel33.TabIndex = 5
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.BackColor = System.Drawing.Color.Transparent
-        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label42.Location = New System.Drawing.Point(62, 9)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(35, 16)
-        Me.Label42.TabIndex = 2
-        Me.Label42.Text = "Fire"
-        '
-        'Panel34
-        '
-        Me.Panel34.BackColor = System.Drawing.Color.Black
-        Me.Panel34.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsskybar2
-        Me.Panel34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel34.Controls.Add(Me.Label43)
-        Me.Panel34.Location = New System.Drawing.Point(5, 45)
-        Me.Panel34.Name = "Panel34"
-        Me.Panel34.Size = New System.Drawing.Size(162, 34)
-        Me.Panel34.TabIndex = 5
-        '
-        'Label43
-        '
-        Me.Label43.AutoSize = True
-        Me.Label43.BackColor = System.Drawing.Color.Transparent
-        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.ForeColor = System.Drawing.Color.White
-        Me.Label43.Location = New System.Drawing.Point(62, 9)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(34, 16)
-        Me.Label43.TabIndex = 2
-        Me.Label43.Text = "Sky"
         '
         'Panel35
         '
@@ -5228,7 +4809,7 @@ Partial Class Skindows_95
         'Panel56
         '
         Me.Panel56.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel56.BackColor = System.Drawing.Color.DarkBlue
         Me.Panel56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel56.Controls.Add(Me.PictureBox4)
@@ -5239,26 +4820,6 @@ Partial Class Skindows_95
         Me.Panel56.Name = "Panel56"
         Me.Panel56.Size = New System.Drawing.Size(314, 18)
         Me.Panel56.TabIndex = 1
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.PictureBox4.Image = Global.Histacom.My.Resources.Resources.Maximize
-        Me.PictureBox4.Location = New System.Drawing.Point(280, 2)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(16, 14)
-        Me.PictureBox4.TabIndex = 6
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.PictureBox5.Image = Global.Histacom.My.Resources.Resources.minimize
-        Me.PictureBox5.Location = New System.Drawing.Point(264, 2)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(16, 14)
-        Me.PictureBox5.TabIndex = 5
-        Me.PictureBox5.TabStop = False
         '
         'Label64
         '
@@ -5271,16 +4832,6 @@ Partial Class Skindows_95
         Me.Label64.Size = New System.Drawing.Size(79, 13)
         Me.Label64.TabIndex = 3
         Me.Label64.Text = "Skindows 95"
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.PictureBox6.Image = Global.Histacom.My.Resources.Resources.close
-        Me.PictureBox6.Location = New System.Drawing.Point(297, 2)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(16, 14)
-        Me.PictureBox6.TabIndex = 4
-        Me.PictureBox6.TabStop = False
         '
         'Panel57
         '
@@ -5389,6 +4940,17 @@ Partial Class Skindows_95
         Me.programtopbar.Size = New System.Drawing.Size(429, 18)
         Me.programtopbar.TabIndex = 0
         '
+        'programname
+        '
+        Me.programname.AutoSize = True
+        Me.programname.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.programname.ForeColor = System.Drawing.Color.White
+        Me.programname.Location = New System.Drawing.Point(3, 2)
+        Me.programname.Name = "programname"
+        Me.programname.Size = New System.Drawing.Size(79, 13)
+        Me.programname.TabIndex = 3
+        Me.programname.Text = "Skindows 95"
+        '
         'maximizebutton
         '
         Me.maximizebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
@@ -5409,17 +4971,6 @@ Partial Class Skindows_95
         Me.minimizebutton.TabIndex = 5
         Me.minimizebutton.TabStop = False
         '
-        'programname
-        '
-        Me.programname.AutoSize = True
-        Me.programname.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.programname.ForeColor = System.Drawing.Color.White
-        Me.programname.Location = New System.Drawing.Point(3, 2)
-        Me.programname.Name = "programname"
-        Me.programname.Size = New System.Drawing.Size(79, 13)
-        Me.programname.TabIndex = 3
-        Me.programname.Text = "Skindows 95"
-        '
         'closebutton
         '
         Me.closebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
@@ -5429,6 +4980,246 @@ Partial Class Skindows_95
         Me.closebutton.Size = New System.Drawing.Size(16, 14)
         Me.closebutton.TabIndex = 4
         Me.closebutton.TabStop = False
+        '
+        'Panel23
+        '
+        Me.Panel23.BackColor = System.Drawing.Color.Black
+        Me.Panel23.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowdirt
+        Me.Panel23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel23.Controls.Add(Me.Label33)
+        Me.Panel23.Location = New System.Drawing.Point(5, 322)
+        Me.Panel23.Name = "Panel23"
+        Me.Panel23.Size = New System.Drawing.Size(162, 34)
+        Me.Panel23.TabIndex = 11
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.BackColor = System.Drawing.Color.Transparent
+        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.ForeColor = System.Drawing.Color.White
+        Me.Label33.Location = New System.Drawing.Point(65, 9)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(32, 16)
+        Me.Label33.TabIndex = 2
+        Me.Label33.Text = "Dirt"
+        '
+        'Panel22
+        '
+        Me.Panel22.BackColor = System.Drawing.Color.Black
+        Me.Panel22.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsbinary
+        Me.Panel22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel22.Controls.Add(Me.Label32)
+        Me.Panel22.Location = New System.Drawing.Point(6, 283)
+        Me.Panel22.Name = "Panel22"
+        Me.Panel22.Size = New System.Drawing.Size(162, 34)
+        Me.Panel22.TabIndex = 10
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.BackColor = System.Drawing.Color.Transparent
+        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.ForeColor = System.Drawing.Color.White
+        Me.Label32.Location = New System.Drawing.Point(57, 9)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(52, 16)
+        Me.Label32.TabIndex = 2
+        Me.Label32.Text = "Binary"
+        '
+        'Panel21
+        '
+        Me.Panel21.BackColor = System.Drawing.Color.Black
+        Me.Panel21.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsconcrete
+        Me.Panel21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel21.Controls.Add(Me.Label31)
+        Me.Panel21.Location = New System.Drawing.Point(6, 243)
+        Me.Panel21.Name = "Panel21"
+        Me.Panel21.Size = New System.Drawing.Size(162, 34)
+        Me.Panel21.TabIndex = 9
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.BackColor = System.Drawing.Color.Transparent
+        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.ForeColor = System.Drawing.Color.Black
+        Me.Label31.Location = New System.Drawing.Point(48, 9)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(70, 16)
+        Me.Label31.TabIndex = 2
+        Me.Label31.Text = "Concrete"
+        '
+        'Panel20
+        '
+        Me.Panel20.BackColor = System.Drawing.Color.Black
+        Me.Panel20.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowswaterbar
+        Me.Panel20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel20.Controls.Add(Me.Label30)
+        Me.Panel20.Location = New System.Drawing.Point(6, 203)
+        Me.Panel20.Name = "Panel20"
+        Me.Panel20.Size = New System.Drawing.Size(162, 34)
+        Me.Panel20.TabIndex = 8
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.BackColor = System.Drawing.Color.Transparent
+        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.ForeColor = System.Drawing.Color.Black
+        Me.Label30.Location = New System.Drawing.Point(56, 9)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(49, 16)
+        Me.Label30.TabIndex = 2
+        Me.Label30.Text = "Water"
+        '
+        'Panel19
+        '
+        Me.Panel19.BackColor = System.Drawing.Color.Black
+        Me.Panel19.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowslightingbar
+        Me.Panel19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel19.Controls.Add(Me.Label29)
+        Me.Panel19.Location = New System.Drawing.Point(5, 162)
+        Me.Panel19.Name = "Panel19"
+        Me.Panel19.Size = New System.Drawing.Size(162, 34)
+        Me.Panel19.TabIndex = 7
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.BackColor = System.Drawing.Color.Transparent
+        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.ForeColor = System.Drawing.Color.Black
+        Me.Label29.Location = New System.Drawing.Point(47, 9)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(70, 16)
+        Me.Label29.TabIndex = 2
+        Me.Label29.Text = "Lightning"
+        '
+        'Panel18
+        '
+        Me.Panel18.BackColor = System.Drawing.Color.Black
+        Me.Panel18.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsgrassbar
+        Me.Panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel18.Controls.Add(Me.Label28)
+        Me.Panel18.Location = New System.Drawing.Point(5, 123)
+        Me.Panel18.Name = "Panel18"
+        Me.Panel18.Size = New System.Drawing.Size(162, 34)
+        Me.Panel18.TabIndex = 6
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.BackColor = System.Drawing.Color.Transparent
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.ForeColor = System.Drawing.Color.Snow
+        Me.Label28.Location = New System.Drawing.Point(56, 9)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(49, 16)
+        Me.Label28.TabIndex = 2
+        Me.Label28.Text = "Grass"
+        '
+        'Panel17
+        '
+        Me.Panel17.BackColor = System.Drawing.Color.Black
+        Me.Panel17.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsfirebar2
+        Me.Panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel17.Controls.Add(Me.Label27)
+        Me.Panel17.Location = New System.Drawing.Point(5, 84)
+        Me.Panel17.Name = "Panel17"
+        Me.Panel17.Size = New System.Drawing.Size(162, 34)
+        Me.Panel17.TabIndex = 5
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.BackColor = System.Drawing.Color.Transparent
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.ForeColor = System.Drawing.Color.DarkBlue
+        Me.Label27.Location = New System.Drawing.Point(62, 9)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(35, 16)
+        Me.Label27.TabIndex = 2
+        Me.Label27.Text = "Fire"
+        '
+        'Panel16
+        '
+        Me.Panel16.BackColor = System.Drawing.Color.Black
+        Me.Panel16.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsskybar2
+        Me.Panel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel16.Controls.Add(Me.Label26)
+        Me.Panel16.Location = New System.Drawing.Point(5, 45)
+        Me.Panel16.Name = "Panel16"
+        Me.Panel16.Size = New System.Drawing.Size(162, 34)
+        Me.Panel16.TabIndex = 5
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.BackColor = System.Drawing.Color.Transparent
+        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.ForeColor = System.Drawing.Color.White
+        Me.Label26.Location = New System.Drawing.Point(62, 9)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(34, 16)
+        Me.Label26.TabIndex = 2
+        Me.Label26.Text = "Sky"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.PictureBox1.Image = Global.Histacom.My.Resources.Resources.Maximize
+        Me.PictureBox1.Location = New System.Drawing.Point(289, 2)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(16, 14)
+        Me.PictureBox1.TabIndex = 6
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.PictureBox2.Image = Global.Histacom.My.Resources.Resources.minimize
+        Me.PictureBox2.Location = New System.Drawing.Point(273, 2)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(16, 14)
+        Me.PictureBox2.TabIndex = 5
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources.close
+        Me.PictureBox3.Location = New System.Drawing.Point(306, 2)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(16, 14)
+        Me.PictureBox3.TabIndex = 4
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.BackgroundImage = Global.Histacom.My.Resources.Resources.money
+        Me.PictureBox7.Location = New System.Drawing.Point(3, 131)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(379, 67)
+        Me.PictureBox7.TabIndex = 5
+        Me.PictureBox7.TabStop = False
+        '
+        'startbutton
+        '
+        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.start_button_windows_95
+        Me.startbutton.Location = New System.Drawing.Point(3, 2)
+        Me.startbutton.Name = "startbutton"
+        Me.startbutton.Size = New System.Drawing.Size(56, 24)
+        Me.startbutton.TabIndex = 3
+        Me.startbutton.TabStop = False
         '
         'toprightcorner
         '
@@ -5503,6 +5294,228 @@ Partial Class Skindows_95
         Me.top.Name = "top"
         Me.top.Size = New System.Drawing.Size(437, 4)
         Me.top.TabIndex = 8
+        '
+        'Panel27
+        '
+        Me.Panel27.BackColor = System.Drawing.Color.Black
+        Me.Panel27.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowdirt
+        Me.Panel27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel27.Controls.Add(Me.Label36)
+        Me.Panel27.Location = New System.Drawing.Point(5, 322)
+        Me.Panel27.Name = "Panel27"
+        Me.Panel27.Size = New System.Drawing.Size(162, 34)
+        Me.Panel27.TabIndex = 11
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.BackColor = System.Drawing.Color.Transparent
+        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.ForeColor = System.Drawing.Color.White
+        Me.Label36.Location = New System.Drawing.Point(65, 9)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(32, 16)
+        Me.Label36.TabIndex = 2
+        Me.Label36.Text = "Dirt"
+        '
+        'Panel28
+        '
+        Me.Panel28.BackColor = System.Drawing.Color.Black
+        Me.Panel28.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsbinary
+        Me.Panel28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel28.Controls.Add(Me.Label37)
+        Me.Panel28.Location = New System.Drawing.Point(6, 283)
+        Me.Panel28.Name = "Panel28"
+        Me.Panel28.Size = New System.Drawing.Size(162, 34)
+        Me.Panel28.TabIndex = 10
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.BackColor = System.Drawing.Color.Transparent
+        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.ForeColor = System.Drawing.Color.White
+        Me.Label37.Location = New System.Drawing.Point(57, 9)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(52, 16)
+        Me.Label37.TabIndex = 2
+        Me.Label37.Text = "Binary"
+        '
+        'Panel29
+        '
+        Me.Panel29.BackColor = System.Drawing.Color.Black
+        Me.Panel29.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsconcrete
+        Me.Panel29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel29.Controls.Add(Me.Label38)
+        Me.Panel29.Location = New System.Drawing.Point(6, 243)
+        Me.Panel29.Name = "Panel29"
+        Me.Panel29.Size = New System.Drawing.Size(162, 34)
+        Me.Panel29.TabIndex = 9
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.BackColor = System.Drawing.Color.Transparent
+        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.ForeColor = System.Drawing.Color.Black
+        Me.Label38.Location = New System.Drawing.Point(48, 9)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(70, 16)
+        Me.Label38.TabIndex = 2
+        Me.Label38.Text = "Concrete"
+        '
+        'Panel30
+        '
+        Me.Panel30.BackColor = System.Drawing.Color.Black
+        Me.Panel30.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowswaterbar
+        Me.Panel30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel30.Controls.Add(Me.Label39)
+        Me.Panel30.Location = New System.Drawing.Point(6, 203)
+        Me.Panel30.Name = "Panel30"
+        Me.Panel30.Size = New System.Drawing.Size(162, 34)
+        Me.Panel30.TabIndex = 8
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.BackColor = System.Drawing.Color.Transparent
+        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.ForeColor = System.Drawing.Color.Black
+        Me.Label39.Location = New System.Drawing.Point(56, 9)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(49, 16)
+        Me.Label39.TabIndex = 2
+        Me.Label39.Text = "Water"
+        '
+        'Panel31
+        '
+        Me.Panel31.BackColor = System.Drawing.Color.Black
+        Me.Panel31.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowslightingbar
+        Me.Panel31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel31.Controls.Add(Me.Label40)
+        Me.Panel31.Location = New System.Drawing.Point(5, 162)
+        Me.Panel31.Name = "Panel31"
+        Me.Panel31.Size = New System.Drawing.Size(162, 34)
+        Me.Panel31.TabIndex = 7
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.BackColor = System.Drawing.Color.Transparent
+        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.ForeColor = System.Drawing.Color.Black
+        Me.Label40.Location = New System.Drawing.Point(47, 9)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(70, 16)
+        Me.Label40.TabIndex = 2
+        Me.Label40.Text = "Lightning"
+        '
+        'Panel32
+        '
+        Me.Panel32.BackColor = System.Drawing.Color.Black
+        Me.Panel32.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsgrassbar
+        Me.Panel32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel32.Controls.Add(Me.Label41)
+        Me.Panel32.Location = New System.Drawing.Point(5, 123)
+        Me.Panel32.Name = "Panel32"
+        Me.Panel32.Size = New System.Drawing.Size(162, 34)
+        Me.Panel32.TabIndex = 6
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.BackColor = System.Drawing.Color.Transparent
+        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.ForeColor = System.Drawing.Color.Snow
+        Me.Label41.Location = New System.Drawing.Point(56, 9)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(49, 16)
+        Me.Label41.TabIndex = 2
+        Me.Label41.Text = "Grass"
+        '
+        'Panel33
+        '
+        Me.Panel33.BackColor = System.Drawing.Color.Black
+        Me.Panel33.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsfirebar2
+        Me.Panel33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel33.Controls.Add(Me.Label42)
+        Me.Panel33.Location = New System.Drawing.Point(5, 84)
+        Me.Panel33.Name = "Panel33"
+        Me.Panel33.Size = New System.Drawing.Size(162, 34)
+        Me.Panel33.TabIndex = 5
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.BackColor = System.Drawing.Color.Transparent
+        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.ForeColor = System.Drawing.Color.DarkBlue
+        Me.Label42.Location = New System.Drawing.Point(62, 9)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(35, 16)
+        Me.Label42.TabIndex = 2
+        Me.Label42.Text = "Fire"
+        '
+        'Panel34
+        '
+        Me.Panel34.BackColor = System.Drawing.Color.Black
+        Me.Panel34.BackgroundImage = Global.Histacom.My.Resources.Resources.skindowsskybar2
+        Me.Panel34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel34.Controls.Add(Me.Label43)
+        Me.Panel34.Location = New System.Drawing.Point(5, 45)
+        Me.Panel34.Name = "Panel34"
+        Me.Panel34.Size = New System.Drawing.Size(162, 34)
+        Me.Panel34.TabIndex = 5
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.BackColor = System.Drawing.Color.Transparent
+        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.ForeColor = System.Drawing.Color.White
+        Me.Label43.Location = New System.Drawing.Point(62, 9)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(34, 16)
+        Me.Label43.TabIndex = 2
+        Me.Label43.Text = "Sky"
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.PictureBox4.Image = Global.Histacom.My.Resources.Resources.Maximize
+        Me.PictureBox4.Location = New System.Drawing.Point(280, 2)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(16, 14)
+        Me.PictureBox4.TabIndex = 6
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.PictureBox5.Image = Global.Histacom.My.Resources.Resources.minimize
+        Me.PictureBox5.Location = New System.Drawing.Point(264, 2)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(16, 14)
+        Me.PictureBox5.TabIndex = 5
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.PictureBox6.Image = Global.Histacom.My.Resources.Resources.close
+        Me.PictureBox6.Location = New System.Drawing.Point(297, 2)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(16, 14)
+        Me.PictureBox6.TabIndex = 4
+        Me.PictureBox6.TabStop = False
         '
         'Skindows_95
         '
@@ -5800,29 +5813,10 @@ Partial Class Skindows_95
         Me.captionbarimagestop.ResumeLayout(False)
         Me.captionbarimagestop.PerformLayout()
         Me.captionbarimages.ResumeLayout(False)
-        Me.Panel23.ResumeLayout(False)
-        Me.Panel23.PerformLayout()
-        Me.Panel22.ResumeLayout(False)
-        Me.Panel22.PerformLayout()
-        Me.Panel21.ResumeLayout(False)
-        Me.Panel21.PerformLayout()
-        Me.Panel20.ResumeLayout(False)
-        Me.Panel20.PerformLayout()
-        Me.Panel19.ResumeLayout(False)
-        Me.Panel19.PerformLayout()
-        Me.Panel18.ResumeLayout(False)
-        Me.Panel18.PerformLayout()
-        Me.Panel17.ResumeLayout(False)
-        Me.Panel17.PerformLayout()
-        Me.Panel16.ResumeLayout(False)
-        Me.Panel16.PerformLayout()
         Me.Panel15.ResumeLayout(False)
         Me.Panel15.PerformLayout()
         Me.exampletopbar.ResumeLayout(False)
         Me.exampletopbar.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.captionbarcolorstop.ResumeLayout(False)
@@ -5833,27 +5827,10 @@ Partial Class Skindows_95
         Me.Panel59.PerformLayout()
         Me.taskbar.ResumeLayout(False)
         Me.taskbar.PerformLayout()
-        CType(Me.startbutton, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel24.ResumeLayout(False)
         Me.Panel24.PerformLayout()
         Me.Panel25.ResumeLayout(False)
         Me.Panel26.ResumeLayout(False)
-        Me.Panel27.ResumeLayout(False)
-        Me.Panel27.PerformLayout()
-        Me.Panel28.ResumeLayout(False)
-        Me.Panel28.PerformLayout()
-        Me.Panel29.ResumeLayout(False)
-        Me.Panel29.PerformLayout()
-        Me.Panel30.ResumeLayout(False)
-        Me.Panel30.PerformLayout()
-        Me.Panel31.ResumeLayout(False)
-        Me.Panel31.PerformLayout()
-        Me.Panel32.ResumeLayout(False)
-        Me.Panel32.PerformLayout()
-        Me.Panel33.ResumeLayout(False)
-        Me.Panel33.PerformLayout()
-        Me.Panel34.ResumeLayout(False)
-        Me.Panel34.PerformLayout()
         Me.Panel35.ResumeLayout(False)
         Me.Panel35.PerformLayout()
         Me.Panel36.ResumeLayout(False)
@@ -5897,9 +5874,6 @@ Partial Class Skindows_95
         Me.Panel55.PerformLayout()
         Me.Panel56.ResumeLayout(False)
         Me.Panel56.PerformLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel57.ResumeLayout(False)
         Me.Panel57.PerformLayout()
         Me.Panel58.ResumeLayout(False)
@@ -5911,6 +5885,46 @@ Partial Class Skindows_95
         CType(Me.maximizebutton, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.minimizebutton, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.closebutton, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel23.ResumeLayout(False)
+        Me.Panel23.PerformLayout()
+        Me.Panel22.ResumeLayout(False)
+        Me.Panel22.PerformLayout()
+        Me.Panel21.ResumeLayout(False)
+        Me.Panel21.PerformLayout()
+        Me.Panel20.ResumeLayout(False)
+        Me.Panel20.PerformLayout()
+        Me.Panel19.ResumeLayout(False)
+        Me.Panel19.PerformLayout()
+        Me.Panel18.ResumeLayout(False)
+        Me.Panel18.PerformLayout()
+        Me.Panel17.ResumeLayout(False)
+        Me.Panel17.PerformLayout()
+        Me.Panel16.ResumeLayout(False)
+        Me.Panel16.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.startbutton, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel27.ResumeLayout(False)
+        Me.Panel27.PerformLayout()
+        Me.Panel28.ResumeLayout(False)
+        Me.Panel28.PerformLayout()
+        Me.Panel29.ResumeLayout(False)
+        Me.Panel29.PerformLayout()
+        Me.Panel30.ResumeLayout(False)
+        Me.Panel30.PerformLayout()
+        Me.Panel31.ResumeLayout(False)
+        Me.Panel31.PerformLayout()
+        Me.Panel32.ResumeLayout(False)
+        Me.Panel32.PerformLayout()
+        Me.Panel33.ResumeLayout(False)
+        Me.Panel33.PerformLayout()
+        Me.Panel34.ResumeLayout(False)
+        Me.Panel34.PerformLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -6328,4 +6342,5 @@ Partial Class Skindows_95
     Friend WithEvents bottom As System.Windows.Forms.Panel
     Friend WithEvents right As System.Windows.Forms.Panel
     Friend WithEvents top As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox7 As PictureBox
 End Class

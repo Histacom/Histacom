@@ -53,80 +53,80 @@
 	                Chat.Stop()
 	            Else
 	                Chat.Start()
-	                history.Text += ("12padams: Ok I got a message that you just started the timer " & mainname & Environment.NewLine)
-	            End If
+                    history.Text += ("12padams: Ok, I got a message that says that you just started the timer." & mainname & Environment.NewLine)
+                End If
 	        Case 66
-	            history.Text += ("The Hidden Hacker: I Hope this works..." & Environment.NewLine)
-	            Chat.Interval = 3000
+                history.Text += ("The Hidden Hacker: I hope this works..." & Environment.NewLine)
+                Chat.Interval = 3000
 	            count.Start()
 	            waitfor02download = True
 	            Chat.Stop()
 	        Case 65
-	            history.Text += ("12padams: Ok " & mainname & " download it now and we will wait for you" & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("12padams: OK " & mainname & " download it now and we will wait for you." & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 64
 	            Label5.Show()
 	            Button5.Show()
 	        Case 63
-	            history.Text += ("12padams: We will start right now. Ill send 0.2 of time distorter and " & mainname & " can download it" & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("12padams: We will start now. Il'l send 0.2 of time distorter and " & mainname & " can download it!" & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 62
-	            history.Text += ("The Hidden Hacker: Ok then when do we start?" & Environment.NewLine)
-	            Chat.Interval = 6000
+                history.Text += ("The Hidden Hacker: Ok then. When do we start?" & Environment.NewLine)
+                Chat.Interval = 6000
 	        Case 61
-	            history.Text += ("12padams: Nothings going to go wrong I think i Got this" & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("12padams: Nothing will go wrong. I think I got this." & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 60
-	            history.Text += ("The Hidden Hacker: But what If something goes wrong and " & mainname & " doesn't get to the year 2000 properly?" & Environment.NewLine)
-	            Chat.Interval = 5000
+                history.Text += ("The Hidden Hacker: What if something goes wrong and " & mainname & " doesn't get to the year 2000?" & Environment.NewLine)
+                Chat.Interval = 5000
 	        Case 59
-	            history.Text += ("12padams: Ok I want you to look out for " & mainname & " so that in 1 year you can tell me when he comes back" & Environment.NewLine)
-	            Chat.Interval = 7000
+                history.Text += ("12padams: I want you to look out for " & mainname & " so that in 1 year you can tell me when he comes back." & Environment.NewLine)
+                Chat.Interval = 7000
 	        Case 58
-	            history.Text += ("The Hidden Hacker: Ok but what do you want me to do?" & Environment.NewLine)
-	            Chat.Interval = 6000
+                history.Text += ("The Hidden Hacker: What do you want me to do?" & Environment.NewLine)
+                Chat.Interval = 6000
 	        Case 57
-	            history.Text += ("12padams: But It has to be done... you need to help me, guys... please" & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("12padams: It has to be done... you need to help me, guys... please!" & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 56
-	            history.Text += ("The Hidden Hacker: 12padams thats too risky" & Environment.NewLine)
-	            Chat.Interval = 5000
+                history.Text += ("The Hidden Hacker: That is too risky, don't you think so?" & Environment.NewLine)
+                Chat.Interval = 5000
 	        Case 55
-	            history.Text += ("12padams: This could serriously impact my time travel software." & Environment.NewLine)
-	            Chat.Interval = 3000
+                history.Text += ("12padams: This could seriously impact my time travel software." & Environment.NewLine)
+                Chat.Interval = 3000
 	        Case 54
-	            history.Text += ("12padams: Computer dates may stuff up and display 1900 instead of 2000" & Environment.NewLine)
-	            Chat.Interval = 5000
+                history.Text += ("12padams: Computer dates may stuff up and display 1900 instead of 2000." & Environment.NewLine)
+                Chat.Interval = 5000
 	        Case 53
-	            history.Text += ("12padams: Well basically I wrote an article on the year 2000 bug AKA y2k" & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("12padams: Simply put, I wrote an article on the Year 2000 bug." & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 52
-	            history.Text += ("12padams: haha sorry I forgot about that" & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("12padams: Sorry, I forgot about that!" & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 51
-	            history.Text += ("The Hidden Hacker: no since I am blocked from using your website" & Environment.NewLine)
-	            Chat.Interval = 3000
+                history.Text += ("The Hidden Hacker: I am blocked from using your website, remember?" & Environment.NewLine)
+                Chat.Interval = 3000
 	        Case 50
-	            history.Text += ("12padams: no... Its not accually. Didn't you read the article on my website?" & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("12padams: It will, but did you not read the article on my website of the Y2K bug?" & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 49
-	            history.Text += ("The Hidden Hacker: Why does he need to try it out??? its gunna work just like 0.1 did" & Environment.NewLine)
-	            Chat.Interval = 5000
+                history.Text += ("The Hidden Hacker: Why does he need to try it out? Won't it work like 0.1 did?" & Environment.NewLine)
+                Chat.Interval = 5000
 	        Case 48
-	            history.Text += ("12padams: " & mainname & "... I will need you to try this out again" & Environment.NewLine)
-	            Chat.Interval = 5000
+                history.Text += ("12padams: " & mainname & "... I will need you to try this out again." & Environment.NewLine)
+                Chat.Interval = 5000
 	        Case 47
-	            history.Text += ("12padams: well not much different... it works the same except it works in all time periods and it takes you to 2000" & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("12padams: Well OK, that was a hyperbole; it's not that much different in terms of functionality. It works the same way but now it works in all time periods and it takes you to 2000!" & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 46
-	            history.Text += ("12padams: 0.2 is much different however" & Environment.NewLine)
-	            Chat.Interval = 5000
+                history.Text += ("12padams: 0.2 is much different however!" & Environment.NewLine)
+                Chat.Interval = 5000
 	        Case 45
-	            history.Text += ("12padams: Well anyway... 0.1 is now useless since it only works if the year is 1998 and it will only take you to 1999" & Environment.NewLine)
-	            Chat.Interval = 7000
+                history.Text += ("12padams: Anyway, 0.1 is useless because it only worked if the year was 1998 and it will only take you to 1999." & Environment.NewLine)
+                Chat.Interval = 7000
 	        Case 44
-	            history.Text += ("12padams: oh woops yea oh cause you would" & Environment.NewLine)
-	            Chat.Interval = 8000
+                history.Text += ("12padams: Of course you would! Why did I ask that?" & Environment.NewLine)
+                Chat.Interval = 8000
 	        Case 43
 	            history.Text += ("The Hidden Hacker: Of cause I remember that..." & Environment.NewLine)
 	            Chat.Interval = 3000
@@ -134,65 +134,65 @@
 	            history.Text += ("12padams: Remember time distorter 0.1?" & Environment.NewLine)
 	            Chat.Interval = 3000
 	        Case 41
-	            history.Text += ("12padams: Oh right I forgot to tell you both" & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("12padams: I forgot to tell you both!" & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 40
-	            history.Text += ("The Hidden Hacker: Wait A sec... you mean we are going to time travel again?" & Environment.NewLine)
-	            Chat.Interval = 5000
+                history.Text += ("The Hidden Hacker: Wait a sec... you mean we are going to time travel again?" & Environment.NewLine)
+                Chat.Interval = 5000
 	        Case 39
-	            history.Text += ("12padams: Ok I know... you can track the time travels so you can see when " & mainname & " gets to a new time period you say whats going on..." & Environment.NewLine)
-	            Chat.Interval = 6000
+                history.Text += ("12padams: Ok, you can track the time travels so you can see when " & mainname & " gets to a new time period. This will allow you to say what is going on..." & Environment.NewLine)
+                Chat.Interval = 6000
 	        Case 38
-	            history.Text += ("12padams: I am not really sure accually... um let me think" & Environment.NewLine)
-	            Chat.Interval = 5000
+                history.Text += ("12padams: I am not really sure actually... let me think this through!" & Environment.NewLine)
+                Chat.Interval = 5000
 	        Case 37
-	            history.Text += ("The Hidden Hacker: Um what do you mean by guider?" & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("The Hidden Hacker: What do you mean by guider?" & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 36
-	            history.Text += ("12padams: And The Hidden Hacker... you can be the um... Guider" & Environment.NewLine)
-	            Chat.Interval = 3000
+                history.Text += ("12padams: As for you, The Hidden Hacker... you can be the... guider." & Environment.NewLine)
+                Chat.Interval = 3000
 	        Case 35
-	            history.Text += ("12padams: " & mainname & " you can be the tester for my time travel software" & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("12padams: " & mainname & " can be the tester for my time travel software." & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 34
-	            history.Text += ("12padams: Well I am the coder who will be working on the time travel software" & Environment.NewLine)
-	            Chat.Interval = 7000
+                history.Text += ("12padams: I am the coder who will be working on the time travel software." & Environment.NewLine)
+                Chat.Interval = 7000
 	        Case 33
-	            history.Text += ("The Hidden Hacker: Wait what do you mean by 'a team'" & Environment.NewLine)
-	            Chat.Interval = 5000
+                history.Text += ("The Hidden Hacker: What do you mean by that?" & Environment.NewLine)
+                Chat.Interval = 5000
 	        Case 32
-	            history.Text += ("12padams: Look Since you both know about this whole time travel thing... I want us to be a team " & Environment.NewLine)
-	            Chat.Interval = 5000
+                history.Text += ("12padams: Since you both know about this whole time travel thing... I want us to be a team." & Environment.NewLine)
+                Chat.Interval = 5000
 	        Case 31
-	            history.Text += ("12padams: Well anyway I have something very important I now have to say to you both " & Environment.NewLine)
-	            Chat.Interval = 6000
+                history.Text += ("12padams: Let's not go off-topic here! I have something very important I now have to say to you both" & Environment.NewLine)
+                Chat.Interval = 6000
 	        Case 30
-	            history.Text += ("The Hidden Hacker: Lol its good you now have a name " & mainname & Environment.NewLine)
-	            Chat.Interval = 6000
+                history.Text += ("The Hidden Hacker: OK. I think that it's good you now have a name we can call you as" & Environment.NewLine)
+                Chat.Interval = 6000
 	        Case 29
-	            history.Text += ("12padams: Ok from now on we will call you " & mainname & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("12padams: From now on we will call this user " & mainname & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 28
-				if mainname == "" Then
-					con -= 1
-				End If
-	            Chat.Interval = 3000
+                If mainname = "" Then
+                    con -= 1
+                End If
+                Chat.Interval = 3000
 	        Case 27
-	            history.Text += ("12padams: Um whats your name 'windows 98 user' just type it in the chat now. I recommend less then 10 letters" & Environment.NewLine)
-	            Chat.Interval = 6000
+                history.Text += ("12padams: I don't want to disturb you, but what is your name? What you type in the chat now, is what we will refer you as. I suggest less then 10 letters for better flow!" & Environment.NewLine)
+                Chat.Interval = 6000
 	            waiting = True
 	        Case 26
-	            history.Text += ("12padams: Ok just to let you know... the only thing thats getting me 'angrey' right now is not knowing what this windows 98 users name is " & Environment.NewLine)
-	            Chat.Interval = 9000
+                history.Text += ("12padams: OK, what's making me annoyed now is not knowing what this Windows 98 name is!" & Environment.NewLine)
+                Chat.Interval = 9000
 	        Case 25
-	            history.Text += ("The Hidden Hacker: Well thats a relief... um whatever your name is... " & Environment.NewLine)
-	            Chat.Interval = 7000
+                history.Text += ("The Hidden Hacker: Well that is a relief, isn't it? Hey what's your name again?" & Environment.NewLine)
+                Chat.Interval = 7000
 	        Case 24
-	            history.Text += ("12padams: So I just wanna say thanks :) both of you... " & Environment.NewLine)
-	            Chat.Interval = 5000
+                history.Text += ("12padams: So I just wanted to say thanks to both of you... " & Environment.NewLine)
+                Chat.Interval = 5000
 	        Case 23
-	            history.Text += ("12padams: Liston... If you had not hacked my emails and taken my software and tried it out I would never have tested my software. " & Environment.NewLine)
-	            Chat.Interval = 9000
+                history.Text += ("12padams: Listen, if you had not hacked my emails and taken my software, followed by trying it out, I would never have done so. " & Environment.NewLine)
+                Chat.Interval = 9000
 	        Case 22
 	            history.Text += ("12padams: Yea I'm not angrey at any of you..." & Environment.NewLine)
 	            Chat.Interval = 6000
