@@ -68,7 +68,7 @@
 	            Label5.Show()
 	            Button5.Show()
 	        Case 63
-                history.Text += ("12padams: We will start now. Il'l send 0.2 of time distorter and " & mainname & " can download it!" & Environment.NewLine)
+                history.Text += ("12padams: We will start now. I'll send 0.2 of time distorter and " & mainname & " can download it!" & Environment.NewLine)
                 Chat.Interval = 4000
 	        Case 62
                 history.Text += ("The Hidden Hacker: Ok then. When do we start?" & Environment.NewLine)
@@ -197,11 +197,11 @@
 	            history.Text += ("12padams: Yea I'm not angrey at any of you..." & Environment.NewLine)
 	            Chat.Interval = 6000
 	        Case 21
-	            history.Text += ("The Hidden Hacker: What???" & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("The Hidden Hacker: What?!" & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 20
-	            history.Text += ("12padams: Oh for goodness sake what's wrong with you 2... I am not angrey" & Environment.NewLine)
-	            Chat.Interval = 4000
+                history.Text += ("12padams: Oh for goodness sake what's wrong with you two... I am not angry!" & Environment.NewLine)
+                Chat.Interval = 4000
 	        Case 19
 	            history.Text += ("The Hidden Hacker: Crap the close button is not working!!!" & Environment.NewLine)
 	            Chat.Interval = 6000
@@ -209,8 +209,8 @@
 	            history.Text += ("12padams: Come on guys..." & Environment.NewLine)
 	            Chat.Interval = 5000
 	        Case 17
-	            history.Text += ("The Hidden Hacker: Log off... um whatever your name is wh owns that windows 98 computer!!!!" & Environment.NewLine)
-	            Chat.Interval = 5000
+                history.Text += ("The Hidden Hacker: Log off... um whatever your name is, who owns that windows 98 computer!" & Environment.NewLine)
+                Chat.Interval = 5000
 	        Case 16
 	            history.Text += ("The Hidden Hacker: Oh CRAP!!!" & Environment.NewLine)
 	            Chat.Interval = 5000
@@ -380,6 +380,10 @@
     End Sub
 
     Private Sub minimizebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles minimizebutton.Click
+
+    End Sub
+
+    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
 
     End Sub
 
