@@ -740,7 +740,7 @@ Partial Class Windows95
         'exampleprogramtopbar
         '
         Me.exampleprogramtopbar.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.exampleprogramtopbar.BackColor = System.Drawing.Color.DarkBlue
         Me.exampleprogramtopbar.Controls.Add(Me.maximizebutton)
         Me.exampleprogramtopbar.Controls.Add(Me.minimizebutton)
@@ -957,8 +957,8 @@ Partial Class Windows95
         '
         Me.desktopicons.Alignment = System.Windows.Forms.ListViewAlignment.Left
         Me.desktopicons.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.desktopicons.BackgroundImageTiled = True
         Me.desktopicons.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.desktopicons.ContextMenuStrip = Me.rightclickbackproperties

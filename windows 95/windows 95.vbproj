@@ -70,7 +70,7 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>histacom logo.ico</ApplicationIcon>
+    <ApplicationIcon>histacom icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -1678,8 +1678,12 @@
     </PublishFile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="histacom icon.ico" />
     <Content Include="histacom logo.ico" />
+    <Content Include="histacom icon.ico" />
+    <Content Include="Resources\Command-Prompt-icon.png" />
+    <None Include="Resources\money.gif" />
+    <None Include="Resources\other-fire-143887964479415.gif" />
+    <None Include="Resources\Windows ME Startup.wav" />
     <None Include="Resources\title.png" />
     <None Include="Resources\maximise.png" />
     <None Include="Resources\minimise.png" />
@@ -1816,6 +1820,23 @@
     <None Include="Resources\internetexplorer6refreshbutton.png" />
     <None Include="Resources\internetexplorer6stopbutton.png" />
     <None Include="Resources\internetexplorer6homebutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

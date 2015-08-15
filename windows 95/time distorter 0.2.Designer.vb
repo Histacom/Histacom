@@ -69,10 +69,10 @@ Partial Class time_distorter_0
         '
         Me.labelcurrentyear.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.labelcurrentyear.AutoSize = True
-        Me.labelcurrentyear.Font = New System.Drawing.Font("MS Reference Sans Serif", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelcurrentyear.Font = New System.Drawing.Font("Microsoft Sans Serif", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.labelcurrentyear.Location = New System.Drawing.Point(23, 53)
         Me.labelcurrentyear.Name = "labelcurrentyear"
-        Me.labelcurrentyear.Size = New System.Drawing.Size(298, 118)
+        Me.labelcurrentyear.Size = New System.Drawing.Size(261, 108)
         Me.labelcurrentyear.TabIndex = 1
         Me.labelcurrentyear.Text = "1999"
         '
@@ -89,7 +89,7 @@ Partial Class time_distorter_0
         'Button1
         '
         Me.Button1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.Location = New System.Drawing.Point(95, 218)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(156, 41)

@@ -24,8 +24,8 @@ Partial Class windowsvista
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(windowsvista))
-        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Computer", 1)
-        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Recycle Bin", 0)
+        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Computer", 1)
+        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Recycle Bin", 0)
         Me.desktopiconsimages = New System.Windows.Forms.ImageList(Me.components)
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
@@ -73,11 +73,10 @@ Partial Class windowsvista
         Me.turnoffcomputerbutton = New System.Windows.Forms.PictureBox()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.startmenu = New System.Windows.Forms.Panel()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.middlestartmenu = New System.Windows.Forms.Panel()
-        Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.leftstartmenu = New System.Windows.Forms.Panel()
+        Me.startmenuitems = New System.Windows.Forms.MenuStrip()
         Me.InternetExplorerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -87,7 +86,9 @@ Partial Class windowsvista
         Me.FilesAndSettingsTransferWizardToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.WindowsMovieMakerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SolitaireToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.startmenuitems = New System.Windows.Forms.MenuStrip()
+        Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.MenuStrip2 = New System.Windows.Forms.MenuStrip()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem()
@@ -99,11 +100,11 @@ Partial Class windowsvista
         Me.ToolStripMenuItem9 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem10 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem12 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MenuStrip2 = New System.Windows.Forms.MenuStrip()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.desktopicons = New System.Windows.Forms.ListView()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.AccessTheInternetToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.rightclickbackproperties.SuspendLayout()
         Me.program.SuspendLayout()
         Me.top.SuspendLayout()
@@ -115,13 +116,13 @@ Partial Class windowsvista
         CType(Me.logoffbutton, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.turnoffcomputerbutton, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.startmenu.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.middlestartmenu.SuspendLayout()
-        Me.Panel8.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.leftstartmenu.SuspendLayout()
         Me.startmenuitems.SuspendLayout()
+        Me.Panel8.SuspendLayout()
         Me.MenuStrip2.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'desktopiconsimages
@@ -312,7 +313,7 @@ Partial Class windowsvista
         'top
         '
         Me.top.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.top.BackColor = System.Drawing.Color.Transparent
         Me.top.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxptopbarmiddle
         Me.top.Controls.Add(Me.maximizebutton)
@@ -388,7 +389,7 @@ Partial Class windowsvista
         'bottom
         '
         Me.bottom.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.bottom.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpbottom
         Me.bottom.Cursor = System.Windows.Forms.Cursors.SizeNS
         Me.bottom.Location = New System.Drawing.Point(4, 193)
@@ -399,7 +400,7 @@ Partial Class windowsvista
         'right
         '
         Me.right.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.right.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxprightside
         Me.right.Cursor = System.Windows.Forms.Cursors.SizeWE
         Me.right.Location = New System.Drawing.Point(246, 30)
@@ -410,7 +411,7 @@ Partial Class windowsvista
         'left
         '
         Me.left.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.left.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpleftside
         Me.left.Location = New System.Drawing.Point(0, 0)
         Me.left.Name = "left"
@@ -482,7 +483,7 @@ Partial Class windowsvista
         'logoffbutton
         '
         Me.logoffbutton.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.logoffbutton.Image = CType(resources.GetObject("logoffbutton.Image"), System.Drawing.Image)
         Me.logoffbutton.Location = New System.Drawing.Point(255, 423)
         Me.logoffbutton.Name = "logoffbutton"
@@ -493,7 +494,7 @@ Partial Class windowsvista
         'turnoffcomputerbutton
         '
         Me.turnoffcomputerbutton.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.turnoffcomputerbutton.Image = CType(resources.GetObject("turnoffcomputerbutton.Image"), System.Drawing.Image)
         Me.turnoffcomputerbutton.Location = New System.Drawing.Point(221, 423)
         Me.turnoffcomputerbutton.Name = "turnoffcomputerbutton"
@@ -521,16 +522,6 @@ Partial Class windowsvista
         Me.startmenu.Size = New System.Drawing.Size(380, 461)
         Me.startmenu.TabIndex = 12
         '
-        'PictureBox3
-        '
-        Me.PictureBox3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources.xpbottomstartmenubar1
-        Me.PictureBox3.Location = New System.Drawing.Point(0, 457)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(378, 4)
-        Me.PictureBox3.TabIndex = 0
-        Me.PictureBox3.TabStop = False
-        '
         'middlestartmenu
         '
         Me.middlestartmenu.Controls.Add(Me.PictureBox1)
@@ -546,24 +537,13 @@ Partial Class windowsvista
         Me.middlestartmenu.Size = New System.Drawing.Size(378, 461)
         Me.middlestartmenu.TabIndex = 5
         '
-        'Panel9
+        'PictureBox1
         '
-        Me.Panel9.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpstartmenusplitter
-        Me.Panel9.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel9.Location = New System.Drawing.Point(377, 0)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(1, 457)
-        Me.Panel9.TabIndex = 2
-        '
-        'Panel8
-        '
-        Me.Panel8.BackColor = System.Drawing.Color.Black
-        Me.Panel8.BackgroundImage = CType(resources.GetObject("Panel8.BackgroundImage"), System.Drawing.Image)
-        Me.Panel8.Controls.Add(Me.MenuStrip2)
-        Me.Panel8.Location = New System.Drawing.Point(255, 0)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(146, 418)
-        Me.Panel8.TabIndex = 1
+        Me.PictureBox1.Location = New System.Drawing.Point(-4, 416)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(382, 35)
+        Me.PictureBox1.TabIndex = 14
+        Me.PictureBox1.TabStop = False
         '
         'leftstartmenu
         '
@@ -574,8 +554,22 @@ Partial Class windowsvista
         Me.leftstartmenu.Size = New System.Drawing.Size(249, 418)
         Me.leftstartmenu.TabIndex = 3
         '
+        'startmenuitems
+        '
+        Me.startmenuitems.BackColor = System.Drawing.Color.Transparent
+        Me.startmenuitems.Dock = System.Windows.Forms.DockStyle.None
+        Me.startmenuitems.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InternetExplorerToolStripMenuItem, Me.OutToolStripMenuItem, Me.BToolStripMenuItem, Me.WindowsMediaPlayerToolStripMenuItem, Me.WordPadToolStripMenuItem, Me.TourWindowsXPToolStripMenuItem, Me.FilesAndSettingsTransferWizardToolStripMenuItem, Me.WindowsMovieMakerToolStripMenuItem, Me.SolitaireToolStripMenuItem})
+        Me.startmenuitems.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow
+        Me.startmenuitems.Location = New System.Drawing.Point(0, 0)
+        Me.startmenuitems.Name = "startmenuitems"
+        Me.startmenuitems.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
+        Me.startmenuitems.Size = New System.Drawing.Size(186, 322)
+        Me.startmenuitems.TabIndex = 0
+        Me.startmenuitems.Text = "MenuStrip1"
+        '
         'InternetExplorerToolStripMenuItem
         '
+        Me.InternetExplorerToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AccessTheInternetToolStripMenuItem})
         Me.InternetExplorerToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.InternetExplorerToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.windowsxpstartmenuinternetexplorermain
         Me.InternetExplorerToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -666,18 +660,37 @@ Partial Class windowsvista
         Me.SolitaireToolStripMenuItem.Size = New System.Drawing.Size(179, 36)
         Me.SolitaireToolStripMenuItem.Text = "Solitaire"
         '
-        'startmenuitems
+        'Panel9
         '
-        Me.startmenuitems.BackColor = System.Drawing.Color.Transparent
-        Me.startmenuitems.Dock = System.Windows.Forms.DockStyle.None
-        Me.startmenuitems.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InternetExplorerToolStripMenuItem, Me.OutToolStripMenuItem, Me.BToolStripMenuItem, Me.WindowsMediaPlayerToolStripMenuItem, Me.WordPadToolStripMenuItem, Me.TourWindowsXPToolStripMenuItem, Me.FilesAndSettingsTransferWizardToolStripMenuItem, Me.WindowsMovieMakerToolStripMenuItem, Me.SolitaireToolStripMenuItem})
-        Me.startmenuitems.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow
-        Me.startmenuitems.Location = New System.Drawing.Point(0, 0)
-        Me.startmenuitems.Name = "startmenuitems"
-        Me.startmenuitems.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
-        Me.startmenuitems.Size = New System.Drawing.Size(186, 303)
-        Me.startmenuitems.TabIndex = 0
-        Me.startmenuitems.Text = "MenuStrip1"
+        Me.Panel9.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpstartmenusplitter
+        Me.Panel9.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Panel9.Location = New System.Drawing.Point(377, 0)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(1, 457)
+        Me.Panel9.TabIndex = 2
+        '
+        'Panel8
+        '
+        Me.Panel8.BackColor = System.Drawing.Color.Black
+        Me.Panel8.BackgroundImage = CType(resources.GetObject("Panel8.BackgroundImage"), System.Drawing.Image)
+        Me.Panel8.Controls.Add(Me.MenuStrip2)
+        Me.Panel8.Location = New System.Drawing.Point(255, 0)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(146, 418)
+        Me.Panel8.TabIndex = 1
+        '
+        'MenuStrip2
+        '
+        Me.MenuStrip2.BackColor = System.Drawing.Color.Transparent
+        Me.MenuStrip2.BackgroundImage = CType(resources.GetObject("MenuStrip2.BackgroundImage"), System.Drawing.Image)
+        Me.MenuStrip2.Dock = System.Windows.Forms.DockStyle.None
+        Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem2, Me.ToolStripMenuItem3, Me.ToolStripMenuItem5, Me.ToolStripMenuItem6, Me.ToolStripMenuItem4, Me.ToolStripMenuItem7, Me.ToolStripMenuItem8, Me.ToolStripMenuItem11, Me.ToolStripMenuItem9, Me.ToolStripMenuItem10, Me.ToolStripMenuItem12})
+        Me.MenuStrip2.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow
+        Me.MenuStrip2.Location = New System.Drawing.Point(3, 48)
+        Me.MenuStrip2.Name = "MenuStrip2"
+        Me.MenuStrip2.Size = New System.Drawing.Size(153, 276)
+        Me.MenuStrip2.TabIndex = 1
+        Me.MenuStrip2.Text = "MenuStrip2"
         '
         'ToolStripMenuItem2
         '
@@ -795,18 +808,15 @@ Partial Class windowsvista
         Me.ToolStripMenuItem12.Size = New System.Drawing.Size(146, 28)
         Me.ToolStripMenuItem12.Text = "Run..."
         '
-        'MenuStrip2
+        'PictureBox3
         '
-        Me.MenuStrip2.BackColor = System.Drawing.Color.Transparent
-        Me.MenuStrip2.BackgroundImage = CType(resources.GetObject("MenuStrip2.BackgroundImage"), System.Drawing.Image)
-        Me.MenuStrip2.Dock = System.Windows.Forms.DockStyle.None
-        Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem2, Me.ToolStripMenuItem3, Me.ToolStripMenuItem5, Me.ToolStripMenuItem6, Me.ToolStripMenuItem4, Me.ToolStripMenuItem7, Me.ToolStripMenuItem8, Me.ToolStripMenuItem11, Me.ToolStripMenuItem9, Me.ToolStripMenuItem10, Me.ToolStripMenuItem12})
-        Me.MenuStrip2.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow
-        Me.MenuStrip2.Location = New System.Drawing.Point(3, 48)
-        Me.MenuStrip2.Name = "MenuStrip2"
-        Me.MenuStrip2.Size = New System.Drawing.Size(153, 276)
-        Me.MenuStrip2.TabIndex = 1
-        Me.MenuStrip2.Text = "MenuStrip2"
+        Me.PictureBox3.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources.xpbottomstartmenubar1
+        Me.PictureBox3.Location = New System.Drawing.Point(0, 457)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(378, 4)
+        Me.PictureBox3.TabIndex = 0
+        Me.PictureBox3.TabStop = False
         '
         'Panel2
         '
@@ -825,7 +835,7 @@ Partial Class windowsvista
         Me.desktopicons.Dock = System.Windows.Forms.DockStyle.Fill
         Me.desktopicons.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.desktopicons.ForeColor = System.Drawing.Color.White
-        Me.desktopicons.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem3, ListViewItem4})
+        Me.desktopicons.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2})
         Me.desktopicons.LargeImageList = Me.desktopiconsimages
         Me.desktopicons.Location = New System.Drawing.Point(0, 0)
         Me.desktopicons.Name = "desktopicons"
@@ -841,13 +851,11 @@ Partial Class windowsvista
         Me.Panel1.Size = New System.Drawing.Size(10, 418)
         Me.Panel1.TabIndex = 13
         '
-        'PictureBox1
+        'AccessTheInternetToolStripMenuItem
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(-4, 416)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(382, 35)
-        Me.PictureBox1.TabIndex = 14
-        Me.PictureBox1.TabStop = False
+        Me.AccessTheInternetToolStripMenuItem.Name = "AccessTheInternetToolStripMenuItem"
+        Me.AccessTheInternetToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
+        Me.AccessTheInternetToolStripMenuItem.Text = "Access the Internet"
         '
         'windowsvista
         '
@@ -877,18 +885,18 @@ Partial Class windowsvista
         CType(Me.logoffbutton, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.turnoffcomputerbutton, System.ComponentModel.ISupportInitialize).EndInit()
         Me.startmenu.ResumeLayout(False)
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.middlestartmenu.ResumeLayout(False)
         Me.middlestartmenu.PerformLayout()
-        Me.Panel8.ResumeLayout(False)
-        Me.Panel8.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.leftstartmenu.ResumeLayout(False)
         Me.leftstartmenu.PerformLayout()
         Me.startmenuitems.ResumeLayout(False)
         Me.startmenuitems.PerformLayout()
+        Me.Panel8.ResumeLayout(False)
+        Me.Panel8.PerformLayout()
         Me.MenuStrip2.ResumeLayout(False)
         Me.MenuStrip2.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -970,4 +978,5 @@ Partial Class windowsvista
     Friend WithEvents desktopicons As System.Windows.Forms.ListView
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents AccessTheInternetToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -255,4 +255,8 @@
         showmess.infomessage.Text = "Your save code is: ety53g63"
         showmess.Show()
     End Sub
+
+    Private Sub startmenuitems_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles startmenuitems.ItemClicked
+
+    End Sub
 End Class

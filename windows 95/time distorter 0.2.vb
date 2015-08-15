@@ -120,6 +120,10 @@
 
     End Sub
 
+    Private Sub labelcurrentyear_Click(sender As Object, e As EventArgs) Handles labelcurrentyear.Click
+
+    End Sub
+
     Private Sub countdown_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles countdown.Tick
         If count = 145 Then
             WebChat_1999.history.Text = WebChat_1999.history.Text + ("12padams: The most important thing now is preparing for when " & mainname & " gets to the year 2000" & Environment.NewLine)

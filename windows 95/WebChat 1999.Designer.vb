@@ -26,7 +26,10 @@ Partial Class WebChat_1999
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WebChat_1999))
         Me.program = New System.Windows.Forms.Panel()
         Me.programtopbar = New System.Windows.Forms.Panel()
+        Me.maximizebutton = New System.Windows.Forms.PictureBox()
+        Me.minimizebutton = New System.Windows.Forms.PictureBox()
         Me.programname = New System.Windows.Forms.Label()
+        Me.closebutton = New System.Windows.Forms.PictureBox()
         Me.login = New System.Windows.Forms.Panel()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -36,14 +39,22 @@ Partial Class WebChat_1999
         Me.txtscreenname = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
+        Me.toprightcorner = New System.Windows.Forms.Panel()
+        Me.bottomrightcorner = New System.Windows.Forms.Panel()
         Me.history = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.bottomleftcorner = New System.Windows.Forms.Panel()
         Me.typechat = New System.Windows.Forms.TextBox()
+        Me.topleftcorner = New System.Windows.Forms.Panel()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.left = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.bottom = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.right = New System.Windows.Forms.Panel()
+        Me.top = New System.Windows.Forms.Panel()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Chat = New System.Windows.Forms.Timer(Me.components)
         Me.look = New System.Windows.Forms.Timer(Me.components)
@@ -52,24 +63,13 @@ Partial Class WebChat_1999
         Me.pullside = New System.Windows.Forms.Timer(Me.components)
         Me.waitingdownload = New System.Windows.Forms.Timer(Me.components)
         Me.count = New System.Windows.Forms.Timer(Me.components)
-        Me.maximizebutton = New System.Windows.Forms.PictureBox()
-        Me.minimizebutton = New System.Windows.Forms.PictureBox()
-        Me.closebutton = New System.Windows.Forms.PictureBox()
-        Me.toprightcorner = New System.Windows.Forms.Panel()
-        Me.bottomrightcorner = New System.Windows.Forms.Panel()
-        Me.bottomleftcorner = New System.Windows.Forms.Panel()
-        Me.topleftcorner = New System.Windows.Forms.Panel()
-        Me.left = New System.Windows.Forms.Panel()
-        Me.bottom = New System.Windows.Forms.Panel()
-        Me.right = New System.Windows.Forms.Panel()
-        Me.top = New System.Windows.Forms.Panel()
         Me.program.SuspendLayout()
         Me.programtopbar.SuspendLayout()
-        Me.login.SuspendLayout()
-        Me.Panel1.SuspendLayout()
         CType(Me.maximizebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.minimizebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.login.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'program
@@ -112,6 +112,26 @@ Partial Class WebChat_1999
         Me.programtopbar.Size = New System.Drawing.Size(808, 18)
         Me.programtopbar.TabIndex = 0
         '
+        'maximizebutton
+        '
+        Me.maximizebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.maximizebutton.Image = Global.Histacom.My.Resources.Resources.Maximize
+        Me.maximizebutton.Location = New System.Drawing.Point(774, 2)
+        Me.maximizebutton.Name = "maximizebutton"
+        Me.maximizebutton.Size = New System.Drawing.Size(16, 14)
+        Me.maximizebutton.TabIndex = 6
+        Me.maximizebutton.TabStop = False
+        '
+        'minimizebutton
+        '
+        Me.minimizebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.minimizebutton.Image = Global.Histacom.My.Resources.Resources.minimize
+        Me.minimizebutton.Location = New System.Drawing.Point(758, 2)
+        Me.minimizebutton.Name = "minimizebutton"
+        Me.minimizebutton.Size = New System.Drawing.Size(16, 14)
+        Me.minimizebutton.TabIndex = 5
+        Me.minimizebutton.TabStop = False
+        '
         'programname
         '
         Me.programname.AutoSize = True
@@ -122,6 +142,16 @@ Partial Class WebChat_1999
         Me.programname.Size = New System.Drawing.Size(95, 13)
         Me.programname.TabIndex = 3
         Me.programname.Text = "Web Chat 1999"
+        '
+        'closebutton
+        '
+        Me.closebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.closebutton.Image = Global.Histacom.My.Resources.Resources.close
+        Me.closebutton.Location = New System.Drawing.Point(791, 2)
+        Me.closebutton.Name = "closebutton"
+        Me.closebutton.Size = New System.Drawing.Size(16, 14)
+        Me.closebutton.TabIndex = 4
+        Me.closebutton.TabStop = False
         '
         'login
         '
@@ -150,8 +180,8 @@ Partial Class WebChat_1999
         Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(151, 108)
         Me.TextBox2.TabIndex = 6
-        Me.TextBox2.Text = "A screen name is a tempary name which is displayed in place of your real name. To" & _
-            " keep your identity safe please don't enter your real name in this chatroom" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.TextBox2.Text = "A screen name is a tempary name which is displayed in place of your real name. To" &
+    " keep your identity safe please don't enter your real name in this chatroom" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'TextBox1
         '
@@ -214,20 +244,39 @@ Partial Class WebChat_1999
         'Label7
         '
         Me.Label7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Monotype Corsiva", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(63, 31)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(437, 17)
+        Me.Label7.Size = New System.Drawing.Size(539, 18)
         Me.Label7.TabIndex = 18
         Me.Label7.Text = "To Speak Just type a message in the bottom textbox then press the speak button"
+        '
+        'toprightcorner
+        '
+        Me.toprightcorner.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.toprightcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95toprightcorner
+        Me.toprightcorner.Location = New System.Drawing.Point(812, 0)
+        Me.toprightcorner.Name = "toprightcorner"
+        Me.toprightcorner.Size = New System.Drawing.Size(4, 4)
+        Me.toprightcorner.TabIndex = 6
+        '
+        'bottomrightcorner
+        '
+        Me.bottomrightcorner.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.bottomrightcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95bottomrightcorner
+        Me.bottomrightcorner.Cursor = System.Windows.Forms.Cursors.SizeNWSE
+        Me.bottomrightcorner.Location = New System.Drawing.Point(812, 487)
+        Me.bottomrightcorner.Name = "bottomrightcorner"
+        Me.bottomrightcorner.Size = New System.Drawing.Size(4, 4)
+        Me.bottomrightcorner.TabIndex = 4
         '
         'history
         '
         Me.history.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.history.BackColor = System.Drawing.Color.LemonChiffon
         Me.history.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.history.Font = New System.Drawing.Font("Georgia", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -250,10 +299,19 @@ Partial Class WebChat_1999
         Me.Label6.TabIndex = 17
         Me.Label6.Text = "File Sharing"
         '
+        'bottomleftcorner
+        '
+        Me.bottomleftcorner.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.bottomleftcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95bottomleftcorner
+        Me.bottomleftcorner.Location = New System.Drawing.Point(0, 487)
+        Me.bottomleftcorner.Name = "bottomleftcorner"
+        Me.bottomleftcorner.Size = New System.Drawing.Size(4, 4)
+        Me.bottomleftcorner.TabIndex = 2
+        '
         'typechat
         '
         Me.typechat.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.typechat.BackColor = System.Drawing.Color.Moccasin
         Me.typechat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.typechat.Location = New System.Drawing.Point(22, 444)
@@ -261,6 +319,14 @@ Partial Class WebChat_1999
         Me.typechat.Name = "typechat"
         Me.typechat.Size = New System.Drawing.Size(487, 23)
         Me.typechat.TabIndex = 9
+        '
+        'topleftcorner
+        '
+        Me.topleftcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95topleftcorner
+        Me.topleftcorner.Location = New System.Drawing.Point(0, 0)
+        Me.topleftcorner.Name = "topleftcorner"
+        Me.topleftcorner.Size = New System.Drawing.Size(4, 4)
+        Me.topleftcorner.TabIndex = 1
         '
         'Button2
         '
@@ -275,6 +341,15 @@ Partial Class WebChat_1999
         Me.Button2.Text = "Speak"
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'left
+        '
+        Me.left.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95leftside
+        Me.left.Dock = System.Windows.Forms.DockStyle.Left
+        Me.left.Location = New System.Drawing.Point(0, 4)
+        Me.left.Name = "left"
+        Me.left.Size = New System.Drawing.Size(4, 483)
+        Me.left.TabIndex = 3
+        '
         'Label1
         '
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -285,6 +360,16 @@ Partial Class WebChat_1999
         Me.Label1.Size = New System.Drawing.Size(111, 17)
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "Users Logged In"
+        '
+        'bottom
+        '
+        Me.bottom.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95bottom
+        Me.bottom.Cursor = System.Windows.Forms.Cursors.SizeNS
+        Me.bottom.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.bottom.Location = New System.Drawing.Point(0, 487)
+        Me.bottom.Name = "bottom"
+        Me.bottom.Size = New System.Drawing.Size(812, 4)
+        Me.bottom.TabIndex = 5
         '
         'Panel1
         '
@@ -316,10 +401,29 @@ Partial Class WebChat_1999
         Me.Label5.TabIndex = 15
         Me.Label5.Text = "Time Distorter 0.2"
         '
+        'right
+        '
+        Me.right.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95rightside
+        Me.right.Cursor = System.Windows.Forms.Cursors.SizeWE
+        Me.right.Dock = System.Windows.Forms.DockStyle.Right
+        Me.right.Location = New System.Drawing.Point(812, 4)
+        Me.right.Name = "right"
+        Me.right.Size = New System.Drawing.Size(4, 487)
+        Me.right.TabIndex = 7
+        '
+        'top
+        '
+        Me.top.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95top
+        Me.top.Dock = System.Windows.Forms.DockStyle.Top
+        Me.top.Location = New System.Drawing.Point(0, 0)
+        Me.top.Name = "top"
+        Me.top.Size = New System.Drawing.Size(816, 4)
+        Me.top.TabIndex = 8
+        '
         'ListBox1
         '
         Me.ListBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ListBox1.BackColor = System.Drawing.Color.PapayaWhip
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Location = New System.Drawing.Point(599, 51)
@@ -353,110 +457,6 @@ Partial Class WebChat_1999
         '
         Me.count.Interval = 1000
         '
-        'maximizebutton
-        '
-        Me.maximizebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.maximizebutton.Image = Global.Histacom.My.Resources.Resources.Maximize
-        Me.maximizebutton.Location = New System.Drawing.Point(774, 2)
-        Me.maximizebutton.Name = "maximizebutton"
-        Me.maximizebutton.Size = New System.Drawing.Size(16, 14)
-        Me.maximizebutton.TabIndex = 6
-        Me.maximizebutton.TabStop = False
-        '
-        'minimizebutton
-        '
-        Me.minimizebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.minimizebutton.Image = Global.Histacom.My.Resources.Resources.minimize
-        Me.minimizebutton.Location = New System.Drawing.Point(758, 2)
-        Me.minimizebutton.Name = "minimizebutton"
-        Me.minimizebutton.Size = New System.Drawing.Size(16, 14)
-        Me.minimizebutton.TabIndex = 5
-        Me.minimizebutton.TabStop = False
-        '
-        'closebutton
-        '
-        Me.closebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.closebutton.Image = Global.Histacom.My.Resources.Resources.close
-        Me.closebutton.Location = New System.Drawing.Point(791, 2)
-        Me.closebutton.Name = "closebutton"
-        Me.closebutton.Size = New System.Drawing.Size(16, 14)
-        Me.closebutton.TabIndex = 4
-        Me.closebutton.TabStop = False
-        '
-        'toprightcorner
-        '
-        Me.toprightcorner.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.toprightcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95toprightcorner
-        Me.toprightcorner.Location = New System.Drawing.Point(812, 0)
-        Me.toprightcorner.Name = "toprightcorner"
-        Me.toprightcorner.Size = New System.Drawing.Size(4, 4)
-        Me.toprightcorner.TabIndex = 6
-        '
-        'bottomrightcorner
-        '
-        Me.bottomrightcorner.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.bottomrightcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95bottomrightcorner
-        Me.bottomrightcorner.Cursor = System.Windows.Forms.Cursors.SizeNWSE
-        Me.bottomrightcorner.Location = New System.Drawing.Point(812, 487)
-        Me.bottomrightcorner.Name = "bottomrightcorner"
-        Me.bottomrightcorner.Size = New System.Drawing.Size(4, 4)
-        Me.bottomrightcorner.TabIndex = 4
-        '
-        'bottomleftcorner
-        '
-        Me.bottomleftcorner.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.bottomleftcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95bottomleftcorner
-        Me.bottomleftcorner.Location = New System.Drawing.Point(0, 487)
-        Me.bottomleftcorner.Name = "bottomleftcorner"
-        Me.bottomleftcorner.Size = New System.Drawing.Size(4, 4)
-        Me.bottomleftcorner.TabIndex = 2
-        '
-        'topleftcorner
-        '
-        Me.topleftcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95topleftcorner
-        Me.topleftcorner.Location = New System.Drawing.Point(0, 0)
-        Me.topleftcorner.Name = "topleftcorner"
-        Me.topleftcorner.Size = New System.Drawing.Size(4, 4)
-        Me.topleftcorner.TabIndex = 1
-        '
-        'left
-        '
-        Me.left.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95leftside
-        Me.left.Dock = System.Windows.Forms.DockStyle.Left
-        Me.left.Location = New System.Drawing.Point(0, 4)
-        Me.left.Name = "left"
-        Me.left.Size = New System.Drawing.Size(4, 483)
-        Me.left.TabIndex = 3
-        '
-        'bottom
-        '
-        Me.bottom.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95bottom
-        Me.bottom.Cursor = System.Windows.Forms.Cursors.SizeNS
-        Me.bottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.bottom.Location = New System.Drawing.Point(0, 487)
-        Me.bottom.Name = "bottom"
-        Me.bottom.Size = New System.Drawing.Size(812, 4)
-        Me.bottom.TabIndex = 5
-        '
-        'right
-        '
-        Me.right.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95rightside
-        Me.right.Cursor = System.Windows.Forms.Cursors.SizeWE
-        Me.right.Dock = System.Windows.Forms.DockStyle.Right
-        Me.right.Location = New System.Drawing.Point(812, 4)
-        Me.right.Name = "right"
-        Me.right.Size = New System.Drawing.Size(4, 487)
-        Me.right.TabIndex = 7
-        '
-        'top
-        '
-        Me.top.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95top
-        Me.top.Dock = System.Windows.Forms.DockStyle.Top
-        Me.top.Location = New System.Drawing.Point(0, 0)
-        Me.top.Name = "top"
-        Me.top.Size = New System.Drawing.Size(816, 4)
-        Me.top.TabIndex = 8
-        '
         'WebChat_1999
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -471,13 +471,13 @@ Partial Class WebChat_1999
         Me.program.PerformLayout()
         Me.programtopbar.ResumeLayout(False)
         Me.programtopbar.PerformLayout()
+        CType(Me.maximizebutton, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.minimizebutton, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.closebutton, System.ComponentModel.ISupportInitialize).EndInit()
         Me.login.ResumeLayout(False)
         Me.login.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.maximizebutton, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.minimizebutton, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.closebutton, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

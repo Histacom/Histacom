@@ -73,7 +73,7 @@ Partial Class errorblaster95
         Me.Button2.Size = New System.Drawing.Size(87, 39)
         Me.Button2.TabIndex = 13
         Me.Button2.Text = "Remove"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button1
         '

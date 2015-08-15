@@ -1315,7 +1315,7 @@ Partial Class Windowsxp2002damaged
         '
         'startbutton
         '
-        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.windowsxpstartbuttonpressed1
+        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.windowsxpstartbuttonpressed
         Me.startbutton.Location = New System.Drawing.Point(0, 0)
         Me.startbutton.Name = "startbutton"
         Me.startbutton.Size = New System.Drawing.Size(98, 30)

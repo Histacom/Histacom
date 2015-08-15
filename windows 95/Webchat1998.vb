@@ -25,6 +25,12 @@
         Chat.Start()
         ListBox1.Items.Add(username)
         history.Text += (username & " Has Logged On" & Environment.NewLine)
+        If username = ("") Then
+            Chat.Stop()
+            Dim showmess As New windows95messagebox
+            showmess.infomessage.Text = ("Blank names are not allowed. Please enter a valid name.")
+            showmess.Show()
+        End If
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
@@ -37,8 +43,22 @@
 
     Private Sub Chat_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Chat.Tick
         Select Case con
+            Case 164
+                history.Text = ("REMOVING ADDITIONAL CHANGES" & Environment.NewLine)
+                Windows95.taskbar.Show()
+                Windows95.Show()
+                history.ScrollBars = ScrollBars.Horizontal
+                Cursor.Show()
+                programtopbar.Show()
+                Windows95.desktopicons.Show()
+                history.ForeColor = Color.White
+                Windows95.startbutton.Show()
+                history.Text = ("The Hidden Hacker: All done!" & Environment.NewLine)
+                history.Text = ("The Hidden Hacker: Now, go back on the web and destroy him!" & Environment.NewLine)
+                con += 1
+
             Case 163
-                history.Text = ("RESTORING BORDER" & Environment.NewLine)
+                history.Text = ("RESTORING BORDER..." & Environment.NewLine)
                 program.BorderStyle = BorderStyle.FixedSingle
                 history.BorderStyle = BorderStyle.FixedSingle
                 top.Show()
@@ -51,8 +71,7 @@
                 bottomleftcorner.Show()
                 history.Text = ("BORDER RESTORE COMPLETE" & Environment.NewLine)
             Case 162
-                history.Text = Environment.NewLine("RESTORING CHANGES..." & Environment.NewLine)
-                Chat.Interval = 3000
+                history.Text = ("RESTORING CHANGES..." & Environment.NewLine)
                 con += 1
             Case 161
                 history.Text = ("The Hidden Hacker: Download complete" & Environment.NewLine)
@@ -113,6 +132,8 @@
                 con += 1
             Case 146
                 history.Text = ("??? is scanning IP address!" & Environment.NewLine)
+                con += 1
+
             Case 145
                 history.Text = ("???: Hello?! Anyone here?" & Environment.NewLine)
                 con += 1
@@ -283,7 +304,7 @@
                 Chat.Interval = 2000
                 con += 1
             Case 106
-                history.Text += ("12padams: I see the scroll bar at the side of the screen which never existed early 1980s" & Environment.NewLine)
+                history.Text += ("12padams: First of all, I see the scroll bar at the side of the screen which never existed early 1980s." & Environment.NewLine)
                 Chat.Interval = 6000
                 con += 1
             Case 105
@@ -342,7 +363,7 @@
                 Chat.Interval = 5000
                 con += 1
             Case 92
-                history.Text += ("12padams: This is good! Now i can teach you and punish you at the same time lol :) " & Environment.NewLine)
+                history.Text += ("12padams: This is good! Now I can teach you and punish you at the same time lol :) " & Environment.NewLine)
                 Chat.Interval = 6000
                 con += 1
             Case 91
@@ -354,7 +375,7 @@
                 Chat.Interval = 10000
                 con += 1
             Case 89
-                history.Text += ("12padams: Oh yeah! You dont even talk so you problably don't even know it's gone... " & Environment.NewLine)
+                history.Text += ("12padams: Oh yeah! You dont even talk so you probably don't even know it's gone... " & Environment.NewLine)
                 Chat.Interval = 6000
                 con += 1
             Case 88
@@ -402,7 +423,7 @@
                 Panel1.Hide()
                 con += 1
             Case 78
-                history.Text += ("12padams: No because I got rid of him. Talking about getting rid of things! I forgot to remove the illegal file he uploaded which has been here all along..." & Environment.NewLine)
+                history.Text += ("12padams: No because I got rid of him. Talking about getting rid of things lol! I forgot to remove the illegal file he uploaded which has been here all along..." & Environment.NewLine)
                 Chat.Interval = 6000
                 con += 1
             Case 77
@@ -481,11 +502,11 @@
                 Chat.Interval = 4000
                 con += 1
             Case 60
-                history.Text += ("12padams: Well the whole of Windows 95 is a virus. Where shall I begin?" & Environment.NewLine)
+                history.Text += ("12padams: Well, the whole of Windows 95 is a virus. Where shall I begin?" & Environment.NewLine)
                 Chat.Interval = 5000
                 con += 1
             Case 59
-                history.Text += ("12padams: Get rid of the viruses did you type?" & Environment.NewLine)
+                history.Text += ("12padams: Get rid of the viruses did you say?" & Environment.NewLine)
                 Chat.Interval = 6000
                 con += 1
             Case 58
@@ -493,7 +514,7 @@
                 Chat.Interval = 5000
                 con += 1
             Case 57
-                history.Text += ("12padams: Anyway SkyHigh you are asking too many questions... It's time I unleash my next virus!" & Environment.NewLine)
+                history.Text += ("12padams: Anyway SkyHigh, you are asking too many questions. It's time I unleash my next virus!" & Environment.NewLine)
                 Chat.Interval = 8000
                 con += 1
             Case 56
@@ -505,7 +526,7 @@
                 Chat.Interval = 6000
                 con += 1
             Case 54
-                history.Text += ("12padams: You're both experienceing a lethal virus which i like to call ""death" & Environment.NewLine)
+                history.Text += ("12padams: You're both experiencing a lethal virus which I like to call ""death" & Environment.NewLine)
                 Chat.Interval = 4000
                 con += 1
             Case 53
@@ -517,12 +538,12 @@
                 Chat.Interval = 5000
                 con += 1
             Case 51
-                history.Text += ("SkyHigh: Don't worry " & username & ", I'll look online for help" & Environment.NewLine)
+                history.Text += ("SkyHigh: Don't worry " & username & ", I'll look online for help!" & Environment.NewLine)
                 Chat.Interval = 4000
                 Windows95.Enabled = False
                 con += 1
             Case 50
-                history.Text += ("12padams: Trying to fight back are we...? Well I'll punish you both!" & Environment.NewLine)
+                history.Text += ("12padams: Trying to fight back are we? Well then, I'll punish you both!" & Environment.NewLine)
                 Chat.Interval = 6000
                 con += 1
             Case 49
@@ -542,12 +563,12 @@
                 Chat.Interval = 6000
                 con += 1
             Case 45
-                history.Text += ("rain49 Has Logged Out" & Environment.NewLine)
+                history.Text += ("rain49 has logged off" & Environment.NewLine)
                 ListBox1.Items.Remove("rain49")
                 Chat.Interval = 7000
                 con += 1
             Case 44
-                history.Text += ("rain49: Oh yeah? Just watch!" & Environment.NewLine)
+                history.Text += ("rain49: Oh yeah? Just watch this!" & Environment.NewLine)
                 Chat.Interval = 1000
                 con += 1
             Case 43
@@ -555,11 +576,11 @@
                 Chat.Interval = 3000
                 con += 1
             Case 42
-                history.Text += ("rain49: No... because I can just turn my computer off at the power... " & Environment.NewLine)
+                history.Text += ("rain49: No... because I can just turn my computer off at the power!" & Environment.NewLine)
                 Chat.Interval = 4000
                 con += 1
             Case 41
-                history.Text += ("12padams: ... scared Yet?" & Environment.NewLine)
+                history.Text += ("12padams: Are we scared yet?" & Environment.NewLine)
                 Chat.Interval = 5000
                 con += 1
             Case 40
