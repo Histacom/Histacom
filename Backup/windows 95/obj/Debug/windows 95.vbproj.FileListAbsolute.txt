@@ -1,0 +1,31 @@
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\Interop.WMPLib.dll
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows 95.vbproj.ResolveComReference.cache
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.Address_Book.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.boot.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.Command_prompt.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.Downloader.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.errorblaster.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.formcalculator.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.formDisplayproperties.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.formwindowshelp.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.Guess_The_Number_app.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.hwcv.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.Installer.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.internet_explorer_5.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.formnotepad.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.paint.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.phone_dialer.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.run.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.Skindows_95.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.Start_Runner.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.templete.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.time_distorter.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.volume_control.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.Webchat.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.windows_explorer.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.Windows95.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.windows95messagebox.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows_95.Windows98.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\Backup\windows 95\obj\Debug\windows 95.vbproj.GenerateResource.Cache

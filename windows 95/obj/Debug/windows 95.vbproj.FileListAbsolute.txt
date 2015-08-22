@@ -1,0 +1,401 @@
+C:\Users\Philip Adams\AppData\Local\Temporary Projects\windows 95\bin\Debug\windows 95.exe
+C:\Users\Philip Adams\AppData\Local\Temporary Projects\windows 95\bin\Debug\windows 95.pdb
+C:\Users\Philip Adams\AppData\Local\Temporary Projects\windows 95\bin\Debug\windows 95.xml
+C:\Users\Philip Adams\AppData\Local\Temporary Projects\windows 95\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Philip Adams\AppData\Local\Temporary Projects\windows 95\obj\Debug\windows_95.Resources.resources
+C:\Users\Philip Adams\AppData\Local\Temporary Projects\windows 95\obj\Debug\windows 95.vbproj.GenerateResource.Cache
+C:\Users\Philip Adams\AppData\Local\Temporary Projects\windows 95\obj\Debug\windows 95.exe
+C:\Users\Philip Adams\AppData\Local\Temporary Projects\windows 95\obj\Debug\windows 95.xml
+C:\Users\Philip Adams\AppData\Local\Temporary Projects\windows 95\obj\Debug\windows 95.pdb
+C:\Users\Philip Adams\AppData\Local\Temporary Projects\windows 95\obj\Debug\windows_95.windows95.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\Interop.WMPLib.dll
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Interop.WMPLib.dll
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\windows 95.vbproj.ResolveComReference.cache
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\Histacom.exe.manifest
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\Histacom.application
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\Histacom.exe
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\Histacom.pdb
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\Histacom.xml
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Address_Book.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Command_prompt.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.downloader95.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Downloader98.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.errorblaster95.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.errorblaster98.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.formcalculator.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.formDisplayproperties.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.formwindowshelp.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Guess_The_Number_98.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Guess_The_Number_app.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.hwcv.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Installer95.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Installer98.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.internet_explorer_4.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.internet_explorer_5.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Resources.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.formnotepad.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.notepadxp.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.paint.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.phone_dialer.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.run.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Skindows_95.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Start_Runner.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.StartRunner98.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.templatexp.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.templete95and98.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.time_distorter_0.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.time_distorter.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.volume_control.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.WebChat_1999.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Webchat1998.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.windows_explorer.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Windows95.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.windows95messagebox.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Windows98.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.windows98messagebox.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.TrustInfo.xml
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.exe.manifest
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.application
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.exe
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.xml
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.pdb
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.commandpromptxp.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Windowsxp2002damaged.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Internetexplorer62002damaged.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.installerxp.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom._2002_virus_labels.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.timedistorter032002xp.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Windows_Xp_messagebox.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Title_Screen.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.loadsettings.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Windows2000.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.template2000.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.notepad2000.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Internet_Explorer_52001.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.downloader2000.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.guessthenumber2win2000.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.installer2000.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.startrunner2000.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.errorblaster2000.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.windows2000messagebox.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Survive_The_Day.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.time_travel_year_display.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.commandprompt2000.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.windows_me.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.webchat_2000.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.windowsvista.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.templetevista.resources
+C:\Users\Philip Adams\Documents\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.timedistorter0.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Interop.WMPLib.dll
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\AxInterop.WMPLib.dll
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\windows 95.vbproj.ResolveComReference.cache
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.exe
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.xml
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.pdb
+M:\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\Histacom.exe.manifest
+M:\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\Histacom.application
+M:\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\Histacom.exe
+M:\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\Histacom.pdb
+M:\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\Histacom.xml
+M:\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\Interop.WMPLib.dll
+M:\Visual Studio 2008\Projects\windows 95\windows 95\bin\Debug\AxInterop.WMPLib.dll
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\ResolveAssemblyReference.cache
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom._2002_virus_labels.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Address_Book.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Command_prompt.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.commandprompt2000.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.commandpromptxp.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.downloader2000.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.downloader95.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Downloader98.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.errorblaster2000.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.errorblaster95.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.errorblaster98.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.formcalculator.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.formDisplayproperties.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.formwindowshelp.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Guess_The_Number_98.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Guess_The_Number_app.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.guessthenumber2win2000.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.hwcv.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.installer2000.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Installer95.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Installer98.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.installerxp.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.internet_explorer_4.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.internet_explorer_5.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Internet_Explorer_52001.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Internetexplorer62002damaged.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.loadsettings.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Resources.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.formnotepad.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.notepad2000.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.notepadxp.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.paint.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.phone_dialer.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.run.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Skindows_95.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Start_Runner.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.startrunner2000.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.StartRunner98.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Survive_The_Day.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.template2000.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.templatexp.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.templete95and98.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.templetevista.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.time_distorter_0.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.time_distorter.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.time_travel_year_display.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.timedistorter0.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.timedistorter032002xp.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Title_Screen.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.volume_control.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.WebChat_1999.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.webchat_2000.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Webchat1998.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.windows_explorer.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.windows_me.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Windows_Xp_messagebox.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Windows2000.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.windows2000messagebox.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Windows95.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.windows95messagebox.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Windows98.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.windows98messagebox.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.windowsvista.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.Windowsxp2002damaged.resources
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\GenerateResource.read.1.tlog
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\GenerateResource.write.1.tlog
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.TrustInfo.xml
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.exe.manifest
+M:\Visual Studio 2008\Projects\windows 95\windows 95\obj\Debug\Histacom.application
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.exe
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.xml
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.pdb
+C:\Users\Philip\Desktop\windows 95\windows 95\bin\Debug\Histacom.exe.manifest
+C:\Users\Philip\Desktop\windows 95\windows 95\bin\Debug\Histacom.application
+C:\Users\Philip\Desktop\windows 95\windows 95\bin\Debug\Histacom.exe
+C:\Users\Philip\Desktop\windows 95\windows 95\bin\Debug\Histacom.pdb
+C:\Users\Philip\Desktop\windows 95\windows 95\bin\Debug\Histacom.xml
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom._2002_virus_labels.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Address_Book.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Command_prompt.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.commandprompt2000.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.commandpromptxp.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.downloader2000.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.downloader95.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Downloader98.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.errorblaster2000.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.errorblaster95.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.errorblaster98.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.formcalculator.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.formDisplayproperties.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.formwindowshelp.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Guess_The_Number_98.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Guess_The_Number_app.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.guessthenumber2win2000.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.hwcv.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.installer2000.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Installer95.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Installer98.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.installerxp.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.internet_explorer_4.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.internet_explorer_5.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Internet_Explorer_52001.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Internetexplorer62002damaged.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.loadsettings.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Resources.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.formnotepad.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.notepad2000.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.notepadxp.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.paint.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.phone_dialer.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.run.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Skindows_95.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Start_Runner.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.startrunner2000.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.StartRunner98.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Survive_The_Day.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.template2000.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.templatexp.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.templete95and98.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.templetevista.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.time_distorter_0.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.time_distorter.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.time_travel_year_display.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.timedistorter0.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.timedistorter032002xp.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Title_Screen.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.volume_control.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.WebChat_1999.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.webchat_2000.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Webchat1998.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.windows_explorer.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.windows_me.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Windows_Xp_messagebox.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Windows2000.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.windows2000messagebox.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Windows95.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.windows95messagebox.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Windows98.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.windows98messagebox.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.windowsvista.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.Windowsxp2002damaged.resources
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\windows 95.vbproj.GenerateResource.Cache
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.TrustInfo.xml
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.exe.manifest
+C:\Users\Philip\Desktop\windows 95\windows 95\obj\Debug\Histacom.application
+C:\Users\Philip\Desktop\windows 95\windows 95\bin\Debug\Histacom.exe.config
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\bin\Debug\Histacom.exe.config
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.exe
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.xml
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.pdb
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\bin\Debug\Histacom.exe.manifest
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\bin\Debug\Histacom.application
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\bin\Debug\Histacom.exe
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\bin\Debug\Histacom.pdb
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\bin\Debug\Histacom.xml
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom._2002_virus_labels.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Address_Book.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Command_prompt.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.commandprompt2000.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.commandpromptxp.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.downloader2000.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.downloader95.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Downloader98.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.errorblaster2000.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.errorblaster95.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.errorblaster98.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.formcalculator.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.formDisplayproperties.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.formwindowshelp.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Guess_The_Number_98.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Guess_The_Number_app.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.guessthenumber2win2000.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.hwcv.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.installer2000.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Installer95.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Installer98.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.installerxp.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.internet_explorer_4.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.internet_explorer_5.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Internet_Explorer_52001.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Internetexplorer62002damaged.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.loadsettings.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Resources.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.formnotepad.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.notepad2000.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.notepadxp.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.paint.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.phone_dialer.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.run.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Skindows_95.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Start_Runner.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.startrunner2000.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.StartRunner98.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Survive_The_Day.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.template2000.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.templatexp.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.templete95and98.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.templetevista.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.time_distorter_0.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.time_distorter.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.time_travel_year_display.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.timedistorter0.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.timedistorter032002xp.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Title_Screen.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.volume_control.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.WebChat_1999.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.webchat_2000.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Webchat1998.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.windows_explorer.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.windows_me.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Windows_Xp_messagebox.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Windows2000.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.windows2000messagebox.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Windows95.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.windows95messagebox.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Windows98.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.windows98messagebox.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.windowsvista.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.Windowsxp2002damaged.resources
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\windows 95.vbproj.GenerateResource.Cache
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.TrustInfo.xml
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.exe.manifest
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.application
+C:\Users\SCOUT IS POOTIS\Documents\histacom\windows 95\obj\Debug\Histacom.webchat_2001.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\bin\Debug\Histacom.exe.config
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.exe
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.xml
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.pdb
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom._2002_virus_labels.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Address_Book.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Command_prompt.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.commandprompt2000.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.commandpromptxp.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.downloader2000.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.downloader95.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Downloader98.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.errorblaster2000.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.errorblaster95.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.errorblaster98.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.formcalculator.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.formDisplayproperties.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.formwindowshelp.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Guess_The_Number_98.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Guess_The_Number_app.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.guessthenumber2win2000.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.hwcv.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.installer2000.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Installer95.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Installer98.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.installerxp.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.internet_explorer_4.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.internet_explorer_5.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Internet_Explorer_52001.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Internetexplorer62002damaged.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.loadsettings.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Resources.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.formnotepad.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.notepad2000.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.notepadxp.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.paint.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.phone_dialer.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.run.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Skindows_95.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Start_Runner.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.startrunner2000.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.StartRunner98.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Survive_The_Day.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.template2000.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.templatexp.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.templete95and98.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.templetevista.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.time_distorter_0.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.time_distorter.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.time_travel_year_display.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.timedistorter0.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.timedistorter032002xp.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Title_Screen.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.volume_control.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.WebChat_1999.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.webchat_2001.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.webchat_2000.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Webchat1998.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.windows_explorer.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.windows_me.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Windows_Xp_messagebox.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Windows2000.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.windows2000messagebox.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Windows95.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.windows95messagebox.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Windows98.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.windows98messagebox.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.windowsvista.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\Histacom.Windowsxp2002damaged.resources
+C:\Users\Ryan\Documents\GitHub\Histacom\windows 95\obj\Debug\windows 95.vbproj.GenerateResource.Cache
